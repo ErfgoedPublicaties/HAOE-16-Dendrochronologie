@@ -1,0 +1,19 @@
+title: "Handleiding: dendrochronologie en erfgoedonderzoek"
+author: "Kristof Haneca"
+date: "`r format(Sys.time(), '%d %B, %Y')`"
+site: "bookdown::bookdown_site"
+output:
+  bookdown::gitbook:
+    split_by: chapter
+documentclass: book
+output_dir: "docs"
+bibliography: ["dendro_biblio.bib"]
+csl: elsevier-harvard.csl
+link-citations: TRUE
+nocite: '@*'
+description: "Geactualiseerde online versie van de handleiding 'Dendrochronologie en erfgoedonderzoek'"
+cover-image: "./figuren/cover.jpg"
+language:
+     label: 
+       fig: "Figuur " 
+       tab: "Tabel "
