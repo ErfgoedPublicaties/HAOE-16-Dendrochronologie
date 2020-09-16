@@ -31,7 +31,7 @@ Bezorg zo veel mogelijk stalen aan de expert. Die kan dan de meest geschikte stu
 Bij een boomstamwaterput is enkel het buitenste deel van een stam bewaard. Het is aan te raden hier op meerdere plaatsen (minstens 2) een wigvormig stuk uit het bewaarde deel van de stam te zagen (figuur \@ref(fig:boomstamWP)). Ga na of er schors aanwezig is, en zorg ervoor dat dit dan aan het hout blijft vastzitten (vooraf verstevigen met tape is aangewezen).
 
 
-```{r boomstamWP, fig.cap = 'Doorsnede van een boomstamwaterput. De plaats (en vorm) waar een staal voor dendrochronologisch onderzoek kan genomen worden is afgelijnd in het geel. (foto: © KLAD).', echo = FALSE, out.width='80%', fig.asp=.75, fig.align='center'}
+```{r boomstamWP, fig.cap = 'Doorsnede van een boomstamwaterput. De plaats (en vorm) waar een staal voor dendrochronologisch onderzoek kan genomen worden is afgelijnd in het geel. (foto: &copy; KLAD).', echo = FALSE, out.width='80%', fig.asp=.75, fig.align='center'}
 
 knitr::include_graphics("./Figuren/Dendrochronologie/Dendro_Figuur15.png")
 

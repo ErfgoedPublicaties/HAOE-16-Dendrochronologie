@@ -13,4 +13,3 @@ bookdown::gitbook:
           after: |
             <li><a href="https://bookdown.org/" target="blank">Published with bookdown</a></li>
      toc_float: true
-

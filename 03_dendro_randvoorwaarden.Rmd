@@ -103,7 +103,7 @@ Voor de precisie van de datering zijn stukken hout met wankant of een gedeelte v
 
 De **wankant** krijg je te zien als de bast van de stam wordt gehaald. Het is de scherpe overgang van de bast naar het spinthout (figuur \ref(fig:hout3D)). Het is de zone waar het cambiumweefsel nieuw hout (afgezet naar de binnenzijde van de stam) en bast (naar de buitenzijde van de stam) vormt tijdens het groeiseizoen. Een stuk bouwhout waarbij de wankant bewaard is gebleven, kan je herkennen aan het afgeronde oppervlak waar de buitenzijde van de originele boom nog in is te herkennen (figuur \@ref(fig:wankant)). Indien de bast nog aan een stuk bouwhout vast hangt, dan is de wankant zeker aanwezig. De aanwezigheid van de wankant geeft aan dat de groeiring die werd gevormd tot aan het afsterven van de boom nog bewaard is gebleven.
 
-```{r wankant, fig.cap = 'Stuk archeologisch eikenhout waarop de wankant zichtbaar is. De afgeronde vorm volgt de omtrek van de originele stam ((c) Van Daalen Dendrochronologie).', echo = FALSE, out.width='80%', fig.asp=.75, fig.align='center'}
+```{r wankant, fig.cap = 'Stuk archeologisch eikenhout waarop de wankant zichtbaar is. De afgeronde vorm volgt de omtrek van de originele stam (foto: &copy; Van Daalen Dendrochronologie).', echo = FALSE, out.width='80%', fig.asp=.75, fig.align='center'}
 
 knitr::include_graphics("./figuren/Dendrochronologie/Dendro_Figuur11.png")
 

@@ -9,6 +9,7 @@ csl: elsevier-harvard_nl.csl
 link-citations: TRUE
 nocite: '@*'
 cover-image: "./figuren/cover.jpg"
+github-repo: hanecakr/handleidingDendro/
 ---
 
 
