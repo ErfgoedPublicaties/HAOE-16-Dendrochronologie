@@ -1,11 +1,10 @@
 
 # Dendrochronologie en erfgoedonderzoek
 
-Welkom bij de online versie van “*dendrochronolgie en
-erfgoedonderzoek*”. Deze handleiding werd in 2017 gepubliceerd door
-het agentschap Onroerend Erfgoed en is als pdf te downloaden op de
-[**Open Archives Repositiry
-(OAR)**](https://oar.onroerenderfgoed.be/item/437).
+Welkom bij de online versie van ***Dendrochronolgie en
+erfgoedonderzoek***. Deze handleiding werd in 2017 gepubliceerd door het
+agentschap Onroerend Erfgoed en is als pdf te downloaden op de [**Open
+Archives Repositiry (OAR)**](https://oar.onroerenderfgoed.be/item/437).
 
 Met deze online versie willen we kleine aanpassingen aan de originele
 uitgave, veranderende inzichten en nieuwe toepassingen van
@@ -25,7 +24,8 @@ kan je steeds de meest actuele versie raadplegen.
 > Onroerend Erfgoed, Brussel \[online:
 > <https://oar.onroerenderfgoed.be/uitgave/251>\].
 
-<br/> Kristof Haneca <br/> 16 september, 2020<br/>
-[![](./figuren/RG.png)](https://www.researchgate.net/profile/Kristof_Haneca)
+<br/> Kristof Haneca
+[![](https://orcid.org/sites/default/files/images/orcid_16x16.png)](https://orcid.org/0000-0002-7719-8305)
+– 16 september, 2020<br/>
 
-![](./figuren/cover.jpg) © Flanders Heritage Agency
+![](./figuren/cover.jpg) © agentschap Onroerend Erfgoed
