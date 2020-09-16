@@ -1,1 +1,3 @@
-`r if (knitr::is_html_output()) '# Bronnen {-}'`
+# Bronnen {-#bronnen}
+
+<div id="refs"></div>

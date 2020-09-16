@@ -1,4 +1,4 @@
-# Begrippen {-}
+# **Begrippen** {-}
 
 
 **Bast**: dit weefsel wordt door het cambium naar de buitenzijde van de boom aangemaakt. Het staat in voor transport van voedingsstoffen en andere assimilaten, die door fotosynthese in de bladeren worden aangemaakt, naar de overige delen van een boom. Aan de buitenzijde van de bast vormt zich een cambium dat kurkweefsel aanmaakt (= de schors).
@@ -11,7 +11,7 @@
 
 **Correlatiecoëfficiënt**: statistische maat die de samenhang/overeenkomst tussen twee variabelen uitdrukt. Een hoge correlatiecoëfficiënt geeft aan dat de waarden van de beide variabelen een zelfde (positieve correlatiecoëfficiënt) of een tegengesteld (negatieve correlatiecoëfficiënt) verband vertonen.
 
-**Cross-dating**: bij dit basisprincipe van de dendrochronologie wordt er vanuit gegaan dat bomen die over een bepaalde tijdsperiode gelijkaardige groeiomstandigheden ondervinden (klimaat, bodem, hoogteligging, …), ook een gelijkaardig groeiringpatroon zullen ontwikkelen. Daardoor kunnen jaarringreeksen van een specifieke boomsoort uit een bepaalde regio onderling, tot op het kalenderjaar precies, gesynchroniseerd worden, op basis van de unieke afwisseling van brede en smalle ringen.
+***Crossdating***: bij dit basisprincipe van de dendrochronologie wordt er vanuit gegaan dat bomen die over een bepaalde tijdsperiode gelijkaardige groeiomstandigheden ondervinden (klimaat, bodem, hoogteligging, …), ook een gelijkaardig groeiringpatroon zullen ontwikkelen. Daardoor kunnen jaarringreeksen van een specifieke boomsoort uit een bepaalde regio onderling, tot op het kalenderjaar precies, gesynchroniseerd worden, op basis van de unieke afwisseling van brede en smalle ringen.
 
 **Dendrochronologie** of **jaarringonderzoek**: is de wetenschappelijke discipline waarbij de datering van groeiringen in hout centraal staat. De opeenvolgende groeiringen worden hierbij beschouwd als een kalender, waarbij men als het ware terug kan gaan in de tijd door de groeiringen van een boom één voor één te registreren.
 
@@ -43,11 +43,11 @@
 
 **Subfossiel**: eeuwenoude, niet volledig gefossiliseerde resten van dieren of planten. In tegenstelling tot fossiel materiaal, waar de oorspronkelijke organische weefsels volledig vervangen zijn door een minerale matrix, is bij subfossiele resten het oorspronkelijke organische materiaal nog (gedeeltelijk) bewaard.
 
-**Synchroniseren**: zie cross-dating.
+**Synchroniseren**: zie crossdating.
 
-**Terminus post quem**: vroegst mogelijke tijdstip (ondergrens) waarop een gebeurtenis kan hebben plaatsgevonden.
+***Terminus post quem***: vroegst mogelijke tijdstip (ondergrens) waarop een gebeurtenis kan hebben plaatsgevonden.
 
-**Terminus ante quem**: laatst mogelijke tijdstip (bovengrens) waarop een gebeurtenis kan hebben plaatsgevonden.
+***Terminus ante quem***: laatst mogelijke tijdstip (bovengrens) waarop een gebeurtenis kan hebben plaatsgevonden.
 
 **Vasculair cambium**: weefsellaag aan de buitenzijde van de stam of takken van struiken en bomen, waar nieuwe cellen worden aangemaakt. Dit (deel)weefstel zorgt voor de aanmaak van nieuw hout (xyleem) en bast (floëem).
 
@@ -57,6 +57,6 @@
 
 **Wankant**: de overgang tussen hout en bast. Dit komt overeen met de zone waar het cambium te vinden is. Naar de binnenzijde toe grenst het aan de meest recent gevormde groeiring.
 
-**Wiggle-matching**: combinatie van meerdere radiokoolstofdateringen met een onderling gekende tussenafstand of schikking in de tijd om zo de precisie van de gekalibreerde radiokoolstofdateringen te verhogen. Indien wiggle-matching wordt toegepast op één of meerdere stukken hout, kan de chronologische afstand tussen twee bemonsteringspunten exact bepaald worden door het aantal tussenliggende jaarringen te tellen.
+***Wiggle-matching***: combinatie van meerdere radiokoolstofdateringen met een onderling gekende tussenafstand of schikking in de tijd om zo de precisie van de gekalibreerde radiokoolstofdateringen te verhogen. Indien wiggle-matching wordt toegepast op één of meerdere stukken hout, kan de chronologische afstand tussen twee bemonsteringspunten exact bepaald worden door het aantal tussenliggende jaarringen te tellen.
 
 **Xyleem**: houtweefsel. Dit weefsel staat in voor het transport van water, en daarin opgeloste stoffen, van de wortels naar de bladeren toe. Nieuw xyleemweefsel ontstaat door celdeling en -differentiatie vanuit het vasculair cambium.

@@ -1,0 +1,16 @@
+bookdown::gitbook:
+  css: style.css
+  split_by: chapter
+  config:
+     sharing:
+       github: yes
+       facebook: yes
+       twitter: yes
+       all: []
+     toc:
+          before: |
+            <li><strong><a href="./">Handleiding dendrochronologie</a></strong></li>
+          after: |
+            <li><a href="https://bookdown.org/" target="blank">Published with bookdown</a></li>
+     toc_float: true
+

@@ -6,9 +6,23 @@ output:
   bookdown::gitbook:
     split_by: chapter
 documentclass: book
+rmd_files: [
+  "index.Rmd",
+  "00_dendro_leeswijzer.Rmd",
+  "01_dendro_intro.Rmd",
+  "02_dendro_onderzoeksvragen.Rmd",
+  "03_dendro_randvoorwaarden.Rmd",
+  "04_dendro_interpretatie.Rmd",
+  "05_dendro_bemonsteren.Rmd",
+  "06_dendro_bewaren.Rmd",
+  "07_dendro_analyseren.Rmd",
+  "08_dendro_radiokoolstof.Rmd",
+  "98_dendro_begrippen.Rmd",
+  "99_dendro_bibliografie.Rmd"
+]
 output_dir: "docs"
-bibliography: ["dendro_biblio.bib"]
-csl: elsevier-harvard.csl
+bibliography: "dendro_biblio.bib"
+csl: elsevier-harvard_nl.csl
 link-citations: TRUE
 nocite: '@*'
 description: "Geactualiseerde online versie van de handleiding 'Dendrochronologie en erfgoedonderzoek'"

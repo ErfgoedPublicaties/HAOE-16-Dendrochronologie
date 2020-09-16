@@ -1,0 +1,64 @@
+/* Caption of figures */
+
+.caption {
+  font-size: 0.8em;
+  font-style: italic;
+  line-height: 1.4em;
+  color: darkgrey;
+  margin-top: 10px;
+}
+
+/* Caption of tables */
+caption {
+  font-size: 0.9em;
+  font-style: italic;
+  line-height: 1.4em;
+  color: darkgrey;
+  margin-top: 10px;
+}
+
+blockquote {
+  font-size: 1.5em;
+  color: midnightblue;
+  font-family: Georgia;
+  margin-left: 50px;
+  padding-left: 10px;
+}
+
+
+/* The next two rules make the horizontal line go straight across in top navbar */
+
+.summary > li:first-child {
+    height: 50px;
+    padding-top: 10px;
+    border-bottom: 1px solid rgba(0,0,0,.07);
+}
+
+.book .book-summary ul.summary li.divider {
+    height: 0px;
+}
+
+/* Make the background of the TOC white*/
+
+.book .book-summary {
+  background: white;
+  border-right: none;
+}
+
+/* Change the color of selected items in TOC */
+
+.book .book-summary ul.summary li.active>a { /*active TOC links*/
+  color: midnightblue;
+  font-weight: bold;
+  border-left: solid 4px;
+  border-color: midnightblue;
+  padding-left: 11px ;
+}  
+
+/* Change the color of PART names in TOC */
+
+li.part span { /* for TOC part names */
+  margin-top: 1em;
+  color: cornflowerblue !important;
+  opacity: .8 !important;
+}
