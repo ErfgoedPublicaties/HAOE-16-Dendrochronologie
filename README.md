@@ -15,7 +15,7 @@ handleiding blijft de originele uitgave, maar :point\_right:
 [**hier**](https://hanecakr.github.io/handleidingDendro/) :point\_left:
 kan je steeds de meest actuele versie raadplegen.
 
-> Gelieve te citeren als: <br/> Haneca K. (2020-08-13).
+> Gelieve te citeren als: <br/> Haneca K. (2020-09-16).
 > Dendrochronologie en erfgoedonderzoek. Handleiding agentschap
 > Onroerend Erfgoed, Brussel \[online:
 > <https://hanecakr.github.io/handleidingDendro/>\]
@@ -25,7 +25,7 @@ kan je steeds de meest actuele versie raadplegen.
 > Onroerend Erfgoed, Brussel \[online:
 > <https://oar.onroerenderfgoed.be/uitgave/251>\].
 
-<br/> Kristof Haneca <br/> 13 augustus, 2020<br/>
+<br/> Kristof Haneca <br/> 16 september, 2020<br/>
 [![](./figuren/RG.png)](https://www.researchgate.net/profile/Kristof_Haneca)
 
 ![](./figuren/cover.jpg) © Flanders Heritage Agency
