@@ -16,6 +16,13 @@ maak de zak zorgvuldig dicht met tape. Dit zorgt ervoor dat het hout niet kan ui
   - duid de locatie van het staal aan op een detailplan van de bemonsterde structuur;
   - stapel de genomen stalen niet hoog op. Door de gewicht kunnen de onderste stalen breken of vervormen. 
 
+
+```{r dendrostalen, fig.cap = 'Stalen van archeologisch hout, verpakt en voorzien van een ingevuld vondstkaartje.', echo = FALSE, out.width='80%', fig.asp=.75, fig.align='center'}
+
+knitr::include_graphics("./Figuren/Dendro_Figuur27.jpg")
+
+```
+
 Bewaar natte houtstalen bij voorkeur op een **koele (bij voorkeur onder de 6°C), donkere plek**. Zo beperkt je de kans dat er zich schimmels ontwikkelen. Pas bij temperaturen van 0° en lager valt schimmelontwikkeling en -groei volledig stil. Breng de stalen daarom zo snel mogelijk naar het labo waar het verdere onderzoek zal plaatsvinden.
 
 Stalen van historisch bouwhout die reeds droog zijn, kunnen meestal zonder problemen voor langere periode bewaard worden. Hout dat droog is, met een houtvochtgehalte onder de 20%, wordt niet aangetast door schimmels en is daardoor stabiel. Enkel houtaantastende insecten kunnen voor problemen zorgen.
@@ -47,9 +54,11 @@ Bij de overdracht van de stalen aan de dendrochronoloog wordt een **overzichtsli
   - andere indicaties voor datering (associatie, historische bronnen, kunsthistorische interpretatie, …);
   - sporen van hergebruik (bv. open, niet-functionele verbindingen).
 
-Een goede documentatie van de stalen is uitermate belangrijk, en zal bij de interpretatie van de dateringen een groot verschil maken. De combinatie van stalen uit een zelfde structuur of bouwfase kan in sommige gevallen tot een meer precieze datering leiden. Ook het interpreteren van mogelijk afwijkende dateringen wordt door een goede inventaris meteen concreet.
 
 >
 >**Een goede documentatie van de stalen is uitermate belangrijk, en zal bij de interpretatie van de dateringen een groot verschil maken.**
 >
+
+
+Een goede documentatie van de stalen is uitermate belangrijk, en zal bij de interpretatie van de dateringen een groot verschil maken. De combinatie van stalen uit een zelfde structuur of bouwfase kan in sommige gevallen tot een meer precieze datering leiden. Ook het interpreteren van mogelijk afwijkende dateringen wordt door een goede inventaris meteen concreet.
 

@@ -1,16 +1,5 @@
-/* Caption of figures */
-
 .caption {
   font-size: 0.8em;
-  font-style: italic;
-  line-height: 1.4em;
-  color: darkgrey;
-  margin-top: 10px;
-}
-
-/* Caption of tables */
-caption {
-  font-size: 0.9em;
   font-style: italic;
   line-height: 1.4em;
   color: darkgrey;
@@ -24,6 +13,7 @@ blockquote {
   margin-left: 50px;
   padding-left: 10px;
 }
+
 
 
 /* The next two rules make the horizontal line go straight across in top navbar */

@@ -1,0 +1,20 @@
+# Updates {-}
+
+In het overzicht hier onder worden de belangrijkste wijzigingen ten opzicht van [de originele publicatie uit 2017](https://oar.onroerenderfgoed.be/item/437) opgesomd in chronologische volgorde.
+<br/>
+<br/>
+
+- `15-09-2020`: handleiding ***Dendrochrono;ogie e  erfgoedonderzoek*** online te raadplegen [https://hanecakr.github.io/handleidingDendrochronologie/], zoals gepubliceerd door K. Haneca in 2017.
+
+<br/>
+
+- `25-09-2020`: 
+    - Nummering en volgorde hoofdstukken aangepast.
+    - Hoofdstuk [Onderzoeksvragen](#onderzoeksvragen) opgedeeld in meerdere sub-secties.
+    - Hoofdstuk [Interpretatie](#interpretatie) uitgebreid.
+    - Nieuwe figuur in de [Inleiding](#intro) (doorsnede stam).
+    - Nieuwe figuren in het hoofdstuk [Interpretatie](#interpretatie).
+    - Extra foto's toegevoegd aan hoofdstukken [Bemonsteren](#bemonsteren) en [Bewaren](#bewaren).
+    
+<br/>
+

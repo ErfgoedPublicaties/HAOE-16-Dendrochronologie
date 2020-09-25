@@ -11,5 +11,5 @@ bookdown::gitbook:
           before: |
             <li><strong><a href="./">Handleiding dendrochronologie</a></strong></li>
           after: |
-            <li><a href="https://bookdown.org/" target="blank">Published with bookdown</a></li>
+            <li><small><a href="https://bookdown.org/" target="blank">Created with bookdown</a></small></li>
      toc_float: true

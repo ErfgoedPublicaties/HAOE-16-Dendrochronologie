@@ -4,7 +4,7 @@ Het eigenlijke opmeten van de groeiringpatronen op de aangeleverde stukken hout 
 
 ```{r meettafel, fig.cap = 'Opstelling met stereomicroscoop en meettafel voor het opmeten van jaarringpatronen.', echo = FALSE, out.width='60%', fig.asp=.75, fig.align='center'}
 
-knitr::include_graphics("./Figuren/Dendrochronologie/Dendro_Figuur22.png")
+knitr::include_graphics("./Figuren/Dendro_Figuur22.png")
 
 ```
 
@@ -12,7 +12,7 @@ Het opmeten resulteert in een bestand waarin de meting van elke groeiringbreedte
 
 ```{r output, fig.cap = 'Eén van de mogelijke data-formaten met opmetingen van jaarringbreedtes (links) en de grafiek die met deze metingen wordt opgebouwd (rechts). De groen ingekleurde zones zijn de jaren waar de opgemeten jaarringreeks (rood) en de referentiekalender (blauw) eenzelfde parallel verloop kennen.', echo = FALSE, out.width='100%', fig.asp=.75, fig.align='center'}
 
-knitr::include_graphics("./Figuren/Dendrochronologie/Dendro_Figuur23.png")
+knitr::include_graphics("./Figuren/Dendro_Figuur23.png")
 
 ```
 
