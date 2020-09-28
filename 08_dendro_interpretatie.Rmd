@@ -32,10 +32,7 @@ knitr::include_graphics("./Figuren/Dendro_Figuur13.png")
 
 ## Van veldatum tot bouwfase
 
-Indien er meerdere  stukken hout uit eenzelfde bouwfase gedateerd kunnen worden, is het aangewezen deze onderling te vergelijken. Zo wordt duidelijk of ze allen effectief dezelfde bouwactiviteit kunnen dateren. Dit is uiteraard enkel van toepassing indien meerdere stukken met spinthout (of schors/wankant)gedateerd werden. Met _post-quem_ dateringen kan deze analyse meestal niet gemaakt worden. Voor de gedateerde reeksen met spinthout wordt dan telkens het interval waar binnen de veldatum kan liggen berekend en daarna geëvalueerd indien deze voldoende overlapt met de andere reeksen. Indien dit effectief het geval is, kan een gemeenschappelijke veldatum berekend worden die het interval afbakent voor een gemeenschappelijke veldatum (\@(fig:combine)). Dit levert meestal een nauwere afbakening op van de veldatum, en de daarvan afgeleide datering van de bouwactiviteit.
-
-<!-- Intrpretatie van meerdere dateringen uit eenzelfde bouwfase -->
-
+Indien er meerdere  stukken hout uit eenzelfde bouwfase gedateerd kunnen worden, is het aangewezen deze onderling te vergelijken. Zo wordt duidelijk of ze allen effectief dezelfde bouwactiviteit kunnen dateren. Dit is uiteraard enkel van toepassing indien meerdere stukken met spinthout (of schors/wankant)gedateerd werden. Met _post-quem_ dateringen kan deze analyse meestal niet gemaakt worden. Voor de gedateerde reeksen met spinthout wordt dan telkens het interval waar binnen de veldatum kan liggen berekend en daarna geëvalueerd indien deze voldoende overlapt met de andere reeksen. Indien dit effectief het geval is, kan een gemeenschappelijke veldatum berekend worden die het interval afbakent voor een gemeenschappelijke veldatum (figuur \@(fig:combine)). Dit levert meestal een nauwere afbakening op van de veldatum, en de daarvan afgeleide datering van de bouwactiviteit.
 
 
 ```{r combine, fig.cap = 'Het combineren van individueel gedateerde jaarringreeksen uit een zelfde bouwfaseop, op basis van een spinthoutmodel. Dit resulteert in een meer precieze datering voor deze bouwfase.', echo = FALSE, out.width='100%', fig.asp=.75, fig.align='center'}
@@ -57,14 +54,14 @@ knitr::include_graphics("./Figuren/Dendro_Figuur31.png")
 
 ## Oorspronggebied
 
-<!-- TODO: uitleg provenance-analysis -->
+Eens een jaarringreeks of kalender gedateerd is, kan men ook een poging wagen om het oorsprongsgebied van het hout te achterhalen: de regio waar de bomen oorspronkelijk groeiden vooraleer ze werden gekapt. Bij een _provenance_ analyse wordt de gedateerde reeks of kalender vergeleken met een referentiekalenders die verondersteld worden om het karakteristieke jaarrinpatroon voor een bepaalde regio en periode weer te geven. De overeenkomst tussen de opgemeten jaarringreeksen of -kalenders en de geografisch gebonden referentiekalenders wordt via statistische parameters uitgedrukt en meestal ook weergegeven op een kaart (figuur \@ref(fig:bubble-plot)). De cirkels op de kaart geven ongeveer de regio aan waar een referentiekalender voor beschikbaar is (voor dezelfde houtsoort en periode overspannen door de gedateerde jaarringreeksen) en de grootte (diameter) van de cirkels geeft de maat van overeenkomst weer tussen beide. Grote cirkels die geconcentreerd liggen in een zelfde regio geven aan dat het oorsprongsgebied van het hout waarschijnlijk ook daar te situeren is. De correlatiewaarden moeten echter wel voldoende hoog zijn en in de veronderstelde regio van oorsprong ook beduidend hoger liggen dan omringende regio's om tot een betrouwbare herkomst bepaling te komen.
 
 ```{r bubble-plot, fig.cap = 'Vergelijking van een gedateerde jaarringreeks of kalender met kalenders uit NW-Europa toont aan dat het geanalyseerde stuk hout afkomstig is uit het Baltisch gebied, waar de hoogte _t_-waarden worden opgetekend.', echo = FALSE, out.width='80%', fig.asp=.75, fig.align='center'}
 
 knitr::include_graphics("./Figuren/Dendro_Figuur33.jpg")
 
 ```
-
+In sommige gevallen kan een niet-lokale oorsprong van historisch bouwhout ook afgeleid worden uit opvallende uitsparingen in of merktekens op bepaalde elementen van een constructie (figuur \@ref(fig:vlotverbindingen)). Dergelijke doorboringen en/of pennen - die geen verband houden met de huidige samenstelling en verbindingen in een houtconstructie - werden gebruikt bij het samenstellen van grote houtvlotten met pas gevelde boomstammen. De houtvlotten werden langs de grote rivieren naar houtmarkten en steden stroomafwaarts gevlot, waar het hout uiteindelijk werd verhandeld as bouwmateriaal. Indien dergelijke vlotverbindingen worden opgemerkt, mag men er vnuit gaan dat dit bouwhout geen lokale oorsprong heeft. Een doorgedreven jaarringanalyse (*dendro-provenancing*) kan dan het oorspronggebied nader helpen bepalen. 
 
 
 ```{r vlotverbindingen, fig.cap = 'Bouwhout uit middeleeuwse dakkappen met merkwaardige doorboringen en pennen die geen verband houden met de constructie van de kap. Dit zijn verbindingen die gebruikt werden om een houtvlot samen te binden.', echo = FALSE, out.width='100%', fig.asp=.75, fig.align='center'}

@@ -15,7 +15,7 @@ Een dendrochronologische datering kan in sommige gevallen ook de **authenticitei
 
 Naast een exacte datering slaagt een dendrochronologisch onderzoek er dikwijls ook in om een idee te geven over het **herkomstgebied van het hout** - dit is de regio waar de boom oorspronkelijk is gegroeid. Bij een herkomstbepaling (Eng.: _dendro-provenancing_) wordt het groeipatroon van een stuk hout vergeleken met referentiekalenders uit verschillende streken. Op die manier wordt nagegaan met welke regionale referentiekalenders de beste overeenkomst optreedt. Regionale referentiekalenders zijn opgebouwd met hout afkomstig uit één welbepaalde regio, maar de omvang van een regio is daarbij wel sterk variabel. Zo bestaan er kalenders die zijn samengesteld met gedateerde groeiringreeksen uit een groot gebied zoals Zuid-Duitsland, terwijl andere enkel hout uit één bepaalde stad (bv. Gdansk, Polen) of uit een kleine regio (bv. Vlaanderen) vertegenwoordigen. Door het herkomstgebied te bepalen krijgen we meer inzicht in de vroegere handel in (bouw)hout. Dit is niet onbelangrijk voor een regio als Vlaanderen waar vanaf de middeleeuwen aanzienlijke hoeveelheden kwaliteitsvol hout werden geïmporteerd. Deze toepassing van het dendrochronologisch onderzoek laat toe om het onderscheid te maken tussen lokaal en geïmporteerd hout. Dit laatste is zeker van belang bij vondsten die niet noodzakelijk ter plaatse zijn gemaakt. Denken we bijvoorbeeld aan tonnen die als verpakkingsmateriaal werden gebruikt, (beschilderde) panelen, meubilair of sculpturen, allemaal goederen die over grote afstanden konden verhandeld worden. Maar ook een (middeleeuwse) dakkap is vaak opgetrokken uit balken die werden aangevoerd uit verafgelegen en meer bosrijke gebieden. En zeker bij **scheepshout** is de vindplaats van een wrak of scheepsonderdeel zelden dezelfde plek waar het schip werd gebouwd.
 
-```{r import, fig.cap='Tonnen, sierpanelen en een dakkap gemaakt uit geïmporteerd eikenhout', echo = FALSE, out.width='80%', fig.asp=.75, fig.align='center'}
+```{r import, fig.cap='Tonnen, wandpanelen en een dakkap gemaakt uit geïmporteerd eikenhout', echo = FALSE, out.width='80%', fig.asp=.75, fig.align='center'}
 
 knitr::include_graphics("./figuren/Dendro_Figuur29.png")
 
@@ -44,6 +44,10 @@ knitr::include_graphics("./figuren/Dendro_Figuur28.jpg")
 ## Klimaat
 
 Daarnaast zijn jaarringreeksen ten slotte ook te beschouwen als **archieven van klimatologische gegevens**. De groei van bomen wordt immers voor een deel gestuurd door het heersende klimaat en de schommelingen in temperatuur en neerslag van jaar tot jaar. Onderzoek naar de relatie tussen klimaatsvariabelen (metingen van temperatuur, neerslag, ...) en jaarringkarakteristieken (breedte van de jaarringen, verschillen in densiteit, ...) noemen we dendro-klimatologie. Indien een relatie wordt gevonden tussen een jaarringvariabele en één of meerdere klimaatsvariabelen zoals maandelijkse neerslag, gemiddelde temperatuur of een droogte-index, kunnen lange jaarringkalenders gebruikt worden om het klimaat in het verleden te reconstrueren.
+
+Een dergelijke analyse is echter enkel mogelijk met een grote dataset aan klimaatgevoelige jaarringreeksen. Dit laatste is dikwijls een probleem in de Lage Landen, met een gematigd zeeklimaat, waar de groeiomstandigheden voor bomen zelden limiterend zijn.
+
+Recent ontwikkelde technieken, waarbij de aanwezige zuurstofisotopen in jaarringen worden gemeten, hebben het potentieel om op termijn klimaatreconstructies mogelijk te maken in onze regio, gebaseerd om lokale jaarringreeksen.
 
 <!-- ToDO: aanvullen dat dit enkel kan met grote datasets van gevoelige jaarringreeksen. pointer years >> -->
 <!-- ToDO: klimaatreconstrcuties - grote datasets klimaat-gevoelige jarringreeksen - lage landen/maritiem zeeklimaat lage respons - invloed bosbeheer -->
