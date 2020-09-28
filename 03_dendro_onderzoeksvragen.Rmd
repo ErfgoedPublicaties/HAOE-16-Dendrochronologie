@@ -35,7 +35,7 @@ Ook bij levende vegetatie met erfgoedwaarde - denken we aan monumentale bomen - 
 
 Een grondige analyse van het groeiringpatroon kan ook meer duidelijkheid scheppen over het vroegere beheer van de boom: bijvoorbeeld het regelmatig **snoeien of knotten**. Het intensief en soms regelmatig herhaald snoeien van takken zorgt er voor dat de kruin van een boom beperkt blijft en daardoor ook minder bladeren vormt. Dat beperkt dan weerd de opname van $CO_2$ en - via fotosynthese - dus ook de aanmaak van de basiselementen waaruit nieuwe houtcellen worden aangemaakt. De boom kan de groeiseizoenen die volgen op een intensieve snoei daardoor minder nieuw hout aanmaken en vormt dan een aantal smallere ringen, die we kunnen herkennen in het jaarringpatroon.
 
-```{r WOI, fig.cap='Stamdoorsnede van een oude eik waarin er stukken shrapnel uit de Eerste Wereldoorlog aanwzig zijn en het hout lokaal donker kleuren', echo = FALSE, out.width='80%', fig.asp=.75, fig.align='center'}
+```{r WOI, fig.cap='Stamdoorsnede van een oude eik waarin er stukken shrapnel uit de Eerste Wereldoorlog aanwzig zijn en het hout lokaal donker kleuren', echo = FALSE, out.width='100%', fig.asp=.75, fig.align='center'}
 
 knitr::include_graphics("./figuren/Dendro_Figuur28.jpg")
 

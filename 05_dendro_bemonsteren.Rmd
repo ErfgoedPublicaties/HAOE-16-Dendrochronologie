@@ -4,11 +4,17 @@
 
 Voor het bemonsteren van archeologisch of subfossiel hout wordt gebruik gemaakt van een handzaag, een elektrisch aangedreven (cirkel-)zaag of een kettingzaag. Daarmee wordt een **dwarse doorsnede** gemaakt van de te onderzoeken stam, paal of plank. Hieronder volgen enkele vuistregels voor de selectie en bemonstering van archeologisch hout:
 
+
+<style>
+div.blue { background-color:#e6f0ff; border-radius: 5px; padding: 20px;}
+</style>
+<div class = "blue">
   - zaag een dwarse doorsnede van maximaal 2 à 3 vingers dik (**ca. 3-5 cm**). Dat bespaart extra werk bij transport en analyse;
   - besteed aandacht aan de aanwezigheid van **spinthout en wankant**, en zorg ervoor dat dit aan het stuk hout blijft vasthangen, eventueel door vóór het verzagen een tape aan te brengen (zie figuur \@ref(fig:staalArcheo));
   - indien er **barsten** in het hout aanwezig zijn, wikkel dan tape of folie om het stuk hout vóór het zagen. Zo valt het staal niet uit elkaar in meerdere delen;
   - vermijd het nemen van een staal ter hoogte van een takaanzet, kwast, wondweefsel of een rot stuk.
-
+</div>
+<br/>
 >    
 >**Neem een dwarse doorsnede van maximaal 3-5 cm dik. Dat bespaart extra werk bij transport en analyse.**
 >    
