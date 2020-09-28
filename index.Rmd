@@ -3,12 +3,12 @@ title: "Dendrochronologie en erfgoedonderzoek"
 author: "Kristof Haneca^[erfgoedonderzoeker, [agentschap Onroerend Erfgoed](https://www.onroerenderfgoed.be/), kristof.haneca@vlaanderen.be] [![](https://orcid.org/sites/default/files/images/orcid_16x16.png)](https://orcid.org/0000-0002-7719-8305)"
 date: " -- `r format(Sys.time(), '%d %B, %Y')`"
 site: bookdown::bookdown_site
-description: "Geactualiseerde online versie van de handleiding _Dendrochronologie en erfgoedonderzoek_. Deze handleiding werd in 2017 gepubliceerd op de Open Archives Repository (https://oar.onroerenderfgoed.be/uitgave/251), als handleiding van het agentschap Onroerend Erfgoed, nummer 16"
+description: "_Dendrochronologie en erfgoedonderzoek_: een praktische handleiding voor de erfgoedonderzoeker."
 bibliography: "dendro_biblio.bib"
 csl: elsevier-harvard_nl.csl
 link-citations: TRUE
 nocite: '@*'
-cover-image: ./figuren/cover.jpg
+cover-image: figuren/cover.jpg
 github-repo: hanecakr/handleidingDendro/
 ---
 
