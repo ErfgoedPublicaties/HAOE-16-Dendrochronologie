@@ -4,7 +4,7 @@ author: "Kristof Haneca^[erfgoedonderzoeker, [agentschap Onroerend Erfgoed](http
 date: " -- `r format(Sys.time(), '%d %B, %Y')`"
 site: bookdown::bookdown_site
 description: "Dendrochronologie en erfgoedonderzoek: een praktische handleiding voor de erfgoedonderzoeker."
-cover-image: "https://github.com/hanecakr/handleidingDendro/tree/master/figuren/cover_dendro.jpg"
+cover-image: "https://github.com/hanecakr/handleidingDendro/tree/master/figuren/cover.jpg"
 github-repo: hanecakr/handleidingDendro/
 bibliography: "dendro_biblio.bib"
 csl: elsevier-harvard_nl.csl
