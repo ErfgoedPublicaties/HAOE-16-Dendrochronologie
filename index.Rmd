@@ -8,7 +8,7 @@ bibliography: "dendro_biblio.bib"
 csl: elsevier-harvard_nl.csl
 link-citations: TRUE
 nocite: '@*'
-cover-image: figuren/cover.jpg
+cover-image: https://github.com/hanecakr/handleidingDendro/tree/master/docs/figuren/cover.jpg
 github-repo: hanecakr/handleidingDendro/
 ---
 
