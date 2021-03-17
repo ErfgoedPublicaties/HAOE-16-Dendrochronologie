@@ -110,9 +110,21 @@ knitr::include_graphics("./Figuren/Dendro_Figuur20.png")
 
 ```
 
-Monumentale bomen hebben dikwijls ook een **monumentale omvang**. Om praktische redenen is een **stamschijf** van een afgestorven boom daarom best **zo dun mogelijk (ca. 5 cm)**; dit om zowel het transport als de analyse onder de microscoop minder omslachtig te maken. De voorkeur gaat uit naar een volledige schijf. Mocht dit niet mogelijk zijn, dan is een overlangse doorsnede van zo’n schijf ook goed, en als ook dat niet lukt, is een wigvormig stuk een goed alternatief (figuur \@ref(fig:stamschijf2)). Let er op dat bij het verzagen ook het merg – dit is het centrum van de boom – in het staal is inbegrepen. Na de staalname wordt met een alcoholstift de locatie (adres en/of coördinaten) van de boom genoteerd op het hout. Vergeet niet zowel de **omtrek als de hoogte** op de stam waar het staal werd genomen te **registreren**!
+Monumentale bomen hebben dikwijls ook een **monumentale omvang**. Om praktische redenen is een **stamschijf** van een afgestorven boom daarom best **zo dun mogelijk (ca. 5 cm)**; dit om zowel het transport als de analyse onder de microscoop minder omslachtig te maken (figuur \@ref(fig:stamschijf3)). De voorkeur gaat uit naar een volledige schijf. Mocht dit niet mogelijk zijn, dan is een overlangse doorsnede van zo’n schijf ook goed, en als ook dat niet lukt, is een wigvormig stuk een goed alternatief (figuur \@ref(fig:stamschijf2)).
 
-```{r stamschijf2, fig.cap = 'Een stamstuk van een omgewaaide populier onder de microscoop voor een leeftijdsbepaling.', echo = FALSE, out.width='100%', fig.asp=.75, fig.align='center'}
+
+```{r stamschijf2, fig.cap = 'Schematische voorstelling van de doorsnede van een stam. Om het volume te beperken kan ook enkel een deel van de stam bewaard worden voor verder onderzoek (blauwe zone).', echo = FALSE, out.width='100%', fig.asp=.75, fig.align='center'}
+
+knitr::include_graphics("./Figuren/Dendro_Figuur21.png")
+
+```
+
+
+Let er op dat bij het verzagen ook het merg – dit is het centrum van de boom – in het staal is inbegrepen. Na de staalname wordt met een alcoholstift de locatie (adres en/of coördinaten) van de boom genoteerd op het hout. Vergeet niet zowel de **omtrek als de hoogte** op de stam waar het staal werd genomen te **registreren**!
+
+
+
+```{r stamschijf3, fig.cap = 'Een stamstuk van een omgewaaide populier onder de microscoop voor een leeftijdsbepaling.', echo = FALSE, out.width='100%', fig.asp=.75, fig.align='center'}
 
 knitr::include_graphics("./Figuren/Dendro_Figuur26.png")
 
