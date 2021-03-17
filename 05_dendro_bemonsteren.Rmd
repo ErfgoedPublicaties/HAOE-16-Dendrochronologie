@@ -85,7 +85,7 @@ knitr::include_graphics("./Figuren/Dendro_Figuur18.png")
 
 ```
 
-## Levende bomen
+## Monumentale bomen
 
 Jaarringanalyse is de meest nauwkeurige manier om de **leeftijd** van een levende boom te bepalen. Indien er een duidelijke (mathematische) relatie bestaat tussen de omtrek en de leeftijd van bepaalde bomen, rekening houdend met de soort en de standplaats, kan de leeftijd worden ingeschat door de omtrek te meten. Indien een dergelijk rekenmodel niet voorhanden is, kan een boorkern (of meerdere) genomen worden uit de stam van de boom. Een holle boor (Pressler-boor) wordt dan handmatig in de stam gedraaid (figuur \@ref(fig:staalBoom)). Binnenin vormt zich dan een cilinder van hout (= de boorkern) waarop de groeiringen te zien zijn. Deze boorkernen hebben doorgaans een diameter van 4,3 of 5,1 mm, al bestaan er ook boren met een andere diameter.
 
