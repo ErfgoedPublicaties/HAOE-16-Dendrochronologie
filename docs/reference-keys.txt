@@ -19,6 +19,7 @@ fig:staalKunst
 fig:staalBoom
 fig:stamschijf
 fig:stamschijf2
+fig:stamschijf3
 fig:dendrostalen
 fig:meettafel
 fig:output
@@ -55,7 +56,7 @@ bemonsteren
 archeologisch-en-subfossiel-hout
 bouwkundig-erfgoed
 panelen-sculptuur-en-meubilair
-levende-bomen-1
+monumentale-bomen
 bewaren
 specialist
 timing

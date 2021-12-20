@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>8 Meten en analyseren | Dendrochronologie en erfgoedonderzoek</title>
   <meta name="description" content="8 Meten en analyseren | Dendrochronologie en erfgoedonderzoek: een praktische handleiding voor de erfgoedonderzoeker." />
-  <meta name="generator" content="bookdown 0.20 and GitBook 2.6.7" />
+  <meta name="generator" content="bookdown 0.24.4 and GitBook 2.6.7" />
 
   <meta property="og:title" content="8 Meten en analyseren | Dendrochronologie en erfgoedonderzoek" />
   <meta property="og:type" content="book" />
@@ -32,8 +32,9 @@
   
 <link rel="prev" href="specialist.html"/>
 <link rel="next" href="rapporteren.html"/>
-<script src="libs/header-attrs-2.6/header-attrs.js"></script>
-<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<script src="libs/header-attrs-2.11/header-attrs.js"></script>
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
@@ -49,12 +50,44 @@
 
 
 
-
-<script src="libs/accessible-code-block-0.0.1/empty-anchor.js"></script>
+<link href="libs/anchor-sections-1.0.1/anchor-sections.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.0.1/anchor-sections.js"></script>
 <script src="libs/kePrint-0.0.1/kePrint.js"></script>
 <link href="libs/lightable-0.0.1/lightable.css" rel="stylesheet" />
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-WRYSRDGLWG"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-WRYSRDGLWG');
+</script>
 
 
+
+<style type="text/css">
+/* Used with Pandoc 2.11+ new --citeproc when CSL is used */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}
+</style>
 
 <link rel="stylesheet" href="style.css" type="text/css" />
 </head>
@@ -159,14 +192,14 @@
 <div id="analyseren" class="section level1" number="8">
 <h1><span class="header-section-number">8</span> Meten en analyseren</h1>
 <p>Het eigenlijke opmeten van de groeiringpatronen op de aangeleverde stukken hout gebeurt met behulp van een <strong>stereomicroscoop en een meettafel</strong> (figuur <a href="analyseren.html#fig:meettafel">8.1</a>). Eerst worden de te onderzoeken stukken hout – afhankelijk van de toestand (nat/droog) – op het opmeten voorbereid. Bij nat archeologisch hout wordt op het kopse vlak een ‘leesspoor’ aangebracht, van minstens 0,5 cm breed, door met <strong>scheermesjes of een scalpel</strong> het hout bij te snijden. Droog hout kan ofwel worden bijgesneden met een scalpel of een breekmes, maar ook schuren is hier een optie. In het laatste geval wordt het stuk hout of de boorkern meerdere keren <strong>opgeschuurd</strong> met schuurpapier met steeds fijnere korrel (P80 &gt; P120 &gt; P240 &gt; P360 &gt; P400 &gt; P800), en wordt tussen twee beurten door steeds het stof weggeblazen. De voorbereiding zorgt ervoor dat de groeiringgrenzen duidelijk van elkaar te onderscheiden zijn. Daarna wordt op het stuk hout elke groeiringbreedte langs het leesspoor opgemeten met een nauwkeurigheid van 0,01 mm. Dit gebeurt onder een stereomicroscoop met een vergroting van x10 tot x100. Indien gewerkt wordt met macro-foto’s, worden deze eerst gekalibreerd waarna de breedte van de groeiringen op scherm wordt opgemeten.</p>
-<div class="figure" style="text-align: center"><span id="fig:meettafel"></span>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:meettafel"></span>
 <img src="figuren/Dendro_Figuur22.png" alt="Opstelling met stereomicroscoop en meettafel voor het opmeten van jaarringpatronen." width="60%" />
 <p class="caption">
 Figuur 8.1: Opstelling met stereomicroscoop en meettafel voor het opmeten van jaarringpatronen.
 </p>
 </div>
 <p>Het opmeten resulteert in een bestand waarin de meting van elke groeiringbreedte staat geregistreerd (figuur <a href="analyseren.html#fig:output">8.2</a>). Dergelijke bestanden worden in gespecialiseerde software eenvoudig omgezet naar een grafiek (figuur <a href="analyseren.html#fig:output">8.2</a>) of staafdiagram. Deze bestanden vormen de basis van verdere analyses.</p>
-<div class="figure" style="text-align: center"><span id="fig:output"></span>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:output"></span>
 <img src="figuren/Dendro_Figuur23.png" alt="Eén van de mogelijke data-formaten met opmetingen van jaarringbreedtes (links) en de grafiek die met deze metingen wordt opgebouwd (rechts). De groen ingekleurde zones zijn de jaren waar de opgemeten jaarringreeks (rood) en de referentiekalender (blauw) eenzelfde parallel verloop kennen." width="100%" />
 <p class="caption">
 Figuur 8.2: Eén van de mogelijke data-formaten met opmetingen van jaarringbreedtes (links) en de grafiek die met deze metingen wordt opgebouwd (rechts). De groen ingekleurde zones zijn de jaren waar de opgemeten jaarringreeks (rood) en de referentiekalender (blauw) eenzelfde parallel verloop kennen.
@@ -184,7 +217,6 @@ Figuur 8.2: Eén van de mogelijke data-formaten met opmetingen van jaarringbreed
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
-<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
 <script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
@@ -203,6 +235,7 @@ gitbook.start({
 "weibo": false,
 "instapaper": false,
 "vk": false,
+"whatsapp": false,
 "all": {}
 },
 "fontsettings": {
@@ -223,6 +256,10 @@ gitbook.start({
 "text": null
 },
 "download": null,
+"search": {
+"engine": "fuse",
+"options": null
+},
 "toc": {
 "collapse": "subsection"
 },

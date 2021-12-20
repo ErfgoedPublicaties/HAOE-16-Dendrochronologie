@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>2 Basisbegrippen | Dendrochronologie en erfgoedonderzoek</title>
   <meta name="description" content="2 Basisbegrippen | Dendrochronologie en erfgoedonderzoek: een praktische handleiding voor de erfgoedonderzoeker." />
-  <meta name="generator" content="bookdown 0.20 and GitBook 2.6.7" />
+  <meta name="generator" content="bookdown 0.24.4 and GitBook 2.6.7" />
 
   <meta property="og:title" content="2 Basisbegrippen | Dendrochronologie en erfgoedonderzoek" />
   <meta property="og:type" content="book" />
@@ -32,8 +32,9 @@
   
 <link rel="prev" href="intro.html"/>
 <link rel="next" href="onderzoeksvragen.html"/>
-<script src="libs/header-attrs-2.6/header-attrs.js"></script>
-<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<script src="libs/header-attrs-2.11/header-attrs.js"></script>
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
@@ -49,12 +50,44 @@
 
 
 
-
-<script src="libs/accessible-code-block-0.0.1/empty-anchor.js"></script>
+<link href="libs/anchor-sections-1.0.1/anchor-sections.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.0.1/anchor-sections.js"></script>
 <script src="libs/kePrint-0.0.1/kePrint.js"></script>
 <link href="libs/lightable-0.0.1/lightable.css" rel="stylesheet" />
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-WRYSRDGLWG"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-WRYSRDGLWG');
+</script>
 
 
+
+<style type="text/css">
+/* Used with Pandoc 2.11+ new --citeproc when CSL is used */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}
+</style>
 
 <link rel="stylesheet" href="style.css" type="text/css" />
 </head>
@@ -160,8 +193,8 @@
 <h1><span class="header-section-number">2</span> Basisbegrippen</h1>
 <div id="van-cel-tot-jaarring" class="section level2" number="2.1">
 <h2><span class="header-section-number">2.1</span> Van cel tot jaarring</h2>
-<p>Bomen vormen elk groeiseizoen een nieuwe laag houtcellen. Deze ontstaan door celdeling in het cambium, een uiterst dun laagje weefsel net onder de bast bevindt (figuur <a href="basis.html#fig:hout3D">2.1</a>). Vanuit het cambium worden naar de binnenzijde van de boom stamcellen gevormd die zich daarna verder ontwikkelen tot houtcellen. Naar de buitenzijde ontwikkelen de stamcellen zich tot de bast. De activiteit van het cambium is echter niet continu. In streken met een gematigd klimaat valt de activiteit van het cambium stil tijdens de winter. De bomen zijn dan in rust en er is geen actieve celdeling. Het nieuwe groeiseizoen start in het voorjaar, wanneer de temperatuur opnieuw stijgt en de dagen langer worden. Op dat moment wordt het cambium terug actief en wordt geleidelijk een nieuwe laag hout (= groeiring) gevormd. In het najaar stop de houtaanwas en wordt het actieve groeiseizoen afgesloten. Op een dwarse doorsnede van een tak of stam zijn de afzonderlijke groeiringen te herkennen als concentrische cirkels. Aangezien in onze (klimatologische) regio één groeiseizoen altijd binnen één kalenderjaar valt, is jaarring een perfect synoniem voor groeiring. In Mediterraan gebied of in de tropen is dit niet altijd het geval, en betekent ‘groeiring’ niet noodzakelijk hetzelfde als ‘jaarring’.</p>
-<div class="figure" style="text-align: center"><span id="fig:hout3D"></span>
+<p>Bomen vormen elk groeiseizoen een nieuwe laag houtcellen. Deze ontstaan door celdeling in het cambium, een uiterst dun laagje weefsel net onder de bast bevindt (figuur <a href="basis.html#fig:hout3D">2.1</a>). Vanuit het cambium worden naar de binnenzijde van de boom stamcellen gevormd die zich daarna verder ontwikkelen tot houtcellen. Naar de buitenzijde ontwikkelen de stamcellen zich tot de bast. De activiteit van het cambium is echter niet continu. In streken met een gematigd klimaat valt de activiteit van het cambium stil tijdens de winter. De bomen zijn dan in rust en er is geen actieve celdeling. Het nieuwe groeiseizoen start in het voorjaar, wanneer de temperatuur opnieuw stijgt en de dagen langer worden. Op dat moment wordt het cambium terug actief en wordt geleidelijk een nieuwe laag hout (= groeiring) gevormd. In het najaar stop de houtaanwas en wordt het actieve groeiseizoen afgesloten. Op een dwarse doorsnede van een tak of stam zijn de afzonderlijke groeiringen te herkennen als concentrische cirkels. Aangezien in onze (klimatologische) regio één groeiseizoen altijd binnen één kalenderjaar valt, is jaarring een perfect synoniem voor groeiring. In Mediterraan gebied of in de tropen is dit niet altijd het geval, en betekent ‘groeiring’ niet noodzakelijk hetzelfde als ‘jaarring.’</p>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:hout3D"></span>
 <img src="figuren/Dendro_Figuur01_update.png" alt="Doorsnede van een stam of tak, met aanduiding van een aantal weefseltypes en anatomische kenmerken" width="100%" />
 <p class="caption">
 Figuur 2.1: Doorsnede van een stam of tak, met aanduiding van een aantal weefseltypes en anatomische kenmerken
@@ -177,7 +210,7 @@ Figuur 2.1: Doorsnede van een stam of tak, met aanduiding van een aantal weefsel
 <p><strong>De jaarringen op een stuk hout vormen een uniek patroon, vergelijkbaar met een streepjescode, karakteristiek voor een bepaalde tijdsperiode.</strong></p>
 </blockquote>
 <p>Aangezien de opbouw van het jaarringpatroon in een boom voor een deel gestuurd wordt door klimatologische omstandigheden, kan het jaarringpatroon van meerdere bomen uit een zelfde gebied en binnen eenzelfde tijdsperiode opvallende gelijkenissen vertonen. De individuele bomen reageren immers op dezelfde omgevingsprikkels, die van jaar tot jaar variëren. Daardoor kunnen de jaarringpatronen van bomen die binnen een zelfde regio of klimatologische zone groeien met elkaar gesynchroniseerd worden. Dat wil zeggen dat we die ene, onderlinge positie vinden waarbij alle jaarringpatronen synchroon lopen (figuur <a href="basis.html#fig:boorkernen">2.2</a>).</p>
-<div class="figure" style="text-align: center"><span id="fig:boorkernen"></span>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:boorkernen"></span>
 <img src="figuren/Dendro_Figuur02.png" alt="Twee stukken historisch bouwhout waarvan de opgemeten jaarringbreedtes worden weergegeven in een grafiek. De twee jaarringreeksen vertonen onderling een sterk gelijklopend patroon." width="100%" />
 <p class="caption">
 Figuur 2.2: Twee stukken historisch bouwhout waarvan de opgemeten jaarringbreedtes worden weergegeven in een grafiek. De twee jaarringreeksen vertonen onderling een sterk gelijklopend patroon.
@@ -193,7 +226,7 @@ Figuur 2.2: Twee stukken historisch bouwhout waarvan de opgemeten jaarringbreedt
 <h2><span class="header-section-number">2.4</span> Kalenders</h2>
 <p>Een verzameling van meerdere gesynchroniseerde jaarringpatronen afkomstig van bomen die groeiden in een zelfde regio, kunnen gebundeld worden tot één jaarringkalender, of <strong>jaarringchronologie</strong> (= chronologie, referentiekalender, middelcurve, …). Zo een referentiekalender kan een langere tijdsperiode overspannen dan de individuele jaarringreeksen waaruit ze is opgebouwd (figuur <a href="basis.html#fig:synchronisatie">2.3</a>). Dat kan indien oudere stukken hout zijn opgemeten, waarvan het jaarringpatroon overlapt met het jaarringpatroon van meer recente stukken hout. Weten we van één reeks in welk kalenderjaar de laatste groeiring werd gevormd, dan is de referentiekalender absoluut gedateerd. Bij zo een chronologie is geweten in welk kalenderjaar elke ring werd gevormd. Is dit niet het geval, hebben we m.a.w. geen link tussen de jaarringen en de overeenstemmende kalenderjaren, dan kunnen synchroniserende jaarringreeksen toch samengevoegd worden in een zogenaamd ‘zwevende’ chronologie. In dit geval is de chronologie niet absoluut gedateerd. Wel kunnen de individuele stukken hout dan ten opzichte van elkaar chronologisch geordend worden, zonder dat er evenwel een ijking met een kalenderdatum mogelijk is.</p>
 <p>Het jaarringpatroon op een stuk historisch bouwhout, houten object of archeologische vondst laat toe de ouderdom van het hout exact te achterhalen. Dat gebeurt door het opgemeten groeiringpatroon te vergelijken met lange, absoluut gedateerde referentiekalenders. Indien een duidelijke visuele en statistisch betrouwbare overeenkomst wordt gevonden tussen het opgemeten jaarringpatroon en één of meerdere referentiekalenders, is meteen geweten in welk kalenderjaar elke jaarring werd gevormd. Dit maakt van dendrochronologie de meest precieze natuurwetenschappelijke <strong>dateringstechniek</strong>.</p>
-<div class="figure" style="text-align: center"><span id="fig:synchronisatie"></span>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:synchronisatie"></span>
 <img src="figuren/Dendro_Figuur03_update.png" alt="Stukken hout kunnen op basis van het jaarringpatroon, tot op het jaar precies, t.o.v. elkaar gesynchroniseerd worden. Met de opgemeten en gesynchroniseerde jaarringpatronen (= de breedte van elke groeiring) kan een middelcurve (= chronologie = jaarringkalender) berekend worden (rode curve). Een chronologie geeft de gemiddelde jaarringbreedte weer voor elke jaar." width="100%" />
 <p class="caption">
 Figuur 2.3: Stukken hout kunnen op basis van het jaarringpatroon, tot op het jaar precies, t.o.v. elkaar gesynchroniseerd worden. Met de opgemeten en gesynchroniseerde jaarringpatronen (= de breedte van elke groeiring) kan een middelcurve (= chronologie = jaarringkalender) berekend worden (rode curve). Een chronologie geeft de gemiddelde jaarringbreedte weer voor elke jaar.
@@ -212,7 +245,6 @@ Figuur 2.3: Stukken hout kunnen op basis van het jaarringpatroon, tot op het jaa
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
-<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
 <script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
@@ -231,6 +263,7 @@ gitbook.start({
 "weibo": false,
 "instapaper": false,
 "vk": false,
+"whatsapp": false,
 "all": {}
 },
 "fontsettings": {
@@ -251,6 +284,10 @@ gitbook.start({
 "text": null
 },
 "download": null,
+"search": {
+"engine": "fuse",
+"options": null
+},
 "toc": {
 "collapse": "subsection"
 },

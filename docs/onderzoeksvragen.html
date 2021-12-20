@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>3 Onderzoeksvragen | Dendrochronologie en erfgoedonderzoek</title>
   <meta name="description" content="3 Onderzoeksvragen | Dendrochronologie en erfgoedonderzoek: een praktische handleiding voor de erfgoedonderzoeker." />
-  <meta name="generator" content="bookdown 0.20 and GitBook 2.6.7" />
+  <meta name="generator" content="bookdown 0.24.4 and GitBook 2.6.7" />
 
   <meta property="og:title" content="3 Onderzoeksvragen | Dendrochronologie en erfgoedonderzoek" />
   <meta property="og:type" content="book" />
@@ -32,8 +32,9 @@
   
 <link rel="prev" href="basis.html"/>
 <link rel="next" href="randvoorwaarden.html"/>
-<script src="libs/header-attrs-2.6/header-attrs.js"></script>
-<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<script src="libs/header-attrs-2.11/header-attrs.js"></script>
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
@@ -49,12 +50,44 @@
 
 
 
-
-<script src="libs/accessible-code-block-0.0.1/empty-anchor.js"></script>
+<link href="libs/anchor-sections-1.0.1/anchor-sections.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.0.1/anchor-sections.js"></script>
 <script src="libs/kePrint-0.0.1/kePrint.js"></script>
 <link href="libs/lightable-0.0.1/lightable.css" rel="stylesheet" />
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-WRYSRDGLWG"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-WRYSRDGLWG');
+</script>
 
 
+
+<style type="text/css">
+/* Used with Pandoc 2.11+ new --citeproc when CSL is used */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}
+</style>
 
 <link rel="stylesheet" href="style.css" type="text/css" />
 </head>
@@ -168,7 +201,7 @@
 <div id="herkomst-en-handel" class="section level2" number="3.2">
 <h2><span class="header-section-number">3.2</span> Herkomst en handel</h2>
 <p>Naast een exacte datering slaagt een dendrochronologisch onderzoek er dikwijls ook in om een idee te geven over het <strong>herkomstgebied van het hout</strong> - dit is de regio waar de boom oorspronkelijk is gegroeid. Bij een herkomstbepaling (Eng.: <em>dendro-provenancing</em>) wordt het groeipatroon van een stuk hout vergeleken met referentiekalenders uit verschillende streken. Op die manier wordt nagegaan met welke regionale referentiekalenders de beste overeenkomst optreedt. Regionale referentiekalenders zijn opgebouwd met hout afkomstig uit één welbepaalde regio, maar de omvang van een regio is daarbij wel sterk variabel. Zo bestaan er kalenders die zijn samengesteld met gedateerde groeiringreeksen uit een groot gebied zoals Zuid-Duitsland, terwijl andere enkel hout uit één bepaalde stad (bv. Gdansk, Polen) of uit een kleine regio (bv. Vlaanderen) vertegenwoordigen. Door het herkomstgebied te bepalen krijgen we meer inzicht in de vroegere handel in (bouw)hout. Dit is niet onbelangrijk voor een regio als Vlaanderen waar vanaf de middeleeuwen aanzienlijke hoeveelheden kwaliteitsvol hout werden geïmporteerd. Deze toepassing van het dendrochronologisch onderzoek laat toe om het onderscheid te maken tussen lokaal en geïmporteerd hout. Dit laatste is zeker van belang bij vondsten die niet noodzakelijk ter plaatse zijn gemaakt. Denken we bijvoorbeeld aan tonnen die als verpakkingsmateriaal werden gebruikt, (beschilderde) panelen, meubilair of sculpturen, allemaal goederen die over grote afstanden konden verhandeld worden. Maar ook een (middeleeuwse) dakkap is vaak opgetrokken uit balken die werden aangevoerd uit verafgelegen en meer bosrijke gebieden. En zeker bij <strong>scheepshout</strong> is de vindplaats van een wrak of scheepsonderdeel zelden dezelfde plek waar het schip werd gebouwd.</p>
-<div class="figure" style="text-align: center"><span id="fig:import"></span>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:import"></span>
 <img src="figuren/Dendro_Figuur29.png" alt="Tonnen, wandpanelen en een dakkap gemaakt uit geïmporteerd eikenhout" width="80%" />
 <p class="caption">
 Figuur 3.1: Tonnen, wandpanelen en een dakkap gemaakt uit geïmporteerd eikenhout
@@ -184,7 +217,7 @@ Figuur 3.1: Tonnen, wandpanelen en een dakkap gemaakt uit geïmporteerd eikenhou
 <h2><span class="header-section-number">3.4</span> Levende bomen</h2>
 <p>Ook bij levende vegetatie met erfgoedwaarde - denken we aan monumentale bomen - kan dendrochronologie een antwoord bieden op een aantal vragen. De meest evidente toepassing is het bepalen van de <strong>leeftijd</strong> van een (monumentale) boom. De huidige toestand en vitaliteit van een levende, monumentale boom is daarbij van groot belang. Veel oude bomen ontwikkelen op hoge leeftijd immers kernrot, waarbij het hout in de kern van de boom langzaam wegrot. Dot zorgt ervoor dat in dit binnenste deel van de stam de jaarringen niet meer kunnen geregistreerd worden. De leeftijdsbepaling zal dan een inschatting inhouden van het aantal weggerotte jaarringen.</p>
 <p>Een grondige analyse van het groeiringpatroon kan ook meer duidelijkheid scheppen over het vroegere beheer van de boom: bijvoorbeeld het regelmatig <strong>snoeien of knotten</strong>. Het intensief en soms regelmatig herhaald snoeien van takken zorgt er voor dat de kruin van een boom beperkt blijft en daardoor ook minder bladeren vormt. Dat beperkt dan weerd de opname van <span class="math inline">\(CO_2\)</span> en - via fotosynthese - dus ook de aanmaak van de basiselementen waaruit nieuwe houtcellen worden aangemaakt. De boom kan de groeiseizoenen die volgen op een intensieve snoei daardoor minder nieuw hout aanmaken en vormt dan een aantal smallere ringen, die we kunnen herkennen in het jaarringpatroon.</p>
-<div class="figure" style="text-align: center"><span id="fig:WOI"></span>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:WOI"></span>
 <img src="figuren/Dendro_Figuur28.jpg" alt="Stamdoorsnede van een oude eik waarin er stukken shrapnel uit de Eerste Wereldoorlog aanwzig zijn en het hout lokaal donker kleuren" width="100%" />
 <p class="caption">
 Figuur 3.2: Stamdoorsnede van een oude eik waarin er stukken shrapnel uit de Eerste Wereldoorlog aanwzig zijn en het hout lokaal donker kleuren
@@ -212,7 +245,6 @@ Figuur 3.2: Stamdoorsnede van een oude eik waarin er stukken shrapnel uit de Eer
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
-<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
 <script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
@@ -231,6 +263,7 @@ gitbook.start({
 "weibo": false,
 "instapaper": false,
 "vk": false,
+"whatsapp": false,
 "all": {}
 },
 "fontsettings": {
@@ -251,6 +284,10 @@ gitbook.start({
 "text": null
 },
 "download": null,
+"search": {
+"engine": "fuse",
+"options": null
+},
 "toc": {
 "collapse": "subsection"
 },

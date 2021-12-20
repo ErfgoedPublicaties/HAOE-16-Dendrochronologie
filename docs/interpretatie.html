@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>10 Interpretatie | Dendrochronologie en erfgoedonderzoek</title>
   <meta name="description" content="10 Interpretatie | Dendrochronologie en erfgoedonderzoek: een praktische handleiding voor de erfgoedonderzoeker." />
-  <meta name="generator" content="bookdown 0.20 and GitBook 2.6.7" />
+  <meta name="generator" content="bookdown 0.24.4 and GitBook 2.6.7" />
 
   <meta property="og:title" content="10 Interpretatie | Dendrochronologie en erfgoedonderzoek" />
   <meta property="og:type" content="book" />
@@ -32,8 +32,9 @@
   
 <link rel="prev" href="rapporteren.html"/>
 <link rel="next" href="C14.html"/>
-<script src="libs/header-attrs-2.6/header-attrs.js"></script>
-<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<script src="libs/header-attrs-2.11/header-attrs.js"></script>
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
@@ -49,12 +50,44 @@
 
 
 
-
-<script src="libs/accessible-code-block-0.0.1/empty-anchor.js"></script>
+<link href="libs/anchor-sections-1.0.1/anchor-sections.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.0.1/anchor-sections.js"></script>
 <script src="libs/kePrint-0.0.1/kePrint.js"></script>
 <link href="libs/lightable-0.0.1/lightable.css" rel="stylesheet" />
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-WRYSRDGLWG"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-WRYSRDGLWG');
+</script>
 
 
+
+<style type="text/css">
+/* Used with Pandoc 2.11+ new --citeproc when CSL is used */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}
+</style>
 
 <link rel="stylesheet" href="style.css" type="text/css" />
 </head>
@@ -169,7 +202,7 @@
 <blockquote>
 <p><strong>Het uiteindelijke doel van een dendrochronologische analyse is de veldatum te bepalen van de boom waaruit het geanalyseerde stuk hout afkomstig is.</strong></p>
 </blockquote>
-<div class="figure" style="text-align: center"><span id="fig:spint"></span>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:spint"></span>
 <img src="figuren/Dendro_Figuur12.png" alt="Drie stukken hout waar (a) zowel het volledige spinthout als de wankant aanwezig is, (b) enkel een gedeelte van het spinthout bewaard is gebleven, en (c) er geen spinthout meer aanwezig is en ook een ongekend stuk kernhout is verloren gegaan." width="100%" />
 <p class="caption">
 Figuur 10.1: Drie stukken hout waar (a) zowel het volledige spinthout als de wankant aanwezig is, (b) enkel een gedeelte van het spinthout bewaard is gebleven, en (c) er geen spinthout meer aanwezig is en ook een ongekend stuk kernhout is verloren gegaan.
@@ -177,7 +210,7 @@ Figuur 10.1: Drie stukken hout waar (a) zowel het volledige spinthout als de wan
 </div>
 <p>In het minst gunstige geval is de uitkomst van het dendrochronologisch onderzoek dat het opgemeten jaarringpatroon geen overeenkomst vertoont met de beschikbare referentiekalenders. In dat geval blijft het stuk hout ongedateerd.</p>
 <p>Bij de interpretatie is het van belang bovenstaande situaties telkens goed te rapporteren. Een <em>terminus post quem</em> datering geeft alleen de <strong>vroegst mogelijke veldatum</strong> aan, maar geeft geen indicatie hoe veel later die dan wel kan liggen. Indien nog spinthout aanwezig is, kan zoals gezegd soms een interval bepaald worden waar binnen de werkelijke veldatum zich situeert. Enkel indien de wankant bewaard is gebleven kunnen we het tijdstip van het kappen van de boom tot op het jaar precies, en soms tot op het seizoen exact bepalen. Dit valt samen te vatten in een grafische voorstelling aan de hand van een staafdiagram (figuur <a href="interpretatie.html#fig:staaf">10.2</a>).</p>
-<div class="figure" style="text-align: center"><span id="fig:staaf"></span>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:staaf"></span>
 <img src="figuren/Dendro_Figuur13.png" alt="Voorstelling van de dendrochronologische dateringsresultaten in een staafdiagram. De lengte van de balken geeft aan welke periode wordt overspannen door de opgemeten en gedateerde jaarringreeksen. De aanwezigheid van spint wordt aangeduid door een zwart ingekleurd stuk. Het geschatte minimale aandeel spinthout is aangeduid in een grijze tint. De foutenbalk reikt tot aan het maximale aantal spinthoutringen." width="80%" />
 <p class="caption">
 Figuur 10.2: Voorstelling van de dendrochronologische dateringsresultaten in een staafdiagram. De lengte van de balken geeft aan welke periode wordt overspannen door de opgemeten en gedateerde jaarringreeksen. De aanwezigheid van spint wordt aangeduid door een zwart ingekleurd stuk. Het geschatte minimale aandeel spinthout is aangeduid in een grijze tint. De foutenbalk reikt tot aan het maximale aantal spinthoutringen.
@@ -187,7 +220,7 @@ Figuur 10.2: Voorstelling van de dendrochronologische dateringsresultaten in een
 <div id="van-veldatum-tot-bouwfase" class="section level2" number="10.2">
 <h2><span class="header-section-number">10.2</span> Van veldatum tot bouwfase</h2>
 <p>Indien er meerdere stukken hout uit eenzelfde bouwfase gedateerd kunnen worden, is het aangewezen deze onderling te vergelijken. Zo wordt duidelijk of ze allen effectief dezelfde bouwactiviteit kunnen dateren. Dit is uiteraard enkel van toepassing indien meerdere stukken met spinthout (of schors/wankant)gedateerd werden. Met <em>postquem</em>-dateringen kan deze analyse meestal niet gemaakt worden. Voor de gedateerde reeksen met spinthout wordt dan telkens het interval waar binnen de veldatum kan liggen berekend en daarna geëvalueerd indien deze voldoende overlapt met de andere reeksen. Indien dit effectief het geval is, kan een gemeenschappelijke veldatum berekend worden die het interval afbakent voor een gemeenschappelijke veldatum (figuur <a href="interpretatie.html#fig:combine">10.3</a>). Dit levert meestal een nauwere afbakening op van de veldatum, en de daarvan afgeleide datering van de bouwactiviteit.</p>
-<div class="figure" style="text-align: center"><span id="fig:combine"></span>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:combine"></span>
 <img src="figuren/Dendro_Figuur30.png" alt="Het combineren van individueel gedateerde jaarringreeksen uit een zelfde bouwfaseop, op basis van een spinthoutmodel. Dit resulteert in een meer precieze datering voor deze bouwfase." width="100%" />
 <p class="caption">
 Figuur 10.3: Het combineren van individueel gedateerde jaarringreeksen uit een zelfde bouwfaseop, op basis van een spinthoutmodel. Dit resulteert in een meer precieze datering voor deze bouwfase.
@@ -197,7 +230,7 @@ Figuur 10.3: Het combineren van individueel gedateerde jaarringreeksen uit een z
 <div id="hergebruik-en-herstelling" class="section level2" number="10.3">
 <h2><span class="header-section-number">10.3</span> Hergebruik en herstelling</h2>
 <p>Volgend op de bepaling van de veldatum, zijn er meerdere factoren die de datering van het bouwen van de onderzochte houten structuur of het object kunnen bijsturen. Zijn er bijvoorbeeld <strong>sporen van hergebruik</strong> op het geanalyseerde stuk bouwhout te zien, dan is de datering van dit stuk hout niet gerelateerd aan de datering van de structuur die men onderzoekt. De dendrochronologische datering verwijst dan naar het gebruik van dit stuk hout in een oudere constructie, en geeft dan enkel een <em>terminus post quem</em> aan voor de geanalyseerde structuur. Kunnen binnen één structuur meerdere stukken hout gedateerd worden, en heeft één een beduidend jongere kapdatum, dan wijst dit mogelijk op een <strong>latere herstelling</strong> waarbij een nieuw stuk hout werd gebruikt. Ook in dit geval heeft deze datering geen betrekking op de bouw, maar op een vroegere activiteit.</p>
-<div class="figure" style="text-align: center"><span id="fig:hergebruik"></span>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:hergebruik"></span>
 <img src="figuren/Dendro_Figuur31.png" alt="Eén van de gedateerde jaarringreeksen heeft duidelijk een oudere kapdatum en kan niet gecombineerd worden met de andere jaarringreeksen. Dit wijst op hergebruik van een stuk bouwhout in een meer recente bouwfase." width="100%" />
 <p class="caption">
 Figuur 10.4: Eén van de gedateerde jaarringreeksen heeft duidelijk een oudere kapdatum en kan niet gecombineerd worden met de andere jaarringreeksen. Dit wijst op hergebruik van een stuk bouwhout in een meer recente bouwfase.
@@ -207,14 +240,14 @@ Figuur 10.4: Eén van de gedateerde jaarringreeksen heeft duidelijk een oudere k
 <div id="oorspronggebied" class="section level2" number="10.4">
 <h2><span class="header-section-number">10.4</span> Oorspronggebied</h2>
 <p>Eens een jaarringreeks of kalender gedateerd is, kan men ook een poging wagen om het oorsprongsgebied van het hout te achterhalen: de regio waar de bomen oorspronkelijk groeiden vooraleer ze werden gekapt. Bij een <em>provenance</em> analyse wordt de gedateerde reeks of kalender vergeleken met een referentiekalenders die verondersteld worden om het karakteristieke jaarrinpatroon voor een bepaalde regio en periode weer te geven. De overeenkomst tussen de opgemeten jaarringreeksen of -kalenders en de geografisch gebonden referentiekalenders wordt via statistische parameters uitgedrukt en meestal ook weergegeven op een kaart (figuur <a href="interpretatie.html#fig:bubble-plot">10.5</a>). De cirkels op de kaart geven ongeveer de regio aan waar een referentiekalender voor beschikbaar is (voor dezelfde houtsoort en periode overspannen door de gedateerde jaarringreeksen) en de grootte (diameter) van de cirkels geeft de maat van overeenkomst weer tussen beide. Grote cirkels die geconcentreerd liggen in een zelfde regio geven aan dat het oorsprongsgebied van het hout waarschijnlijk ook daar te situeren is. De correlatiewaarden moeten echter wel voldoende hoog zijn en in de veronderstelde regio van oorsprong ook beduidend hoger liggen dan omringende regio’s om tot een betrouwbare herkomst bepaling te komen.</p>
-<div class="figure" style="text-align: center"><span id="fig:bubble-plot"></span>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:bubble-plot"></span>
 <img src="figuren/Dendro_Figuur33.jpg" alt="Vergelijking van een gedateerde jaarringreeks of kalender met kalenders uit NW-Europa toont aan dat het geanalyseerde stuk hout afkomstig is uit het Baltisch gebied, waar de hoogte _t_-waarden worden opgetekend." width="80%" />
 <p class="caption">
 Figuur 10.5: Vergelijking van een gedateerde jaarringreeks of kalender met kalenders uit NW-Europa toont aan dat het geanalyseerde stuk hout afkomstig is uit het Baltisch gebied, waar de hoogte <em>t</em>-waarden worden opgetekend.
 </p>
 </div>
 <p>In sommige gevallen kan een niet-lokale oorsprong van historisch bouwhout ook afgeleid worden uit opvallende uitsparingen in of merktekens op bepaalde elementen van een constructie (figuur <a href="interpretatie.html#fig:vlotverbindingen">10.6</a>). Dergelijke doorboringen en/of pennen - die geen verband houden met de huidige samenstelling en verbindingen in een houtconstructie - werden gebruikt bij het samenstellen van grote houtvlotten met pas gevelde boomstammen. De houtvlotten werden langs de grote rivieren naar houtmarkten en steden stroomafwaarts gevlot, waar het hout uiteindelijk werd verhandeld as bouwmateriaal. Indien dergelijke vlotverbindingen worden opgemerkt, mag men er vnuit gaan dat dit bouwhout geen lokale oorsprong heeft. Een doorgedreven jaarringanalyse (<em>dendro-provenancing</em>) kan dan het oorspronggebied nader helpen bepalen.</p>
-<div class="figure" style="text-align: center"><span id="fig:vlotverbindingen"></span>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:vlotverbindingen"></span>
 <img src="figuren/Dendro_Figuur32.png" alt="Bouwhout uit middeleeuwse dakkappen met merkwaardige doorboringen en pennen die geen verband houden met de constructie van de kap. Dit zijn verbindingen die gebruikt werden om een houtvlot samen te binden." width="100%" />
 <p class="caption">
 Figuur 10.6: Bouwhout uit middeleeuwse dakkappen met merkwaardige doorboringen en pennen die geen verband houden met de constructie van de kap. Dit zijn verbindingen die gebruikt werden om een houtvlot samen te binden.
@@ -233,7 +266,6 @@ Figuur 10.6: Bouwhout uit middeleeuwse dakkappen met merkwaardige doorboringen e
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
-<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
 <script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
@@ -252,6 +284,7 @@ gitbook.start({
 "weibo": false,
 "instapaper": false,
 "vk": false,
+"whatsapp": false,
 "all": {}
 },
 "fontsettings": {
@@ -272,6 +305,10 @@ gitbook.start({
 "text": null
 },
 "download": null,
+"search": {
+"engine": "fuse",
+"options": null
+},
 "toc": {
 "collapse": "subsection"
 },

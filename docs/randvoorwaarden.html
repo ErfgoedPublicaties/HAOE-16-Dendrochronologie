@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>4 Randvoorwaarden en basisbegrippen | Dendrochronologie en erfgoedonderzoek</title>
   <meta name="description" content="4 Randvoorwaarden en basisbegrippen | Dendrochronologie en erfgoedonderzoek: een praktische handleiding voor de erfgoedonderzoeker." />
-  <meta name="generator" content="bookdown 0.20 and GitBook 2.6.7" />
+  <meta name="generator" content="bookdown 0.24.4 and GitBook 2.6.7" />
 
   <meta property="og:title" content="4 Randvoorwaarden en basisbegrippen | Dendrochronologie en erfgoedonderzoek" />
   <meta property="og:type" content="book" />
@@ -32,8 +32,9 @@
   
 <link rel="prev" href="onderzoeksvragen.html"/>
 <link rel="next" href="bemonsteren.html"/>
-<script src="libs/header-attrs-2.6/header-attrs.js"></script>
-<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<script src="libs/header-attrs-2.11/header-attrs.js"></script>
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
@@ -49,12 +50,44 @@
 
 
 
-
-<script src="libs/accessible-code-block-0.0.1/empty-anchor.js"></script>
+<link href="libs/anchor-sections-1.0.1/anchor-sections.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.0.1/anchor-sections.js"></script>
 <script src="libs/kePrint-0.0.1/kePrint.js"></script>
 <link href="libs/lightable-0.0.1/lightable.css" rel="stylesheet" />
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-WRYSRDGLWG"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-WRYSRDGLWG');
+</script>
 
 
+
+<style type="text/css">
+/* Used with Pandoc 2.11+ new --citeproc when CSL is used */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}
+</style>
 
 <link rel="stylesheet" href="style.css" type="text/css" />
 </head>
@@ -174,7 +207,7 @@ div.blue { background-color:#e6f0ff; border-radius: 5px; padding: 20px;}
 </ul>
 </div>
 <p><br/></p>
-<div class="figure" style="text-align: center"><span id="fig:jaarringEik"></span>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:jaarringEik"></span>
 <img src="figuren/Dendro_Figuur04.png" alt="Detailopname van het transversaal (= kopse) vlak van een eiken stam." width="100%" />
 <p class="caption">
 Figuur 4.1: Detailopname van het transversaal (= kopse) vlak van een eiken stam.
@@ -184,7 +217,7 @@ Figuur 4.1: Detailopname van het transversaal (= kopse) vlak van een eiken stam.
 <blockquote>
 <p><strong>Eikenhout kan je met het blote oog (of met een handloep) vrij gemakkelijk herkennen aan de hand van enkele typische kenmerken.</strong></p>
 </blockquote>
-<div class="figure" style="text-align: center"><span id="fig:archeoEik"></span>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:archeoEik"></span>
 <img src="figuren/Dendro_Figuur05.png" alt="Detailopname van een stuk eikenhout gevonden bij archeologisch veldonderzoek. Op het kopse vlak zijn alle houtanatomische structuren die kenmerkend zijn voor eikenhout - zoals de grote vaten in het vroeghout en de brede houtstralen - duidelijk te observeren. De blekere zone aan de buitenzijde is het spinthout." width="80%" />
 <p class="caption">
 Figuur 4.2: Detailopname van een stuk eikenhout gevonden bij archeologisch veldonderzoek. Op het kopse vlak zijn alle houtanatomische structuren die kenmerkend zijn voor eikenhout - zoals de grote vaten in het vroeghout en de brede houtstralen - duidelijk te observeren. De blekere zone aan de buitenzijde is het spinthout.
@@ -192,7 +225,7 @@ Figuur 4.2: Detailopname van een stuk eikenhout gevonden bij archeologisch veldo
 </div>
 <p>Ook andere loofhoutsoorten, zoals <strong>beuk</strong> (<em>Fagus sylvatica</em>), <strong>es</strong> (<em>Fraxinus excelsior</em>) en <strong>olm</strong> (<em>Ulmus</em> spp.) hebben in onze streken een zeker potentieel voor daterend dendrochronologisch onderzoek, al zijn er beduidend minder referentiekalenders ter beschikking.</p>
 <p>Naaldhoutsoorten als <strong>zilverspar</strong> (<em>Abies alba</em>), <strong>fijnspar</strong> (<em>Picea abies</em>) en <strong>grove den</strong> (<em>Pinus sylvestris</em>) komen eveneens in aanmerking voor daterend dendrochronologisch onderzoek. Naaldhout heeft een eenvoudiger opbouw dan loofhout. Bij grove den zijn met een handloep ook buisvormige kanalen te zien, maar deze zijn niet zo talrijk en ook niet gegroepeerd (figuur <a href="randvoorwaarden.html#fig:groveDen">4.3</a>). In tegenstelling tot bij loofhout zijn dit geen vaten, maar harskanalen. Bij ons wijst dendrochronologisch onderzoek van naaldhout dikwijls uit dat het werd aangevoerd uit regio’s waar grove den, fijnspar of zilverspar - in tegenstelling tot Vlaanderen - wel van nature voorkomt. In onze streken werd naaldhout pas vanaf de 18de eeuw aangeplant.</p>
-<div class="figure" style="text-align: center"><span id="fig:groveDen"></span>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:groveDen"></span>
 <img src="figuren/Dendro_Figuur06.png" alt="Detailopname van een stuk grove den. De cirkelvormige structuren op het transversaal vlak zijn harskanalen." width="80%" />
 <p class="caption">
 Figuur 4.3: Detailopname van een stuk grove den. De cirkelvormige structuren op het transversaal vlak zijn harskanalen.
@@ -202,28 +235,28 @@ Figuur 4.3: Detailopname van een stuk grove den. De cirkelvormige structuren op 
 <div id="aantal-ringen" class="section level2" number="4.2">
 <h2><span class="header-section-number">4.2</span> Aantal ringen</h2>
 <p>De ervaring leert dat een stuk hout enkel geschikt is voor daterend dendrochronologisch onderzoek indien er <strong>minstens 70 groeiringen</strong> af te lezen zijn op een dwarse doorsnede. Indien het opgemeten groeiringpatroon korter is, kan een eventuele overeenkomst met een referentiekalender nooit met zekerheid gevalideerd worden - zowel statistisch als louter visueel. Globaal gezien kan je stellen dat hoe meer ringen er kunnen opgemeten worden op een stuk hout (= hoe langer het jaarringpatroon), des te hoger de kans op een geslaagde datering.</p>
-<div class="figure" style="text-align: center"><span id="fig:groeisnelheid"></span>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:groeisnelheid"></span>
 <img src="figuren/Dendro_Figuur07.jpg" alt="Drie stukken eikenhout. Het stuk bovenaan is snel gegroeid en heeft ca. 31 brede ringen, het stuk onderaan is traag gegroeid en telt ca. 92 smalle jaarringen. Bij het middelste stuk is het jaarringpatroon sterk verstoord. Bij de onderste twee stukken is het spinthout zwaar aangetast door insectenvraat." width="100%" />
 <p class="caption">
 Figuur 4.4: Drie stukken eikenhout. Het stuk bovenaan is snel gegroeid en heeft ca. 31 brede ringen, het stuk onderaan is traag gegroeid en telt ca. 92 smalle jaarringen. Bij het middelste stuk is het jaarringpatroon sterk verstoord. Bij de onderste twee stukken is het spinthout zwaar aangetast door insectenvraat.
 </p>
 </div>
 <p>Het aantal ringen dat te zien is op een stuk hout hangt in grote mate samen met de <strong>groeisnelheid van de boom</strong>. Indien een boom traag is gegroeid, zullen in het hout smalle groeiringen te zien zijn; een boom die snel is gegroeid zal in zijn stam brede groeiringen gevormd hebben (figuur <a href="randvoorwaarden.html#fig:groeisnelheid">4.4</a> en <a href="randvoorwaarden.html#fig:orientatie">4.5</a>). Dit heeft tot gevolg dat zelfs grote stukken hout, als ze afkomstig zijn van een snel gegroeide boom, toch nog te weinig groeiringen kunnen hebben om tot een sluitende datering te komen. De diameter van een stuk hout is dus van minder belang dan de groeisnelheid van de boom.</p>
-<div class="figure" style="text-align: center"><span id="fig:orientatie"></span>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:orientatie"></span>
 <img src="figuren/Dendro_Figuur08.png" alt="Drie plankjes uit eikenhout. (a) Snel gegroeid eikenhout met brede jaarringen. Dit stuk is kwartiers gezaagd (= loodrecht op de jaarringen). Op het radiaal vlak zijn glanzende spiegels te zien. Dit zijn de houtstralen die overlangs worden aangesneden. (b) Traag gegroeid stuk eikenhout met heel smalle jaarringen. Deze plank is dosse gezaagd. (c) Een stuk subfossiel eikenhout met een gemiddelde en regelmatige groei. De pijlen wijzen in de richting van de bast." width="80%" />
 <p class="caption">
 Figuur 4.5: Drie plankjes uit eikenhout. (a) Snel gegroeid eikenhout met brede jaarringen. Dit stuk is kwartiers gezaagd (= loodrecht op de jaarringen). Op het radiaal vlak zijn glanzende spiegels te zien. Dit zijn de houtstralen die overlangs worden aangesneden. (b) Traag gegroeid stuk eikenhout met heel smalle jaarringen. Deze plank is dosse gezaagd. (c) Een stuk subfossiel eikenhout met een gemiddelde en regelmatige groei. De pijlen wijzen in de richting van de bast.
 </p>
 </div>
 <p>Daarnaast wordt het aantal voor een datering bruikbare jaarringen ook bepaald door de wijze waarop de stam is <strong>verzaagd of gekliefd</strong>. Het verspanen van een stam tot de gewenste palen, planken of panelen speelt dus een belangrijke rol. Op planken die ‘dosse’ gezaagd zijn - dit is de meest eenvoudige manier om een stam te verzagen, nl. in evenwijdige stroken - zijn doorgaans minder ringen af te lezen dan bij planken die kwartiers gezaagd of gekliefd zijn (figuur <a href="randvoorwaarden.html#fig:zaagwijze">4.6</a>). Een stam kan gekantrecht worden tot een zware balk, of opgedeeld tot een aantal balken met kleinere afmetingen. Toch kan het aantal ringen dat valt af te lezen op het kopse vlak bij beide types balken ongeveer hetzelfde zijn (figuur <a href="randvoorwaarden.html#fig:balk">4.7</a>).</p>
-<div class="figure" style="text-align: center"><span id="fig:zaagwijze"></span>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:zaagwijze"></span>
 <img src="figuren/Dendro_Figuur09.png" alt="Een stam die 'dosse' wordt verzaagd levert planken op met vergelijkbare afmetingen, maar het jaarringpatroon dat valt af te lezen, is afhankelijk van de positie binnen de stam. Op planken waar zowel het merg als de buitenzijde van de stam aanwezig zijn (plank A), kunnen veel meer ringen worden opgemeten dan bij planken met jaarringen die een sterke kromming vertonen (plank B). Het op te meten jaarringpatroon is aangeduid in geel; de 'ontbrekende' ringen bij een zuiver dosse plank zijn aangeduid met de rode pijl." width="80%" />
 <p class="caption">
 Figuur 4.6: Een stam die ‘dosse’ wordt verzaagd levert planken op met vergelijkbare afmetingen, maar het jaarringpatroon dat valt af te lezen, is afhankelijk van de positie binnen de stam. Op planken waar zowel het merg als de buitenzijde van de stam aanwezig zijn (plank A), kunnen veel meer ringen worden opgemeten dan bij planken met jaarringen die een sterke kromming vertonen (plank B). Het op te meten jaarringpatroon is aangeduid in geel; de ‘ontbrekende’ ringen bij een zuiver dosse plank zijn aangeduid met de rode pijl.
 </p>
 </div>
 <p>De <strong>afmetingen van een stuk hout</strong> zeggen dus weinig over het aantal jaarringen dat kan opgemeten worden. Het is beter om de selectie van te bemonsteren stukken hout niet al te veel te laten bepalen door hun afmetingen.</p>
-<div class="figure" style="text-align: center"><span id="fig:balk"></span>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:balk"></span>
 <img src="figuren/Dendro_Figuur10.png" alt="Twee balken afkomstig uit eenzelfde stam. De balk aan de linkerzijde is bekomen door de stam in 4 delen te klieven, de balk aan de rechterzijde is bekomen door de originele stam enkel te kantrechten. De oppervlakte van de dwarse doorsnede van de kleine balk bedraagt slechts een kwart van de grote balk, maar toch is het dat kan worden opgemeten even lang (aangeduid in geel)." width="80%" />
 <p class="caption">
 Figuur 4.7: Twee balken afkomstig uit eenzelfde stam. De balk aan de linkerzijde is bekomen door de stam in 4 delen te klieven, de balk aan de rechterzijde is bekomen door de originele stam enkel te kantrechten. De oppervlakte van de dwarse doorsnede van de kleine balk bedraagt slechts een kwart van de grote balk, maar toch is het dat kan worden opgemeten even lang (aangeduid in geel).
@@ -236,13 +269,13 @@ Figuur 4.7: Twee balken afkomstig uit eenzelfde stam. De balk aan de linkerzijde
 <div id="regelmatige-groei" class="section level2" number="4.3">
 <h2><span class="header-section-number">4.3</span> Regelmatige groei</h2>
 <p>De aanwezigheid van <strong>zware takken, wondweefstel of kwasten </strong> (ingegroeide takaanzet) verstoort lokaal het groeiringpatroon (figuur <a href="randvoorwaarden.html#fig:groeisnelheid">4.4</a>). De jaarringen zijn op die plaatsten abnormaal breed of smal en geven geen correct beeld van de globale houtaanwas. Het is daarom beter om dergelijke zones in het hout te vermijden voor daterend dendrochronologisch onderzoek. Ook wortels en takken zijn, door hun doorgaans grillige vorm, minder of niet geschikt.</p>
-<p>Een onregelmatige groei kan ook het gevolg zijn van menselijk ingrijpen op de boomgroei, bijvoorbeeld door de boom regelmatig te snoeien. Afhankelijk van de intensiteit van dit ingrijpen, kan dit een duidelijke invloed hebben op de diktegroei - en dus de breedte van de jaarringen - in de daaropvolgende jaren. Deze onregelmatigheid in het groeiringpatroon zal opgemerkt worden over de volledige omtrek van de boom, en zich niet manifesteren als een lokale ‘verstoring’.</p>
+<p>Een onregelmatige groei kan ook het gevolg zijn van menselijk ingrijpen op de boomgroei, bijvoorbeeld door de boom regelmatig te snoeien. Afhankelijk van de intensiteit van dit ingrijpen, kan dit een duidelijke invloed hebben op de diktegroei - en dus de breedte van de jaarringen - in de daaropvolgende jaren. Deze onregelmatigheid in het groeiringpatroon zal opgemerkt worden over de volledige omtrek van de boom, en zich niet manifesteren als een lokale ‘verstoring.’</p>
 </div>
 <div id="spinthout-en-wankant" class="section level2" number="4.4">
 <h2><span class="header-section-number">4.4</span> Spinthout en wankant</h2>
 <p>Voor de precisie van de datering zijn stukken hout met wankant of een gedeelte van het <strong>spinthout</strong> het meest informatief. Spinthout bevindt zich tussen het verkernde deel van de stam en de schors van de boom (figuur <a href="basis.html#fig:hout3D">2.1</a> en <a href="randvoorwaarden.html#fig:jaarringEik">4.1</a>). Het spinthout is het levende houtweefsel dat de sapstroom verzorgt in de stam en dient als opslagplaats voor voedingsstoffen. Het heeft exact dezelfde structuur als het kernhout, maar bij het spinthout zijn de transportkanalen (vaten bij loofhout) nog grotendeels vrij. Dit in tegenstelling tot het kernhout, dat dood houtweefsel is waar geen actief transport van water en voedingsstoffen meer kan plaatsvinden.</p>
 <p>De <strong>wankant</strong> krijg je te zien als de bast van de stam wordt gehaald. Het is de scherpe overgang van de bast naar het spinthout (figuur (fig:hout3D)). Het is de zone waar het cambiumweefsel nieuw hout (afgezet naar de binnenzijde van de stam) en bast (naar de buitenzijde van de stam) vormt tijdens het groeiseizoen. Een stuk bouwhout waarbij de wankant bewaard is gebleven, kan je herkennen aan het afgeronde oppervlak waar de buitenzijde van de originele boom nog in is te herkennen (figuur <a href="randvoorwaarden.html#fig:wankant">4.8</a>). Indien de bast nog aan een stuk bouwhout vast hangt, dan is de wankant zeker aanwezig. De aanwezigheid van de wankant geeft aan dat de groeiring die werd gevormd tot aan het afsterven van de boom nog bewaard is gebleven.</p>
-<div class="figure" style="text-align: center"><span id="fig:wankant"></span>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:wankant"></span>
 <img src="figuren/Dendro_Figuur11.png" alt="Stuk archeologisch eikenhout waarop de wankant zichtbaar is. De afgeronde vorm volgt de omtrek van de originele stam (foto: &amp;copy; Van Daalen Dendrochronologie)." width="80%" />
 <p class="caption">
 Figuur 4.8: Stuk archeologisch eikenhout waarop de wankant zichtbaar is. De afgeronde vorm volgt de omtrek van de originele stam (foto: © Van Daalen Dendrochronologie).
@@ -262,7 +295,6 @@ Figuur 4.8: Stuk archeologisch eikenhout waarop de wankant zichtbaar is. De afge
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
-<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
 <script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
@@ -281,6 +313,7 @@ gitbook.start({
 "weibo": false,
 "instapaper": false,
 "vk": false,
+"whatsapp": false,
 "all": {}
 },
 "fontsettings": {
@@ -301,6 +334,10 @@ gitbook.start({
 "text": null
 },
 "download": null,
+"search": {
+"engine": "fuse",
+"options": null
+},
 "toc": {
 "collapse": "subsection"
 },
