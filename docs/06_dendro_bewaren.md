@@ -1,0 +1,83 @@
+# Verpakken en bewaren {#bewaren}
+
+Na de staalname moeten de bemonsterde stukken hout zo snel mogelijk verpakt worden. Dit is vooral van belang bij nat en waterverzadigd hout. Pas opgegraven hout degradeert snel door de plotse blootstelling aan zuurstof en hogere temperaturen. Daardoor kan het **onderzoekspotentieel** van het hout onherroepelijk verloren gaan. Vooral het snel drogen van natte stukken hout zal er in veel gevallen voor zorgen dat het hout sterk zal beginnen krimpen, scheuren en uiteindelijk zelfs uiteen vallen in meerdere stukken. Daarom is het van groot belang archeologisch hout te beschermen tegen felle uitdroging van zodra het wordt opgegraven. Dit kan op terrein door het af te dekken met plastic of vochtige doeken.
+
+>
+>Na het registreren en intekenen kunnen best zo snel mogelijk stalen worden genomen.
+>
+
+Na het registreren en intekenen van het houten element kunnen best zo snel mogelijk stalen worden genomen. De regel is dat nat hout bij voorkeur nat wordt gehouden tot aan het onderzoek. Volgende stappen worden best gevolgd bij het verpakken van een houtstaal, in het geval dat een dwarse doorsnede of stamschijf wordt gezaagd:
+
+<style>
+div.blue { background-color:#e6f0ff; border-radius: 5px; padding: 20px;}
+</style>
+<div class = "blue">
+
+
+  - verpak het staal, samen met een vondsten- of staalkaartje, in een propere plastic zak of omwikkel het met een aansluitende folie;
+  - besteed aandacht aan het voorkomen van spint en schors: verzeker de blijvende aanhechting van het spinthout (met tape). Hou er wel rekening mee dat het spinthout meestal het sterkst is gedegradeerd. Omwikkel het staal op die plaats niet te strak met folie of tape aangezien dit makkelijk tot een vervorming van het spinthout kan leiden (en het dan niet of moeilijk op te meten is);
+  - druk zoveel mogelijk lucht uit de verpakking;
+maak de zak zorgvuldig dicht met tape. Dit zorgt ervoor dat het hout niet kan uitdrogen. Extra water toevoegen is niet nodig;
+  - breng aan de buitenkant van de verpakking een tweede vondsten- of staalkaartje aan dat duidelijk leesbaar, met vermelding van het staalnummer en de overige vereiste gegevens (spoor/vlak/vak/projectcode/…);
+  - duid de locatie van het staal aan op een detailplan van de bemonsterde structuur;
+  - stapel de genomen stalen niet hoog op. Door de gewicht kunnen de onderste stalen breken of vervormen. 
+
+</div>
+
+<br/>
+
+<div class="figure" style="text-align: center">
+<img src="./Figuren/Dendro_figuur27.jpg" alt="Stalen van archeologisch hout, verpakt en voorzien van een ingevuld vondstkaartje." width="100%" />
+<p class="caption">(\#fig:dendrostalen)Stalen van archeologisch hout, verpakt en voorzien van een ingevuld vondstkaartje.</p>
+</div>
+
+Bewaar natte houtstalen bij voorkeur op een **koele (bij voorkeur onder de 6°C), donkere plek**. Zo beperkt je de kans dat er zich schimmels ontwikkelen. Pas bij temperaturen van 0° en lager valt schimmelontwikkeling en -groei volledig stil. Breng de stalen daarom zo snel mogelijk naar het labo waar het verdere onderzoek zal plaatsvinden.
+
+Stalen van historisch bouwhout die reeds droog zijn, kunnen meestal zonder problemen voor langere periode bewaard worden. Hout dat droog is, met een houtvochtgehalte onder de 20%, wordt niet aangetast door schimmels en is daardoor stabiel. Enkel houtaantastende insecten kunnen voor problemen zorgen.
+
+Bewaring van natte houtstalen op langere termijn is en blijft een delicate opdracht. Het vraagt monitoring om zeker te zijn dat het vochtgehalte niet te sterk daalt, wat houtdegraderende schimmels de kans zou geven om zich te ontwikkelen. Daarom is het laten drogen van waterverzadigde stalen op lange termijn meestal de enige optie. Vriesdrogen kan hiervoor een oplossing aanreiken, al dient dit dan te gebeuren zonder impregnatie met PEG (polyethyleenglycol) of toevoeging van conserverende chemische bestanddelen. Zo blijft het staal ook bruikbaar voor een radiokoolstofdatering ($\mathrm{^{14}C}$) of stabiele isotopenonderzoek. Vervorming van het staal is dan onvermijdelijk, maar niet onoverkomelijk voor later dendrochronologisch onderzoek. De graad van vervorming zal vooral afhangen van de graad van degradatie. Indien het hout al sterk is aangetast zal de vervorming groot zijn. Reeds geïmpregneerde stukken hout zijn mogelijk nog steeds dateerbaar met $\mathrm{^{14}C}$, mits toepassing van speciale reinigingstechnieken. Overleg met een specialist ter zake is in dit geval noodzakelijk.
+
+
+# Overdracht naar specialist {#specialist}
+
+## Timing
+
+Op vlak van timing kan er maar één advies gegeven worden: breng de stalen voor dendrochronologisch onderzoek zo snel mogelijk, met de nodige documentatie (zie verder), naar de specialist. Die zal een doorgedreven selectie en analyse uitvoeren. Door de tijdspanne zo kort mogelijk te houden, wordt vermeden dat de houtstalen verder kunnen degraderen door biologische aantasting of mechanische vervorming.
+
+>
+>Breng stalen voor dendrochronologisch onderzoek, samen met de nodige documentatie, zo snel mogelijk naar de specialist.
+>
+
+Bij nat hout is dit uiteraard dwingender dan bij droog hout. In droge toestand (vochtgehalte onder de 20%) is het hout vrij stabiel en zal het niet verder degraderen.
+
+
+## Documentatie
+
+Bij de overdracht van de stalen aan de dendrochronoloog wordt een **overzichtslijst** bijgevoegd met daarop:
+
+
+<style>
+div.blue { background-color:#e6f0ff; border-radius: 5px; padding: 20px;}
+</style>
+<div class = "blue">
+
+  - naam van de opdrachtgever + contactgegevens;
+  - naam van de archeologische site / historisch gebouw of houtconstructie + adres (eventueel met de centrale geografische coördinaten van de site of het gebouw);
+  - een overzicht van alle stalen met hun nummer. De nummering moet per staal uniek zijn;
+  - archeologisch hout: per staalnummer het spoor waartoe het behoort. Zo is duidelijk welke stalen afkomstig zijn van eenzelfde structuur of spoor. Ook de samenhang tussen stalen op basis van stratigrafie wordt meegedeeld;
+  - hout uit bouwkundig erfgoed: per staal de locatie van het staal binnen de structuur en – indien gekend of verondersteld – de bouwfase;
+  - andere indicaties voor datering (associatie, historische bronnen, kunsthistorische interpretatie, …);
+  - sporen van hergebruik (bv. open, niet-functionele verbindingen).
+
+</div>
+
+
+<br/>
+
+>
+> Een goede documentatie van de stalen is uitermate belangrijk, en zal bij de interpretatie van de dateringen een groot verschil maken.
+>
+
+
+Een goede documentatie van de stalen is uitermate belangrijk, en zal bij de interpretatie van de dateringen een groot verschil maken. De combinatie van stalen uit een zelfde structuur of bouwfase kan in sommige gevallen tot een meer precieze datering leiden. Ook het interpreteren van mogelijk afwijkende dateringen wordt door een goede inventaris meteen concreet.
+

@@ -4,7 +4,7 @@
 
 Bomen vormen elk groeiseizoen een nieuwe laag houtcellen. Deze ontstaan door celdeling in het cambium, een uiterst dun laagje weefsel net onder de bast bevindt (figuur \@ref(fig:hout3D)). Vanuit het cambium worden naar de binnenzijde van de boom stamcellen gevormd die zich daarna verder ontwikkelen tot houtcellen. Naar de buitenzijde ontwikkelen de stamcellen zich tot de bast. De activiteit van het cambium is echter niet continu. In streken met een gematigd klimaat valt de activiteit van het cambium stil tijdens de winter. De bomen zijn dan in rust en er is geen actieve celdeling. Het nieuwe groeiseizoen start in het voorjaar, wanneer de temperatuur opnieuw stijgt en de dagen langer worden. Op dat moment wordt het cambium terug actief en wordt geleidelijk een nieuwe laag hout (= groeiring) gevormd. In het najaar stop de houtaanwas en wordt het actieve groeiseizoen afgesloten. Op een dwarse doorsnede van een tak of stam zijn de afzonderlijke groeiringen te herkennen als concentrische cirkels. Aangezien in onze (klimatologische) regio één groeiseizoen altijd binnen één kalenderjaar valt, is jaarring een perfect synoniem voor groeiring. In Mediterraan gebied of in de tropen is dit niet altijd het geval, en betekent 'groeiring' niet noodzakelijk hetzelfde als 'jaarring'.
 
-```{r hout3D, fig.cap='Doorsnede van een stam of tak, met aanduiding van een aantal weefseltypes en anatomische kenmerken', echo = FALSE, out.width='100%', fig.asp=.75, fig.align='center'}
+```{r hout3D, fig.cap='Doorsnede van een stam of tak, met aanduiding van een aantal weefseltypes en anatomische kenmerken'}
 
 knitr::include_graphics("./figuren/Dendro_Figuur01_update.png")
 
@@ -21,14 +21,14 @@ Het registreren van de jaarringen op een stuk hout is het vertrekpunt van een de
 
 
 >    
-> **De jaarringen op een stuk hout vormen een uniek patroon, vergelijkbaar met een streepjescode, karakteristiek voor een bepaalde tijdsperiode.**
+> De jaarringen op een stuk hout vormen een uniek patroon, vergelijkbaar met een streepjescode, karakteristiek voor een bepaalde tijdsperiode.
 >    
 
 
 Aangezien de opbouw van het jaarringpatroon in een boom voor een deel gestuurd wordt door klimatologische omstandigheden, kan het jaarringpatroon van meerdere bomen uit een zelfde gebied en binnen eenzelfde tijdsperiode opvallende gelijkenissen vertonen. De individuele bomen reageren immers op dezelfde omgevingsprikkels, die van jaar tot jaar variëren. Daardoor kunnen de jaarringpatronen van bomen die binnen een zelfde regio of klimatologische zone groeien met elkaar gesynchroniseerd worden. Dat wil zeggen dat we die ene, onderlinge positie vinden waarbij alle jaarringpatronen synchroon lopen (figuur \@ref(fig:boorkernen)). 
 
 
-```{r boorkernen, fig.cap = 'Twee stukken historisch bouwhout waarvan de opgemeten jaarringbreedtes worden weergegeven in een grafiek. De twee jaarringreeksen vertonen onderling een sterk gelijklopend patroon.', echo = FALSE, out.width='100%', fig.asp=.75, fig.align='center'}
+```{r boorkernen, fig.cap = 'Twee stukken historisch bouwhout waarvan de opgemeten jaarringbreedtes worden weergegeven in een grafiek. De twee jaarringreeksen vertonen onderling een sterk gelijklopend patroon.'}
 
 knitr::include_graphics("./figuren/Dendro_Figuur02.png")
 
@@ -49,7 +49,7 @@ Een verzameling van meerdere gesynchroniseerde jaarringpatronen afkomstig van bo
 Het jaarringpatroon op een stuk historisch bouwhout, houten object of archeologische vondst laat toe de ouderdom van het hout exact te achterhalen. Dat gebeurt door het opgemeten groeiringpatroon te vergelijken met lange, absoluut gedateerde referentiekalenders. Indien een duidelijke visuele en statistisch betrouwbare overeenkomst wordt gevonden tussen het opgemeten jaarringpatroon en één of meerdere referentiekalenders, is meteen geweten in welk kalenderjaar elke jaarring werd gevormd. Dit maakt van dendrochronologie de meest precieze natuurwetenschappelijke **dateringstechniek**.
 
 
-```{r synchronisatie, fig.cap = 'Stukken hout kunnen op basis van het jaarringpatroon, tot op het jaar precies, t.o.v. elkaar gesynchroniseerd worden. Met de opgemeten en gesynchroniseerde jaarringpatronen (= de breedte van elke groeiring) kan een middelcurve (= chronologie = jaarringkalender) berekend worden (rode curve). Een chronologie geeft de gemiddelde jaarringbreedte weer voor elke jaar.', echo = FALSE, out.width='100%', fig.asp=.75, fig.align='center'}
+```{r synchronisatie, fig.cap = 'Stukken hout kunnen op basis van het jaarringpatroon, tot op het jaar precies, t.o.v. elkaar gesynchroniseerd worden. Met de opgemeten en gesynchroniseerde jaarringpatronen (= de breedte van elke groeiring) kan een middelcurve (= chronologie = jaarringkalender) berekend worden (rode curve). Een chronologie geeft de gemiddelde jaarringbreedte weer voor elke jaar.'}
 
 knitr::include_graphics("./figuren/Dendro_Figuur03_update.png")
 

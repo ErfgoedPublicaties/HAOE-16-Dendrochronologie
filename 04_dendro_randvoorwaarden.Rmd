@@ -20,7 +20,7 @@ div.blue { background-color:#e6f0ff; border-radius: 5px; padding: 20px;}
 </div>
 <br/>
 
-```{r jaarringEik, fig.cap = 'Detailopname van het transversaal (= kopse) vlak van een eiken stam.', echo = FALSE, out.width='100%', fig.asp=.75, fig.align='center'}
+```{r jaarringEik, fig.cap = 'Detailopname van het transversaal (= kopse) vlak van een eiken stam.'}
 
 knitr::include_graphics("./figuren/Dendro_Figuur04.png")
 
@@ -31,10 +31,10 @@ Op het radiaal vlak zijn dikwijls 'spiegels' te zien op het eikenhout: dit zijn 
 
 
 > 
-> **Eikenhout kan je met het blote oog (of met een handloep) vrij gemakkelijk herkennen aan de hand van enkele typische kenmerken.**
+> Eikenhout kan je met het blote oog (of met een handloep) vrij gemakkelijk herkennen aan de hand van enkele typische kenmerken.
 > 
 
-```{r archeoEik, fig.cap = 'Detailopname van een stuk eikenhout gevonden bij archeologisch veldonderzoek. Op het kopse vlak zijn alle houtanatomische structuren die kenmerkend zijn voor eikenhout - zoals de grote vaten in het vroeghout en de brede houtstralen - duidelijk te observeren. De blekere zone aan de buitenzijde is het spinthout.', echo = FALSE, out.width='80%', fig.asp=.75, fig.align='center'}
+```{r archeoEik, fig.cap = 'Detailopname van een stuk eikenhout gevonden bij archeologisch veldonderzoek. Op het kopse vlak zijn alle houtanatomische structuren die kenmerkend zijn voor eikenhout - zoals de grote vaten in het vroeghout en de brede houtstralen - duidelijk te observeren. De blekere zone aan de buitenzijde is het spinthout.'}
 
 knitr::include_graphics("./figuren/Dendro_Figuur05.png")
 
@@ -46,7 +46,7 @@ Ook andere loofhoutsoorten, zoals **beuk** (*Fagus sylvatica*), **es** (*Fraxinu
 Naaldhoutsoorten als **zilverspar** (*Abies alba*), **fijnspar** (*Picea abies*) en **grove den** (*Pinus sylvestris*) komen eveneens in aanmerking voor daterend dendrochronologisch onderzoek. Naaldhout heeft een eenvoudiger opbouw dan loofhout. Bij grove den zijn met een handloep ook buisvormige kanalen te zien, maar deze zijn niet zo talrijk en ook niet gegroepeerd (figuur \@ref(fig:groveDen)). In tegenstelling tot bij loofhout zijn dit geen vaten, maar harskanalen. Bij ons wijst dendrochronologisch onderzoek van naaldhout dikwijls uit dat het werd aangevoerd uit regio's waar grove den, fijnspar of zilverspar - in tegenstelling tot Vlaanderen - wel van nature voorkomt. In onze streken werd naaldhout pas vanaf de 18de eeuw aangeplant.
 
 
-```{r groveDen, fig.cap = 'Detailopname van een stuk grove den. De cirkelvormige structuren op het transversaal vlak zijn harskanalen.', echo = FALSE, out.width='80%', fig.asp=.75, fig.align='center'}
+```{r groveDen, fig.cap = 'Detailopname van een stuk grove den. De cirkelvormige structuren op het transversaal vlak zijn harskanalen.'}
 
 knitr::include_graphics("./figuren/Dendro_Figuur06.png")
 
@@ -57,7 +57,7 @@ knitr::include_graphics("./figuren/Dendro_Figuur06.png")
 
 De ervaring leert dat een stuk hout enkel geschikt is voor daterend dendrochronologisch onderzoek indien er **minstens 70 groeiringen** af te lezen zijn op een dwarse doorsnede. Indien het opgemeten groeiringpatroon korter is, kan een eventuele overeenkomst met een referentiekalender nooit met zekerheid gevalideerd worden - zowel statistisch als louter visueel. Globaal gezien kan je stellen dat hoe meer ringen er kunnen opgemeten worden op een stuk hout (= hoe langer het jaarringpatroon), des te hoger de kans op een geslaagde datering.
 
-```{r groeisnelheid, fig.cap = 'Drie stukken eikenhout. Het stuk bovenaan is snel gegroeid en heeft ca. 31 brede ringen, het stuk onderaan is traag gegroeid en telt ca. 92 smalle jaarringen. Bij het middelste stuk is het jaarringpatroon sterk verstoord. Bij de onderste twee stukken is het spinthout zwaar aangetast door insectenvraat.', echo = FALSE, out.width='100%', fig.asp=.75, fig.align='center'}
+```{r groeisnelheid, fig.cap = 'Drie stukken eikenhout. Het stuk bovenaan is snel gegroeid en heeft ca. 31 brede ringen, het stuk onderaan is traag gegroeid en telt ca. 92 smalle jaarringen. Bij het middelste stuk is het jaarringpatroon sterk verstoord. Bij de onderste twee stukken is het spinthout zwaar aangetast door insectenvraat.'}
 
 knitr::include_graphics("./figuren/Dendro_Figuur07.jpg")
 
@@ -66,7 +66,7 @@ knitr::include_graphics("./figuren/Dendro_Figuur07.jpg")
 
 Het aantal ringen dat te zien is op een stuk hout hangt in grote mate samen met de **groeisnelheid van de boom**. Indien een boom traag is gegroeid, zullen in het hout smalle groeiringen te zien zijn; een boom die snel is gegroeid zal in zijn stam brede groeiringen gevormd hebben (figuur \@ref(fig:groeisnelheid) en \@ref(fig:orientatie)). Dit heeft tot gevolg dat zelfs grote stukken hout, als ze afkomstig zijn van een snel gegroeide boom, toch nog te weinig groeiringen kunnen hebben om tot een sluitende datering te komen. De diameter van een stuk hout is dus van minder belang dan de groeisnelheid van de boom.
 
-```{r orientatie, fig.cap = 'Drie plankjes uit eikenhout. (a) Snel gegroeid eikenhout met brede jaarringen. Dit stuk is kwartiers gezaagd (= loodrecht op de jaarringen). Op het radiaal vlak zijn glanzende spiegels te zien. Dit zijn de houtstralen die overlangs worden aangesneden. (b) Traag gegroeid stuk eikenhout met heel smalle jaarringen. Deze plank is dosse gezaagd. (c) Een stuk subfossiel eikenhout met een gemiddelde en regelmatige groei. De pijlen wijzen in de richting van de bast.', echo = FALSE, out.width='80%', fig.asp=.75, fig.align='center'}
+```{r orientatie, fig.cap = 'Drie plankjes uit eikenhout. (a) Snel gegroeid eikenhout met brede jaarringen. Dit stuk is kwartiers gezaagd (= loodrecht op de jaarringen). Op het radiaal vlak zijn glanzende spiegels te zien. Dit zijn de houtstralen die overlangs worden aangesneden. (b) Traag gegroeid stuk eikenhout met heel smalle jaarringen. Deze plank is dosse gezaagd. (c) Een stuk subfossiel eikenhout met een gemiddelde en regelmatige groei. De pijlen wijzen in de richting van de bast.', out.width='80%', fig.asp=.75, fig.align='center'}
 
 knitr::include_graphics("./figuren/Dendro_Figuur08.png")
 
@@ -92,7 +92,7 @@ knitr::include_graphics("./figuren/Dendro_Figuur10.png")
 
    
 >    
->**Het is best om de selectie van te bemonsteren stukken hout niet al te veel te laten bepalen door hun afmetingen.**
+> Het is best om de selectie van te bemonsteren stukken hout niet al te veel te laten bepalen door hun afmetingen.
 >    
    
 

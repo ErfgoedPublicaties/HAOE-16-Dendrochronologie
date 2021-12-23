@@ -1,17 +1,8 @@
-bookdown::gitbook:
+bookdown::bs4_book:
   css: style.css
   split_by: chapter
-  includes:
-    in_header: [ga_script.html]
+  theme:
+    primary: "#024f13"
   config:
-     sharing:
-       github: yes
-       facebook: yes
-       twitter: yes
-       all: []
-     toc:
-          before: |
-            <li><strong><a href="./">Handleiding dendrochronologie</a></strong></li>
-          after: |
-            <li><small><a href="https://bookdown.org/" target="blank">Created with bookdown</a></small></li>
-     toc_float: true
+    toc:
+      toc_float: true

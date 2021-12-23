@@ -1,11 +1,13 @@
-title: "Handleiding: dendrochronologie en erfgoedonderzoek"
-author: "Kristof Haneca"
-date: "`r format(Sys.time(), '%d %B, %Y')`"
-site: "bookdown::bookdown_site"
-output:
-  bookdown::gitbook:
-    split_by: chapter
-documentclass: book
+book_filename: "handleiding_dendro"
+new_session: true
+before_chapter_script: _before.R
+delete_merged_file: true
+language:
+  label:
+    fig: "Figuur " 
+    tab: "Tabel "
+  ui:
+    chapter_name: "hoofdstuk "
 rmd_files: [
   "index.Rmd",
   "00_dendro_wijzigingen.Rmd",
@@ -18,17 +20,8 @@ rmd_files: [
   "07_dendro_analyseren.Rmd",
   "08_dendro_interpretatie.Rmd",
   "09_dendro_radiokoolstof.Rmd",
-  "99_dendro_bibliografie.Rmd",
-  "999_dendro_begrippen.Rmd"
+  "999_dendro_begrippen.Rmd",
+  "99_dendro_bibliografie.Rmd"
 ]
 output_dir: "docs"
-bibliography: "dendro_biblio.bib"
-csl: elsevier-harvard_nl.csl
-link-citations: TRUE
-nocite: '@*'
-description: "Geactualiseerde online versie van de handleiding 'Dendrochronologie en erfgoedonderzoek'"
-cover-image: "./figuren/cover.jpg"
-language:
-     label: 
-       fig: "Figuur " 
-       tab: "Tabel "
+

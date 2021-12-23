@@ -3,7 +3,7 @@
 Na de staalname moeten de bemonsterde stukken hout zo snel mogelijk verpakt worden. Dit is vooral van belang bij nat en waterverzadigd hout. Pas opgegraven hout degradeert snel door de plotse blootstelling aan zuurstof en hogere temperaturen. Daardoor kan het **onderzoekspotentieel** van het hout onherroepelijk verloren gaan. Vooral het snel drogen van natte stukken hout zal er in veel gevallen voor zorgen dat het hout sterk zal beginnen krimpen, scheuren en uiteindelijk zelfs uiteen vallen in meerdere stukken. Daarom is het van groot belang archeologisch hout te beschermen tegen felle uitdroging van zodra het wordt opgegraven. Dit kan op terrein door het af te dekken met plastic of vochtige doeken.
 
 >
->**Na het registreren en intekenen kunnen best zo snel mogelijk stalen worden genomen.**
+>Na het registreren en intekenen kunnen best zo snel mogelijk stalen worden genomen.
 >
 
 Na het registreren en intekenen van het houten element kunnen best zo snel mogelijk stalen worden genomen. De regel is dat nat hout bij voorkeur nat wordt gehouden tot aan het onderzoek. Volgende stappen worden best gevolgd bij het verpakken van een houtstaal, in het geval dat een dwarse doorsnede of stamschijf wordt gezaagd:
@@ -25,7 +25,8 @@ maak de zak zorgvuldig dicht met tape. Dit zorgt ervoor dat het hout niet kan ui
 </div>
 
 <br/>
-```{r dendrostalen, fig.cap = 'Stalen van archeologisch hout, verpakt en voorzien van een ingevuld vondstkaartje.', echo = FALSE, out.width='80%', fig.asp=.75, fig.align='center'}
+
+```{r dendrostalen, fig.cap = 'Stalen van archeologisch hout, verpakt en voorzien van een ingevuld vondstkaartje.'}
 
 knitr::include_graphics("./Figuren/Dendro_figuur27.jpg")
 
@@ -45,10 +46,11 @@ Bewaring van natte houtstalen op langere termijn is en blijft een delicate opdra
 Op vlak van timing kan er maar één advies gegeven worden: breng de stalen voor dendrochronologisch onderzoek zo snel mogelijk, met de nodige documentatie (zie verder), naar de specialist. Die zal een doorgedreven selectie en analyse uitvoeren. Door de tijdspanne zo kort mogelijk te houden, wordt vermeden dat de houtstalen verder kunnen degraderen door biologische aantasting of mechanische vervorming.
 
 >
->**Breng stalen voor dendrochronologisch onderzoek, samen met de nodige documentatie, zo snel mogelijk naar de specialist.**
+>Breng stalen voor dendrochronologisch onderzoek, samen met de nodige documentatie, zo snel mogelijk naar de specialist.
 >
 
 Bij nat hout is dit uiteraard dwingender dan bij droog hout. In droge toestand (vochtgehalte onder de 20%) is het hout vrij stabiel en zal het niet verder degraderen.
+
 
 ## Documentatie
 
@@ -74,7 +76,7 @@ div.blue { background-color:#e6f0ff; border-radius: 5px; padding: 20px;}
 <br/>
 
 >
->**Een goede documentatie van de stalen is uitermate belangrijk, en zal bij de interpretatie van de dateringen een groot verschil maken.**
+> Een goede documentatie van de stalen is uitermate belangrijk, en zal bij de interpretatie van de dateringen een groot verschil maken.
 >
 
 

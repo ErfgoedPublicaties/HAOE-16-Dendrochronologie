@@ -2,7 +2,7 @@
 
 Het eigenlijke opmeten van de groeiringpatronen op de aangeleverde stukken hout gebeurt met behulp van een **stereomicroscoop en een meettafel** (figuur \@ref(fig:meettafel)). Eerst worden de te onderzoeken stukken hout – afhankelijk van de toestand (nat/droog) – op het opmeten voorbereid. Bij nat archeologisch hout wordt op het kopse vlak een ‘leesspoor’ aangebracht, van minstens 0,5 cm breed, door met **scheermesjes of een scalpel** het hout bij te snijden. Droog hout kan ofwel worden bijgesneden met een scalpel of een breekmes, maar ook schuren is hier een optie. In het laatste geval wordt het stuk hout of de boorkern meerdere keren **opgeschuurd** met schuurpapier met steeds fijnere korrel (P80 > P120 > P240 > P360 > P400 > P800), en wordt tussen twee beurten door steeds het stof weggeblazen. De voorbereiding zorgt ervoor dat de groeiringgrenzen duidelijk van elkaar te onderscheiden zijn. Daarna wordt op het stuk hout elke groeiringbreedte langs het leesspoor opgemeten met een nauwkeurigheid van 0,01 mm. Dit gebeurt onder een stereomicroscoop met een vergroting van x10 tot x100. Indien gewerkt wordt met macro-foto’s, worden deze eerst gekalibreerd waarna de breedte van de groeiringen op scherm wordt opgemeten. 
 
-```{r meettafel, fig.cap = 'Opstelling met stereomicroscoop en meettafel voor het opmeten van jaarringpatronen.', echo = FALSE, out.width='60%', fig.asp=.75, fig.align='center'}
+```{r meettafel, fig.cap = 'Opstelling met stereomicroscoop en meettafel voor het opmeten van jaarringpatronen.', echo = FALSE, out.width='60%'}
 
 knitr::include_graphics("./Figuren/Dendro_Figuur22.png")
 
@@ -10,7 +10,7 @@ knitr::include_graphics("./Figuren/Dendro_Figuur22.png")
 
 Het opmeten resulteert in een bestand waarin de meting van elke groeiringbreedte staat geregistreerd (figuur \@ref(fig:output)). Dergelijke bestanden worden in gespecialiseerde software eenvoudig omgezet naar een grafiek (figuur \@ref(fig:output)) of staafdiagram. Deze bestanden vormen de basis van verdere analyses.
 
-```{r output, fig.cap = 'Eén van de mogelijke data-formaten met opmetingen van jaarringbreedtes (links) en de grafiek die met deze metingen wordt opgebouwd (rechts). De groen ingekleurde zones zijn de jaren waar de opgemeten jaarringreeks (rood) en de referentiekalender (blauw) eenzelfde parallel verloop kennen.', echo = FALSE, out.width='100%', fig.asp=.75, fig.align='center'}
+```{r output, fig.cap = 'Eén van de mogelijke data-formaten met opmetingen van jaarringbreedtes (links) en de grafiek die met deze metingen wordt opgebouwd (rechts). De groen ingekleurde zones zijn de jaren waar de opgemeten jaarringreeks (rood) en de referentiekalender (blauw) eenzelfde parallel verloop kennen.', out.width='100%'}
 
 knitr::include_graphics("./Figuren/Dendro_Figuur23.png")
 
@@ -43,13 +43,18 @@ Na het opmeten en analyseren van de geselecteerde stukken hout dienen volgende z
 correlatiewaarden met referentiekalenders (t-waarden, percentage aan parallelle variatie, correlatiecoëfficiënt, …);
 - verantwoording bij de gebruikte referentiekalenders (auteur, samenstelling, geografische dekking, …).
 
-```{r tabelDatering, echo=FALSE, message=FALSE, warning=FALSE, results='asis'}
+<br>
 
-df <- read_xlsx("./tabellen/Tabel_Dendro_datering.xlsx")
+
+```{r tabelDatering, results='asis'}
+
+df <- readxl::read_xlsx("./tabellen/Tabel_Dendro_datering.xlsx")
+
 options(knitr.kable.NA = '')
-knitr::kable(
-     df, caption = "Voorbeeld van een tabel waarin de dateringen volgens het dendrochronologisch onderzoek worden gerapporteerd. Voor de gedateerde jaarringreeksen wordt telkens vermeld met welke referentiekalender er een betrouwbare overeenkomst werd gevonden. Dit wordt hier uitgedrukt door de tBP-waarden en het percentage aan parallelle variatie (%PV). Ook de overlap (= aantal jaar) tussen de opgemeten jaarringreeks en de referentiekalender wordt vermeld (OVL)"
-) %>% kable_styling() %>% scroll_box(width = "100%")
+
+knitr::kable(df, 
+             caption = "Voorbeeld van een tabel waarin de dateringen volgens het dendrochronologisch onderzoek worden gerapporteerd. Voor de gedateerde jaarringreeksen wordt telkens vermeld met welke referentiekalender er een betrouwbare overeenkomst werd gevonden. Dit wordt hier uitgedrukt door de tBP-waarden en het percentage aan parallelle variatie (%PV). Ook de overlap (= aantal jaar) tussen de opgemeten jaarringreeks en de referentiekalender wordt vermeld (OVL)") %>%
+        kable_styling(font_size = 12, full_width = F) %>% scroll_box(width = "100%")
 
 ```
 - BE.Ieper = Referentiekalender (1132 – 1362 AD) opgebouwd met archeologische hout uit Ieper [@haneca_houten_2009].
@@ -58,13 +63,17 @@ knitr::kable(
 - DE.Holl80 = Referentiekalender (400 BC – 1975 AD) opgesteld met archeologisch en subfossiel eikenhout uit Centraal -en Zuid-Duitsland [@hollstein_mitteleuropaische_1980].
 - FL_Medieval = Referentiekalender (808 AD - 1530 AD) voor middeleeuws eikenhout uit Vlaanderen (K. Haneca, ongepubliceerde referentiekalender).
 
+<br>
 
-```{r tabelOutput, echo=FALSE, message=FALSE, warning=FALSE, results='asis'}
+```{r tabelOutput, results='asis'}
 
 df <- read_xlsx("./tabellen/Tabel_Dendro_veldatum.xlsx")
-knitr::kable(
-     df, caption = "Voorbeeld van de berekening van de veldatum voor elke gedateerde jaarringreeks. Bij deze berekening start men bij de einddatering en telt men al dan niet een aantal ontbrekende jaarringen bij in functie van het voorkomen van spinthout of wankant. (W = schors en/of wankant aanwezig)"
-) %>% kable_styling() %>% scroll_box(width = "100%")
+
+options(knitr.kable.NA = '')
+
+knitr::kable(df,
+             caption = "Voorbeeld van de berekening van de veldatum voor elke gedateerde jaarringreeks. Bij deze berekening start men bij de einddatering en telt men al dan niet een aantal ontbrekende jaarringen bij in functie van het voorkomen van spinthout of wankant. (W = schors en/of wankant aanwezig)", align = 'l') %>%
+        kable_styling(font_size = 12, full_width = F) %>% scroll_box(width = "100%")
 
 ```
 
@@ -73,13 +82,13 @@ knitr::kable(
 
 Maak bij de overdracht van de stalen aan een specialist meteen duidelijke afspraken over de latere bewaring, terugname of opgave van de onderzochte stukken hout. Ook over het gebruik en archivering van de eigenlijke meetgegevens worden best concrete afspraken gemaakt. Worden deze in het rapport vermeld, bewaard bij de specialist of gearchiveerd in een databank?
 
-Voor dit laatste zijn er momenteel 2 mogelijkheden:
+Voor dit laatste zijn er meerdere mogelijkheden:
 
 - ITRDB: International Tree Ring Data Bank
      - https://www.ncdc.noaa.gov/data-access/paleoclimatology-data/datasets/tree-ring 
      - weinig historische jaarringreeksen
      - eerder focus op klimatologische studies en ecologische datasets
-- DCCD: Digitaal Collaboratorium voor Culturele Dendrochronologie
+- DCCD: Digitaal Collaboratorium voor Culturele Dendrochronologie (recent omgezet naar dataverse.nl)
      - http://dendro.dans.knaw.nl/ 
      - focus op jaarringreeksen van historische houtconstructies, archeologisch en subfossiel hout.
      - laat toe om veel meta-data te archiveren.
