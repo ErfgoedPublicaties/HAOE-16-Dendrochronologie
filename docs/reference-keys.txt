@@ -74,4 +74,3 @@ oorspronggebied
 C14
 dateren-met-koolstof
 wiggle-matching
-bronnen

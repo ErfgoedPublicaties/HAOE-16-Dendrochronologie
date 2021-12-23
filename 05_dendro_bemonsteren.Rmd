@@ -15,11 +15,14 @@ div.blue { background-color:#e6f0ff; border-radius: 5px; padding: 20px;}
   - vermijd het nemen van een staal ter hoogte van een takaanzet, kwast, wondweefsel of een rot stuk.
 </div>
 <br/>
+
+
 >    
->**Neem een dwarse doorsnede van maximaal 3-5 cm dik. Dat bespaart extra werk bij transport en analyse.**
+> Neem een dwarse doorsnede van maximaal 3-5 cm dik. Dat bespaart extra werk bij transport en analyse.
 >    
 
-```{r staalArcheo, fig.cap = 'Een staal voor dendrochronologisch onderzoek wordt genomen van een archeologisch stuk hout (a-f). Indien scheuren of barsten voorkomen wordt best eerst een tape of folie rond het te verzagen stuk hout gewikkeld (g-h). Let tijdens de staalname op de aanwezigheid van spinthout of schors (i). Zorg dat dit gedeelte zeker vast blijft hangen aan het staal.', echo = FALSE, out.width='100%', fig.asp=.75, fig.align='center'}
+
+```{r staalArcheo, fig.cap = 'Een staal voor dendrochronologisch onderzoek wordt genomen van een archeologisch stuk hout (a-f). Indien scheuren of barsten voorkomen wordt best eerst een tape of folie rond het te verzagen stuk hout gewikkeld (g-h). Let tijdens de staalname op de aanwezigheid van spinthout of schors (i). Zorg dat dit gedeelte zeker vast blijft hangen aan het staal.'}
 
 knitr::include_graphics("./Figuren/Dendro_Figuur14.png")
 
@@ -29,7 +32,7 @@ knitr::include_graphics("./Figuren/Dendro_Figuur14.png")
 Neem een staal van **zoveel mogelijk verschillende elementen per structuur, context of bouwfase**. De kans op een succesvolle datering stijgt aanzienlijk indien er meer stukken kunnen onderzocht worden. De dendrochronologische datering van een individueel stuk hout (sculptuur, boomstamgrafkist, …) is doorgaans veel problematischer dan het hout van bijvoorbeeld een waterput die is opgebouwd uit tientallen planken en palen. Zeker als het te onderzoeken hout relatief weinig groeiringen heeft per houten element, is het essentieel om zoveel mogelijk stalen te nemen.
 
 >
->**De kans op een succesvolle datering stijgt aanzienlijk indien er meer stukken uit een zelfde structuur kunnen onderzocht worden.**
+> De kans op een succesvolle datering stijgt aanzienlijk indien er meer stukken uit een zelfde structuur kunnen onderzocht worden.
 >    
 
 Bezorg zo veel mogelijk stalen aan de expert. Die kan dan de meest geschikte stukken uitkiezen voor verdere analyse. Indien slechts een paar willekeurig gekozen stalen de expert bereiken, bestaat de kans dat een beduidend aantal stukken minder of niet geschikt wordt bevonden.
@@ -37,7 +40,7 @@ Bezorg zo veel mogelijk stalen aan de expert. Die kan dan de meest geschikte stu
 Bij een boomstamwaterput is enkel het buitenste deel van een stam bewaard. Het is aan te raden hier op meerdere plaatsen (minstens 2) een wigvormig stuk uit het bewaarde deel van de stam te zagen (figuur \@ref(fig:boomstamWP)). Ga na of er schors aanwezig is, en zorg ervoor dat dit dan aan het hout blijft vastzitten (vooraf verstevigen met tape is aangewezen).
 
 
-```{r boomstamWP, fig.cap = 'Doorsnede van een boomstamwaterput. De plaats (en vorm) waar een staal voor dendrochronologisch onderzoek kan genomen worden is afgelijnd in het geel. (foto: &copy; KLAD).', echo = FALSE, out.width='80%', fig.asp=.75, fig.align='center'}
+```{r boomstamWP, fig.cap = 'Doorsnede van een boomstamwaterput. De plaats (en vorm) waar een staal voor dendrochronologisch onderzoek kan genomen worden is afgelijnd in het geel. (foto: &copy; KLAD).'}
 
 knitr::include_graphics("./Figuren/Dendro_Figuur15.png")
 
@@ -46,7 +49,7 @@ knitr::include_graphics("./Figuren/Dendro_Figuur15.png")
 
 **Subfossiele boomstammen**, aangetroffen in een opgravingsvlak of -put, kunnen bemonsterd worden door een deel van de stam te ondergraven en daarna met een kettingzaag een stamschijf te zagen (zie figuur \@ref(fig:staalSub)).
 
-```{r staalSub, fig.cap = 'Staalname van een subfossiele stam. Met een kettingzaag wordt een dwarse doorsnede van de stam gezaagd.', echo = FALSE, out.width='100%', fig.asp=.75, fig.align='center'}
+```{r staalSub, fig.cap = 'Staalname van een subfossiele stam. Met een kettingzaag wordt een dwarse doorsnede van de stam gezaagd.'}
 
 knitr::include_graphics("./Figuren/Dendro_Figuur16.png")
 
@@ -64,12 +67,12 @@ De meest geschikte stalen van balken of planken uit historische gebouwen zijn dw
 Deze wijze van bemonsteren is echter niet altijd mogelijk of te verantwoorden omwille van de onomkeerbare destructieve impact op het gebouw. Als alternatief wordt meestal gebruik gemaakt van **holle boren** waarmee een cilinder van hout uit een balk kan gehaald worden (figuur \@ref(fig:staalBouw)). Uiteraard geldt hier eveneens de regel dat er voldoende stalen moeten genomen worden per bouwfase. Indien slechts één balk wordt bemonsterd per bouwfase, is de kans bijzonder klein dat dit tot een datering zal leiden. Zelfs indien dit lukt, zal de interpretatie van één staal dikwijls problematisch zijn. Het is daarom aan te bevelen om **per** geïdentificeerde **bouwfase** telkens **minimum 5 stalen** te nemen.
 
 >
->**Indien slechts één balk wordt bemonsterd per bouwfase, is de kans bijzonder klein dat dit tot een datering zal leiden.**
+> Indien slechts één balk wordt bemonsterd per bouwfase, is de kans bijzonder klein dat dit tot een datering zal leiden.
 >
 
 Essentieel is wel dat de plaats van staalname en het bemonsterde onderdeel worden geregistreerd en dat die in relatie kunnen gebracht worden met het opgemeten groeiringpatroon. Bij staalname in een historische dakkap, worden alle genomen boorkernen best aangeduid op een zogenaamd **dakenplan**. Dit is een schematische weergave van de dakstructuur, waarop de oriëntatie van de dakkap wordt weergegeven (noordpijl, situering binnen gebouw of t.o.v. aanpalende weg), en waarop de plaats van staalname (nummering per sporenpaar, trekbalk, …), het bemonsterde onderdeel (korbeel, stijl, dekbalk, …), eventuele telmerken (nummering op sporen, kepers of dekbalken) en handelsmerken worden aangeduid (figuur \@ref(fig:staalBouw)i). Dit geldt uiteraard ook indien geen boorkernen maar dwarse doorsnedes worden ingezameld van elementen die vervangen worden tijdens een restauratiecampagne.
 
-```{r staalBouw, fig.cap = 'Een dwarse doorsnede van een trekbalk die werd vervangen uit een dakkap (a). Indien schors, wankant of spint aanwezig zijn, wordt best op die plaats een boorkern genomen. Een aanzetstuk helpt bij de positionering (b). Holle houtboren voor het nemen van een boorkern uit historisch bouwhout (c). De holle boor wordt met een boormachine in het hout geboord (d). De boorkern wordt uit het stuk bouwhout gehaald en het boorgat opgevuld (e-h). De plaats van staalname wordt aangeduid op een dakenplan of schets van de houten constructie (i). Boorkernen klaar voor onderzoek (j).', echo = FALSE, out.width='100%', fig.asp=.75, fig.align='center'}
+```{r staalBouw, fig.cap = 'Een dwarse doorsnede van een trekbalk die werd vervangen uit een dakkap (a). Indien schors, wankant of spint aanwezig zijn, wordt best op die plaats een boorkern genomen. Een aanzetstuk helpt bij de positionering (b). Holle houtboren voor het nemen van een boorkern uit historisch bouwhout (c). De holle boor wordt met een boormachine in het hout geboord (d). De boorkern wordt uit het stuk bouwhout gehaald en het boorgat opgevuld (e-h). De plaats van staalname wordt aangeduid op een dakenplan of schets van de houten constructie (i). Boorkernen klaar voor onderzoek (j).'}
 
 knitr::include_graphics("./Figuren/Dendro_Figuur17.png")
 
@@ -79,7 +82,7 @@ knitr::include_graphics("./Figuren/Dendro_Figuur17.png")
 
 Bij waardevolle objecten – paneelschilderijen, houten sculpturen of meubilair – is een (semi-)destructieve staalname meestal uitgesloten. Als de groeiringen echter zichtbaar zijn op een kops vlak kan ook met **digitale detailbeeld** gewerkt worden. De absolute voorwaarde is wel dat alle groeiringgrenzen duidelijk van elkaar te onderscheiden zijn. Eén jaarring ‘missen’ tijdens het registreren van het jaarringpatroon betekent immers dat de analyse en datering zal falen. Dikwijls is een lichte reiniging  van het kops vlak nodig (door schuren, borstelen of met behulp van lichte solventen). Pas daarna kunnen kwaliteitsvolle macro-opnames van het groeiringpatroon gemaakt worden. Dergelijke beelden kunnen aan de hand van een schaallat achteraf gekalibreerd worden, en opgemeten op scherm (figuur \@ref(fig:staalKunst)).
 
-```{r staalKunst, fig.cap = 'Macro-fotografie om het jaarringpatroon op een plank van een middeleeuws reliekschrijn te registreren. Een schaallat wordt mee in beeld gebracht om de opnames achteraf te kunnen kalibreren. De witte driehoeken markeren de overgang tussen twee opeenvolgende jaarringen.', echo = FALSE, out.width='80%', fig.asp=.75, fig.align='center'}
+```{r staalKunst, fig.cap = 'Macro-fotografie om het jaarringpatroon op een plank van een middeleeuws reliekschrijn te registreren. Een schaallat wordt mee in beeld gebracht om de opnames achteraf te kunnen kalibreren. De witte driehoeken markeren de overgang tussen twee opeenvolgende jaarringen.'}
 
 knitr::include_graphics("./Figuren/Dendro_Figuur18.png")
 
@@ -91,7 +94,7 @@ Jaarringanalyse is de meest nauwkeurige manier om de **leeftijd** van een levend
 
 Indien een boorkern van de schors (wankant) tot in het merg van de boom kan genomen worden, kan de leeftijd van de boom bepaald worden door simpelweg de ringen te tellen. Voorwaarde is wel dat de staalname laag op de stam wordt uitgevoerd. Indien men een boring op bijvoorbeeld 1,5 m hoogte uitvoert, dan ‘mist’ men het aantal jaar(ringen) dat de boom nodig had om 1,5 m groot te worden. Wanneer de kern van een boom echter rot is – wat bijvoorbeeld bij lindes vaak het geval is – kan het jaarringpatroon dat nog valt af te lezen op de buitenste schil enkel dienen om een (zeer) ruwe inschatting te maken van de totale leeftijd.
 
-```{r staalBoom, fig.cap = 'Staalname van een levende, monumentale linde met behulp van een Pressler-boor. Op de boorkern zijn de jaarringen na drogen en opschuren of bijsnijden af te lezen.', echo = FALSE, out.width='80%', fig.asp=.75, fig.align='center'}
+```{r staalBoom, fig.cap = 'Staalname van een levende, monumentale linde met behulp van een Pressler-boor. Op de boorkern zijn de jaarringen na drogen en opschuren of bijsnijden af te lezen.'}
 
 knitr::include_graphics("./Figuren/Dendro_Figuur19.png")
 
@@ -104,7 +107,7 @@ Daarnaast is het ook belangrijk om tussen twee boringen bij verschillende indivi
 
 **Afgestorven of omgewaaide monumentale bomen** vormen soms een interessante bron van gegevens voor verder onderzoek naar hun leeftijd of het historisch beheer dat ze hebben ondergaan (figuur \@ref(fig:stamschijf)). Een dwarse doorsnede van die stam is dan het ideale onderzoeksmateriaal, op voorwaarde dat goed gedocumenteerd is op welke hoogte deze is genomen. 
 
-```{r stamschijf, fig.cap = 'Stamschijf van een afgestorven knoteik. Het groeiringpatroon laat toe de frequentie van het knotten – en aldus het voormalig beheer van de boom – te reconstrueren. De driehoeken markeren de jaarringgrenzen. De geel ingekleurde driehoeken geven aan wanneer deze boom werd geknot. Het aantal tussenliggende jaarringen geeft aan hoeveel jaren er verstreken tussen twee knotbeurten.', echo = FALSE, out.width='80%', fig.asp=.75, fig.align='center'}
+```{r stamschijf, fig.cap = 'Stamschijf van een afgestorven knoteik. Het groeiringpatroon laat toe de frequentie van het knotten – en aldus het voormalig beheer van de boom – te reconstrueren. De driehoeken markeren de jaarringgrenzen. De geel ingekleurde driehoeken geven aan wanneer deze boom werd geknot. Het aantal tussenliggende jaarringen geeft aan hoeveel jaren er verstreken tussen twee knotbeurten.'}
 
 knitr::include_graphics("./Figuren/Dendro_Figuur20.png")
 
@@ -113,7 +116,7 @@ knitr::include_graphics("./Figuren/Dendro_Figuur20.png")
 Monumentale bomen hebben dikwijls ook een **monumentale omvang**. Om praktische redenen is een **stamschijf** van een afgestorven boom daarom best **zo dun mogelijk (ca. 5 cm)**; dit om zowel het transport als de analyse onder de microscoop minder omslachtig te maken (figuur \@ref(fig:stamschijf3)). De voorkeur gaat uit naar een volledige schijf. Mocht dit niet mogelijk zijn, dan is een overlangse doorsnede van zo’n schijf ook goed, en als ook dat niet lukt, is een wigvormig stuk een goed alternatief (figuur \@ref(fig:stamschijf2)).
 
 
-```{r stamschijf2, fig.cap = 'Schematische voorstelling van de doorsnede van een stam. Om het volume te beperken kan ook enkel een deel van de stam bewaard worden voor verder onderzoek (blauwe zone).', echo = FALSE, out.width='100%', fig.asp=.75, fig.align='center'}
+```{r stamschijf2, fig.cap = 'Schematische voorstelling van de doorsnede van een stam. Om het volume te beperken kan ook enkel een deel van de stam bewaard worden voor verder onderzoek (blauwe zone).'}
 
 knitr::include_graphics("./Figuren/Dendro_Figuur21.png")
 
@@ -124,7 +127,7 @@ Let er op dat bij het verzagen ook het merg – dit is het centrum van de boom �
 
 
 
-```{r stamschijf3, fig.cap = 'Een stamstuk van een omgewaaide populier onder de microscoop voor een leeftijdsbepaling.', echo = FALSE, out.width='100%', fig.asp=.75, fig.align='center'}
+```{r stamschijf3, fig.cap = 'Een stamstuk van een omgewaaide populier onder de microscoop voor een leeftijdsbepaling.'}
 
 knitr::include_graphics("./Figuren/Dendro_Figuur26.png")
 

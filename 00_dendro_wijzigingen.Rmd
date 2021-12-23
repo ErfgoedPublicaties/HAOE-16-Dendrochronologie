@@ -21,3 +21,6 @@ In het overzicht hier onder worden de belangrijkste wijzigingen ten opzichte van
     - Hoofdstuk [Interpretatie](#interpretatie) verder uitgebreid.
 
 <br/>
+
+- `23-12-2021`:
+    - Nieuw *bootstrap4* theme.

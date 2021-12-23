@@ -15,7 +15,7 @@ Een dendrochronologische datering kan in sommige gevallen ook de **authenticitei
 
 Naast een exacte datering slaagt een dendrochronologisch onderzoek er dikwijls ook in om een idee te geven over het **herkomstgebied van het hout** - dit is de regio waar de boom oorspronkelijk is gegroeid. Bij een herkomstbepaling (Eng.: _dendro-provenancing_) wordt het groeipatroon van een stuk hout vergeleken met referentiekalenders uit verschillende streken. Op die manier wordt nagegaan met welke regionale referentiekalenders de beste overeenkomst optreedt. Regionale referentiekalenders zijn opgebouwd met hout afkomstig uit één welbepaalde regio, maar de omvang van een regio is daarbij wel sterk variabel. Zo bestaan er kalenders die zijn samengesteld met gedateerde groeiringreeksen uit een groot gebied zoals Zuid-Duitsland, terwijl andere enkel hout uit één bepaalde stad (bv. Gdansk, Polen) of uit een kleine regio (bv. Vlaanderen) vertegenwoordigen. Door het herkomstgebied te bepalen krijgen we meer inzicht in de vroegere handel in (bouw)hout. Dit is niet onbelangrijk voor een regio als Vlaanderen waar vanaf de middeleeuwen aanzienlijke hoeveelheden kwaliteitsvol hout werden geïmporteerd. Deze toepassing van het dendrochronologisch onderzoek laat toe om het onderscheid te maken tussen lokaal en geïmporteerd hout. Dit laatste is zeker van belang bij vondsten die niet noodzakelijk ter plaatse zijn gemaakt. Denken we bijvoorbeeld aan tonnen die als verpakkingsmateriaal werden gebruikt, (beschilderde) panelen, meubilair of sculpturen, allemaal goederen die over grote afstanden konden verhandeld worden. Maar ook een (middeleeuwse) dakkap is vaak opgetrokken uit balken die werden aangevoerd uit verafgelegen en meer bosrijke gebieden. En zeker bij **scheepshout** is de vindplaats van een wrak of scheepsonderdeel zelden dezelfde plek waar het schip werd gebouwd.
 
-```{r import, fig.cap='Tonnen, wandpanelen en een dakkap gemaakt uit geïmporteerd eikenhout', echo = FALSE, out.width='80%', fig.asp=.75, fig.align='center'}
+```{r import, fig.cap='Tonnen, wandpanelen en een dakkap gemaakt uit geïmporteerd eikenhout'}
 
 knitr::include_graphics("./figuren/Dendro_Figuur29.png")
 
@@ -35,7 +35,7 @@ Ook bij levende vegetatie met erfgoedwaarde - denken we aan monumentale bomen - 
 
 Een grondige analyse van het groeiringpatroon kan ook meer duidelijkheid scheppen over het vroegere beheer van de boom: bijvoorbeeld het regelmatig **snoeien of knotten**. Het intensief en soms regelmatig herhaald snoeien van takken zorgt er voor dat de kruin van een boom beperkt blijft en daardoor ook minder bladeren vormt. Dat beperkt dan weerd de opname van $CO_2$ en - via fotosynthese - dus ook de aanmaak van de basiselementen waaruit nieuwe houtcellen worden aangemaakt. De boom kan de groeiseizoenen die volgen op een intensieve snoei daardoor minder nieuw hout aanmaken en vormt dan een aantal smallere ringen, die we kunnen herkennen in het jaarringpatroon.
 
-```{r WOI, fig.cap='Stamdoorsnede van een oude eik waarin er stukken shrapnel uit de Eerste Wereldoorlog aanwzig zijn en het hout lokaal donker kleuren', echo = FALSE, out.width='100%', fig.asp=.75, fig.align='center'}
+```{r WOI, fig.cap='Stamdoorsnede van een oude eik waarin er stukken shrapnel uit de Eerste Wereldoorlog aanwzig zijn en het hout lokaal donker kleuren'}
 
 knitr::include_graphics("./figuren/Dendro_Figuur28.jpg")
 
