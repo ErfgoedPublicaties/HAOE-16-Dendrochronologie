@@ -41,6 +41,8 @@ Na het opmeten en analyseren van de geselecteerde stukken hout dienen volgende z
 correlatiewaarden met referentiekalenders (t-waarden, percentage aan parallelle variatie, correlatiecoëfficiënt, …);
 - verantwoording bij de gebruikte referentiekalenders (auteur, samenstelling, geografische dekking, …).
 
+<br>
+
 
 <div style="border: 1px solid #ddd; padding: 5px; overflow-x: scroll; width:100%; "><table class="table" style="font-size: 12px; width: auto !important; margin-left: auto; margin-right: auto;">
 <caption style="font-size: initial !important;">(\#tab:tabelDatering)Voorbeeld van een tabel waarin de dateringen volgens het dendrochronologisch onderzoek worden gerapporteerd. Voor de gedateerde jaarringreeksen wordt telkens vermeld met welke referentiekalender er een betrouwbare overeenkomst werd gevonden. Dit wordt hier uitgedrukt door de tBP-waarden en het percentage aan parallelle variatie (%PV). Ook de overlap (= aantal jaar) tussen de opgemeten jaarringreeks en de referentiekalender wordt vermeld (OVL)</caption>
@@ -127,8 +129,9 @@ correlatiewaarden met referentiekalenders (t-waarden, percentage aan parallelle 
 - DE.Holl80 = Referentiekalender (400 BC – 1975 AD) opgesteld met archeologisch en subfossiel eikenhout uit Centraal -en Zuid-Duitsland [@hollstein_mitteleuropaische_1980].
 - FL_Medieval = Referentiekalender (808 AD - 1530 AD) voor middeleeuws eikenhout uit Vlaanderen (K. Haneca, ongepubliceerde referentiekalender).
 
+<br>
 
-<div style="border: 1px solid #ddd; padding: 5px; overflow-x: scroll; width:100%; "><table class="table" style="font-size: 12px; margin-left: auto; margin-right: auto;">
+<div style="border: 1px solid #ddd; padding: 5px; overflow-x: scroll; width:100%; "><table class="table" style="font-size: 12px; width: auto !important; margin-left: auto; margin-right: auto;">
 <caption style="font-size: initial !important;">(\#tab:tabelOutput)Voorbeeld van de berekening van de veldatum voor elke gedateerde jaarringreeks. Bij deze berekening start men bij de einddatering en telt men al dan niet een aantal ontbrekende jaarringen bij in functie van het voorkomen van spinthout of wankant. (W = schors en/of wankant aanwezig)</caption>
  <thead>
   <tr>

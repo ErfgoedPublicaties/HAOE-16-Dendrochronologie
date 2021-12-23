@@ -17,10 +17,10 @@ blockquote {
   font-size: 20px;
   padding: 25px;
   margin: 25px;
-  border-left: 6px solid #024f13;
+  border-left: 6px solid #024f13
 }
 
 blockquote p {
   font-weight: bold;
-  font-style: italic;
+  font-style: italic
 }
