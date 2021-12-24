@@ -28,7 +28,7 @@ maak de zak zorgvuldig dicht met tape. Dit zorgt ervoor dat het hout niet kan ui
 
 
 <div class="figure" style="text-align: center">
-<img src="./Figuren/Dendro_figuur27.jpg" alt="Stalen van archeologisch hout, verpakt en voorzien van een ingevuld vondstkaartje." width="100%" />
+<img src="./figuren/Dendro_Figuur27.jpg" alt="Stalen van archeologisch hout, verpakt en voorzien van een ingevuld vondstkaartje." width="100%" />
 <p class="caption">(\#fig:dendrostalen)Stalen van archeologisch hout, verpakt en voorzien van een ingevuld vondstkaartje.</p>
 </div>
 
