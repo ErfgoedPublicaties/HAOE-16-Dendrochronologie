@@ -24,3 +24,15 @@ blockquote p {
   font-weight: bold;
   font-style: italic
 }
+
+/* Bibliography / references */
+/* https://github.com/rstudio/bookdown/pull/1277 */
+
+.csl-entry {
+  margin-top: 1em;
+}
+
+.hanging-indent .csl-entry {
+  padding-left: 1em;
+  text-indent: -1em;
+}

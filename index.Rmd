@@ -8,7 +8,7 @@ url: "https://hanecakr.github.io/handleidingDendro/"
 cover-image: figuren/cover.jpg
 github-repo: hanecakr/handleidingDendro/
 bibliography: "dendro_biblio.bib"
-csl: "chicago-fullnote-bibliography-16th-edition.csl"
+csl: elsevier-harvard_nl.csl
 link-citations: TRUE
 nocite: '@*'
 ---
