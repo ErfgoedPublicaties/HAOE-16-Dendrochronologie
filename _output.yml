@@ -6,3 +6,5 @@ bookdown::bs4_book:
   config:
     toc:
       toc_float: true
+  includes:
+    in_header: [ga_script.html]
