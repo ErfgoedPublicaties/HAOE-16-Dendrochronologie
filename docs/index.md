@@ -1,7 +1,7 @@
 ---
 title: "Dendrochronologie en erfgoedonderzoek"
 author: "Kristof Haneca [![](https://orcid.org/sites/default/files/images/orcid_16x16.png)](https://orcid.org/0000-0002-7719-8305)"
-date: "24 december, 2021"
+date: "12 januari, 2022"
 site: bookdown::bookdown_site
 description: "Dendrochronologie en erfgoedonderzoek: een praktische handleiding voor de erfgoedonderzoeker."
 url: "https://hanecakr.github.io/handleidingDendro/" 
@@ -28,7 +28,7 @@ Met deze online versie willen we kleine aanpassingen aan de originele uitgave, v
 
 Gelieve te citeren als: <br/> 
 
-Haneca K. (2021-12-24). Dendrochronologie en erfgoedonderzoek. Handleiding agentschap Onroerend Erfgoed, Brussel [online: https://hanecakr.github.io/handleidingDendro/]
+Haneca K. (2022-01-12). Dendrochronologie en erfgoedonderzoek. Handleiding agentschap Onroerend Erfgoed, Brussel [online: https://hanecakr.github.io/handleidingDendro/]
 
 Oorspronkelijke gepubliceerd als: <br/>
 
