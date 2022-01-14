@@ -62,7 +62,7 @@ Bij waardevolle houten objecten of structuren, waar een **conservatietraject** w
 
 ## Bouwkundig erfgoed
 
-De meest geschikte stalen van balken of planken uit historische gebouwen zijn dwarse doorsnedes, m.a.w. gelijkaardig aan wat beschreven is voor archeologisch en subfossiel hout (figuren \@ref(fig:staalArcheo) en \@ref(fig:staalSub)). Op een dwarse doorsnede van ca. 5 cm dik kan het groeiringpatroon zonder problemen worden opgemeten. **Bij vervanging van historisch bouwhout** kunnen dergelijke stalen makkelijk genomen worden. Zo blijft het onderzoekspotentieel van het historische bouwhout bewaard en het te bewaren volume tot een minimum beperkt.
+De meest geschikte stalen van balken of planken uit historische gebouwen zijn dwarse doorsnedes, m.a.w. gelijkaardig aan wat beschreven is voor archeologisch en subfossiel hout (figuren \@ref(fig:staalArcheo) en \@ref(fig:staalSub)). Op een dwarse doorsnede van ca. 5 cm dik kan het groeiringpatroon zonder problemen worden opgemeten (figuur \@ref(fig:staalBouw)a). **Bij vervanging van historisch bouwhout** kunnen dergelijke stalen makkelijk genomen worden. Zo blijft het onderzoekspotentieel van het historische bouwhout bewaard en het te bewaren volume tot een minimum beperkt.
 
 Deze wijze van bemonsteren is echter niet altijd mogelijk of te verantwoorden omwille van de onomkeerbare destructieve impact op het gebouw. Als alternatief wordt meestal gebruik gemaakt van **holle boren** waarmee een cilinder van hout uit een balk kan gehaald worden (figuur \@ref(fig:staalBouw)). Uiteraard geldt hier eveneens de regel dat er voldoende stalen moeten genomen worden per bouwfase. Indien slechts één balk wordt bemonsterd per bouwfase, is de kans bijzonder klein dat dit tot een datering zal leiden. Zelfs indien dit lukt, zal de interpretatie van één staal dikwijls problematisch zijn. Het is daarom aan te bevelen om **per** geïdentificeerde **bouwfase** telkens **minimum 5 stalen** te nemen.
 
@@ -74,7 +74,7 @@ Essentieel is wel dat de plaats van staalname en het bemonsterde onderdeel worde
 
 ```{r staalBouw, fig.cap = 'Een dwarse doorsnede van een trekbalk die werd vervangen uit een dakkap (a). Indien schors, wankant of spint aanwezig zijn, wordt best op die plaats een boorkern genomen. Een aanzetstuk helpt bij de positionering (b). Holle houtboren voor het nemen van een boorkern uit historisch bouwhout (c). De holle boor wordt met een boormachine in het hout geboord (d). De boorkern wordt uit het stuk bouwhout gehaald en het boorgat opgevuld (e-h). De plaats van staalname wordt aangeduid op een dakenplan of schets van de houten constructie (i). Boorkernen klaar voor onderzoek (j).'}
 
-knitr::include_graphics("./Figuren/Dendro_Figuur17.png")
+knitr::include_graphics("./Figuren/Dendro_figuur17_update.png")
 
 ```
 
