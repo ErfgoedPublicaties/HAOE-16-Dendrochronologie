@@ -1,0 +1,22 @@
+/*-- scss:rules --*/
+
+.panel-caption, .figure-caption, figcaption {
+  font-size: 0.8rem;
+  font-style: italic;
+  font-weight: 400;
+  color: #8193af;
+  margin-top: 2px;
+}
+
+.blockquote {
+  width: 80%;
+  font-size: 20px;
+  padding: 25px;
+  margin: 25px;
+  border-left: 6px solid #3E7049
+}
+
+.blockquote p {
+  font-weight: bold;
+  font-style: italic
+}
