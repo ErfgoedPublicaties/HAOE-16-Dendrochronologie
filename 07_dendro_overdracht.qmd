@@ -1,0 +1,42 @@
+# Overdracht naar specialist {#specialist}
+
+## Timing
+
+Op vlak van timing kan er maar één advies gegeven worden: breng de stalen voor dendrochronologisch onderzoek zo snel mogelijk, met de nodige documentatie (zie verder), naar de specialist. Die zal een doorgedreven selectie en analyse uitvoeren. Door de tijdspanne zo kort mogelijk te houden, wordt vermeden dat de houtstalen verder kunnen degraderen door biologische aantasting of mechanische vervorming.
+
+>
+>Breng stalen voor dendrochronologisch onderzoek, samen met de nodige documentatie, zo snel mogelijk naar de specialist.
+>
+
+Bij nat hout is dit uiteraard dwingender dan bij droog hout. In droge toestand (vochtgehalte onder de 20%) is het hout vrij stabiel en zal het niet verder degraderen.
+
+
+## Documentatie
+
+Bij de overdracht van de stalen aan de dendrochronoloog wordt een **overzichtslijst** bijgevoegd met daarop:
+
+
+<style>
+div.blue { background-color:#e6f0ff; border-radius: 5px; padding: 20px;}
+</style>
+<div class = "blue">
+
+  - naam van de opdrachtgever + contactgegevens;
+  - naam van de archeologische site / historisch gebouw of houtconstructie + adres (eventueel met de centrale geografische coördinaten van de site of het gebouw);
+  - een overzicht van alle stalen met hun nummer. De nummering moet per staal uniek zijn;
+  - archeologisch hout: per staalnummer het spoor waartoe het behoort. Zo is duidelijk welke stalen afkomstig zijn van eenzelfde structuur of spoor. Ook de samenhang tussen stalen op basis van stratigrafie wordt meegedeeld;
+  - hout uit bouwkundig erfgoed: per staal de locatie van het staal binnen de structuur en – indien gekend of verondersteld – de bouwfase;
+  - andere indicaties voor datering (associatie, historische bronnen, kunsthistorische interpretatie, …);
+  - sporen van hergebruik (bv. open, niet-functionele verbindingen).
+
+</div>
+
+
+<br/>
+
+>
+> Een goede documentatie van de stalen is uitermate belangrijk, en zal bij de interpretatie van de dateringen een groot verschil maken.
+>
+
+
+Een goede documentatie van de stalen is uitermate belangrijk, en zal bij de interpretatie van de dateringen een groot verschil maken. De combinatie van stalen uit een zelfde structuur of bouwfase kan in sommige gevallen tot een meer precieze datering leiden. Ook het interpreteren van mogelijk afwijkende dateringen wordt door een goede inventaris meteen concreet.

@@ -1,0 +1,35 @@
+# Kruisbestuiving met radiokoolstof {#C14}
+
+## Dateren met koolstof
+
+Niet alle dendrochronologische analyses leveren een absolute datering op. In sommige gevallen laten de opgemeten groeiringpatronen zich niet inpassen in een referentiekalender of worden de stukken hout niet weerhouden omdat ze te weinig groeiringen hebben. Dan is een radiokoolstofdatering het beste alternatief. In de [handleiding dateren met radiokoolstof](https://hanecakr.github.io/handleidingRadiokoolstof/) lees je meer over de basisprincipes, randvoorwaarden en toepassing van $\mathrm{^{14}C}$-dateringen binnen het erfgoedonderzoek.
+
+Een $\mathrm{^{14}C}$-datering op archeologisch hout wordt in veel gevallen uitgevoerd op stukken jong hout. Dit is hout van jonge bomen, dunne takken of spinthout die door het beperkt aantal ringen op zich al niet geschikt zijn voor dendrochronologisch onderzoek. Aan de hand van het aantal groeiringen en/of hun oriëntatie kan worden nagegaan of het geselecteerde hout wel degelijk juveniel is.
+
+Interactie tussen $\mathrm{^{14}C}$-analyses en dendrochronologische dateringen kunnen de interpretatie van bepaalde structuren of gebruiksfasen scherper stellen en verfijnen. Op de archeologische site Kluizenmolen (Sint-Gillis-Waas) werd in 2010 een waterput dendrochronologisch gedateerd met een veldatum tussen 52 en 61 AD. Uit diezelfde waterput werd ook een takje uit de organische vulling gedateerd met de radiokoolstofmethode. Dit leverde een datering op van 2001 ± 31 BP (RICH-20248), wat gekalibreerd met 95,4% probabiliteit een datering tussen 51 BC en 84 BC (90,8%) of 95 en 116 AD (4,6%) oplevert. Koppelen we dit terug met de dendrochronologische datering, en nemen we aan dat de organische opvulling zich pas begon te vormen na de opgave van de waterput, dan is de kans groot dat deze maximaal 23 (= 84 - 61) tot 32 (= 84 - 52) jaar in gebruik is geweest (@fig-Oxcalplot). De gekalibreerde radiokoolstofdatering wijst echter ook op de mogelijkheid dat het takje uit de opvulling een nog jongere datering heeft, nl. tussen 95 en 116 AD. Alhoewel dit minder waarschijnlijk is dan het grotere dateringsinterval (4,6% t.o.v. 90,8%), mag dit meest recente interval niet genegeerd worden. Duidelijk is wel dat de combinatie van beide dateringstechnieken toelaat om tot een meer diepgaande interpretatie te komen. Al gaan we er in dit geval wel vanuit dat het gedateerde takje niet residueel of intrusief is.
+ 
+
+::: {#fig-Oxcalplot}
+
+![](./figuren/dendro_figuur25_update.png)
+
+De dendrochronologische datering van de Romeinse waterput WP2 van de site Kluizenmolen en de gekalibreerde radiokoolstofdatering van een takje uit de organische vulling van de waterput. Daaruit valt af te leiden dat deze waterput maximaal 23 tot 32 jaar in gebruik was, als we aannemen dat de organische opvulling pas startte na opgave van de waterput.
+:::
+
+
+## _Wiggle matching_
+
+Indien geen geschikte stukken hout beschikbaar zijn voor een dendrochronologisch onderzoek (verkeerde houtsoort, te weinig ringen, enkel takhout, …), maar er toch een precieze datering gewenst is, kan ***wiggle matching*** overwogen worden. Deze techniek levert een veel exactere uitkomst op dan een $\mathrm{^{14}C}$-datering van één staal. Zeker voor het dateren van historische houtconstructies kan deze techniek dus van groot nut zijn.
+
+Op een stuk hout worden dan, aan de hand van het groeiringpatroon, verschillende bemonsteringspunten vastgelegd, met een gekend interval (= aantal jaarringen) tussen de verschillende punten (\@fig-wiggleMatching). Op elk van deze punten wordt een radiokoolstofanalyse uitgevoerd en de resultaten hiervan in een Bayesiaans model gebracht. De waarschijnlijkheidsdistributies van de individuele dateringen kunnen dan nauwer worden door de met absolute zekerheid gekende sequentie van oud naar jong en het exacte leeftijdsverschil tussen de dateringen in rekening te brengen.
+
+_Wiggle matching_ biedt ook een uitkomst om houtsoorten te dateren waarvoor geen dendrochronologische kalenders beschikbaar zijn of waarbij de groei en de anatomie de toepassing van de techniek niet toelaten. In principe heeft de houtsoort geen belang zolang er maar jaarringen kunnen onderscheiden worden.
+
+
+::: {#fig-wiggleMatching}
+
+![](./figuren/dendro_figuur24.png)
+
+Wiggle-matching uitgevoerd op een plank van een waterputbekisting uit de late bronstijd (a). Vijf stalen waarop een radiokoolstofdatering werd uitgevoerd (b) worden in een wiskundig model aan elkaar verbonden door de tussenafstand, uitgedrukt in aantal jaarringen, in het model op te nemen (c). Het opgebouwde model laat toe om de veldatum van dit stuk hout (tussen 940 BC en 890 BC (95,4% betrouwbaarheidsinterval)) veel preciezer te bepalen dan op basis van een individuele radiokoolstofdatering mogelijk is.
+:::
+

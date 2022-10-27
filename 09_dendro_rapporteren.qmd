@@ -1,0 +1,82 @@
+# Rapporteren {#rapporteren}
+
+## Assessment
+
+Bij een assessment van potentiële stalen voor dendrochronologisch onderzoek wordt een beperkt aantal kenmerken in kaart gebracht om zo een goede **inschatting** te kunnen maken van het **onderzoekspotentieel**. Daarbij wordt een antwoord geformuleerd op de volgende vragen:
+
+-   Betreft het een houtsoort waarvoor er in onze regio referentiekalenders beschikbaar zijn (eik, beuk, zilverspar, grove den, fijnspar)?
+-   Hoeveel groeiringen zijn er bij benadering op te meten op het kopse vlak?
+-   Zijn er verstoringen aanwezig in het groeiringpatroon door knoesten, wondweefsel of een takaanzet?
+
+Indien het een geschikte houtsoort betreft, er een voldoende lange jaarringreeks kan opgemeten worden en er geen al te grote verstoringen te zien zijn in het hout, is het geselecteerde staal zeker geschikt voor verder dendrochronologisch onderzoek. Houtstalen die te weinig ringen bevatten of uit een houtsoort bestaan die moeilijk of niet te dateren valt, worden op deze manier weggeselecteerd en niet opgenomen in het vervolgonderzoek.
+
+## Basisrapportage
+
+Na het opmeten en analyseren van de geselecteerde stukken hout dienen volgende zaken duidelijk gerapporteerd te worden. Enkel zo kan men tot een kwaliteitsvolle interpretatie van de resultaten komen:
+
+-   label toegekend aan het staal en de administratieve gegevens uit het archeologisch of bouwhistorisch onderzoek (spoor- en vondstnummer, locatie in gebouw, ...);
+-   aantal opgemeten jaarringen per staal (= lengte jaarringpatroon);
+-   aanwezigheid van spint (aantal jaarringen in het spinthout apart vermeld) en wankant per staal. Indien de wankant aanwezig is, volgt ook een beschrijving van de anatomische opbouw van de laatste ring (bv. bestaat de laatste ring enkel uit vroeghout?). Dit is van belang om tot de meest precieze interpretatie van de datering te komen (zie: hoofdstuk \@ref(interpretatie): Interpretatie);
+-   in het geval dat het staal kon gedateerd worden: de datering van de meest recente ring per staal; correlatiewaarden met referentiekalenders (t-waarden, percentage aan parallelle variatie, correlatiecoëfficiënt, ...);
+-   verantwoording bij de gebruikte referentiekalenders (auteur, samenstelling, geografische dekking, ...).
+
+<br>
+
+```{r}
+#| label: tbl-tabelDatering
+#| tbl-cap: Voorbeeld van een tabel waarin de dateringen volgens het dendrochronologisch onderzoek worden gerapporteerd. Voor de gedateerde jaarringreeksen wordt telkens vermeld met welke referentiekalender er een betrouwbare overeenkomst werd gevonden. Dit wordt hier uitgedrukt door de tBP-waarden en het percentage aan parallelle variatie (%PV). Ook de overlap (= aantal jaar) tussen de opgemeten jaarringreeks en de referentiekalender wordt vermeld (OVL).
+# | warning: false
+
+library(readxl)
+library(kableExtra)
+
+df <- readxl::read_xlsx("./tabellen/Tabel_Dendro_datering.xlsx")
+
+options(knitr.kable.NA = '')
+
+df |> 
+  kbl() |> 
+  kable_styling(bootstrap_options = c("hover", "condensed", "responsive"))
+
+```
+
+-   BE.Ieper = Referentiekalender (1132 -- 1362 AD) opgebouwd met archeologische hout uit Ieper [@haneca_houten_2009].
+-   BE.Meuse = Referentiekalender (672 -- 1991 AD) opgebouwd met eikenhout uit archeologische en bouwhistorische contexten uit de Maasvallei [@hoffsummer_les_1995].
+-   FR.Moselle = Referentiekalender opgebouwd met archeologisch hout uit de vallei van de Moezel (W. Tegel, ongepubliceerde data, www.dendronet.de)
+-   DE.Holl80 = Referentiekalender (400 BC -- 1975 AD) opgesteld met archeologisch en subfossiel eikenhout uit Centraal -en Zuid-Duitsland [@hollstein_mitteleuropaische_1980].
+-   FL_Medieval = Referentiekalender (808 AD - 1530 AD) voor middeleeuws eikenhout uit Vlaanderen (K. Haneca, ongepubliceerde referentiekalender).
+
+<br>
+
+```{r }
+#| label: tbl-tabelOutput
+#| tbl-cap: Voorbeeld van de berekening van de veldatum voor elke gedateerde jaarringreeks. Bij deze berekening start men bij de einddatering en telt men al dan niet een aantal ontbrekende jaarringen bij in functie van het voorkomen van spinthout of wankant. (W = schors en/of wankant aanwezig).
+# | warning: false
+
+df <- read_xlsx("./tabellen/Tabel_Dendro_veldatum.xlsx")
+
+options(knitr.kable.NA = '')
+
+df |> 
+  kbl() |> 
+  kable_styling(bootstrap_options = c("hover", "condensed", "responsive"))
+  # kable_styling("hover", full_width = F)  
+  # scroll_box(width = "100%")
+
+```
+
+## Dataopslag
+
+Maak bij de overdracht van de stalen aan een specialist meteen duidelijke afspraken over de latere bewaring, terugname of opgave van de onderzochte stukken hout. Ook over het gebruik en archivering van de eigenlijke meetgegevens worden best concrete afspraken gemaakt. Worden deze in het rapport vermeld, bewaard bij de specialist of gearchiveerd in een databank?
+
+Voor dit laatste zijn er meerdere mogelijkheden:
+
+-   ITRDB: International Tree Ring Data Bank
+    -   https://www.ncdc.noaa.gov/data-access/paleoclimatology-data/datasets/tree-ring
+    -   weinig historische jaarringreeksen
+    -   eerder focus op klimatologische studies en ecologische datasets
+-   DCCD: Digitaal Collaboratorium voor Culturele Dendrochronologie (recent omgezet naar dataverse.nl)
+    -   http://dendro.dans.knaw.nl/
+    -   focus op jaarringreeksen van historische houtconstructies, archeologisch en subfossiel hout.
+    -   laat toe om veel meta-data te archiveren.
+    -   hoofdzakelijk Europese datasets.
