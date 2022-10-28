@@ -20,7 +20,16 @@ Haneca K. (2017). Dendrochronologie en erfgoedonderzoek, Handleiding agentschap 
 
 ![](./figuren/figuur_intro3.jpg){width=100%}
 
+<br/>
 
 ## De auteur {-}
+```{r echo=F}
+library(fontawesome)
+```
 
-Dr. Kristof Haneca is erfgoedonderzoeker bij het *agentschap Onroerend Erfgoed* en gespecialiseerd in dendrochronologie.
+
+Dr. Kristof Haneca is erfgoedonderzoeker bij het [*agentschap Onroerend Erfgoed*](https://www.onroerenderfgoed.be/) en gespecialiseerd in dendrochronologie.<br/>
+[`r fa("linkedin", fill = "#0077B7")`](https://www.linkedin.com/in/kristof-haneca-94b4996/)
+[`r fa("twitter", fill = "steelblue")`](https://twitter.com/KristofHaneca)
+[`r fa("orcid", fill = "#A6CE39")`](https://orcid.org/0000-0002-7719-8305)
+[`r fa("github")`](https://github.com/hanecakr)

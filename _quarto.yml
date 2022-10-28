@@ -1,6 +1,6 @@
 project:
   type: book
-  output-dir: _docs
+  output-dir: docs
 
 execute:
   echo: false
@@ -21,7 +21,8 @@ book:
   twitter-card:
     image: figuren/cover_handleiding.jpg
   repo-url: https://github.com/hanecakr/handleidingDendro/
-  repo-actions: [edit]
+  repo-actions: [edit, issue]
+  site-url: https://hanecakr.github.io/handleidingDendro/
   sidebar:
     logo: QR_githubDendro.png 
   google-analytics:
