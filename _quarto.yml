@@ -1,0 +1,79 @@
+project:
+  type: book
+  output-dir: _docs
+
+execute:
+  echo: false
+
+lang: nl
+
+book:
+  title: "Dendrochronologie en erfgoedonderzoek"
+  subtitle: "-- een handleiding"
+  author: 
+    - name: Kristof Haneca
+      orcid: 0000-0002-7719-8305
+  publisher: "agentschap Onroerend Erfgoed"
+  date: today
+  cover-image: figuren/cover_handleiding.jpg
+  # collapse-level: 3
+  sharing: [twitter, facebook, linkedin]
+  twitter-card:
+    image: figuren/cover_handleiding.jpg
+  repo-url: https://hanecakr.github.io/handleidingDendro/
+  repo-actions: [edit]
+  sidebar:
+    logo: QR_githubDendro.png 
+  google-analytics:
+   tracking-id: "G-WRYSRDGLWG"
+  chapters:
+    - index.qmd
+    - 00_dendro_wijzigingen.qmd
+    - part: "Handleiding"
+      chapters:
+      - 01_dendro_intro.qmd
+      - 02_dendro_principes.qmd
+      - 03_dendro_onderzoeksvragen.qmd
+      - 04_dendro_randvoorwaarden.qmd
+      - 05_dendro_bemonsteren.qmd
+      - 06_dendro_bewaren.qmd
+      - 07_dendro_overdracht.qmd
+      - 08_dendro_analyseren.qmd
+      - 09_dendro_rapporteren.qmd
+      - 10_dendro_interpretatie.qmd
+      - 11_dendro_radiokoolstof.qmd
+    - part: "Begrippen"
+      chapters: 
+      - 999_dendro_begrippen.qmd
+    - part: "Bronnen"
+      chapters: 
+      - 999_dendro_bibliografie.qmd
+    
+title-block-banner: "#0e4d1c"
+
+bibliography: dendro_biblio.bib
+csl: elsevier-harvard_nl.csl
+
+crossref:
+  fig-title: Figuur
+  fig-prefix: fig.
+  
+language:
+  toc-title-document: "Op deze pagina"
+  search-no-results-text: "Geen resultaat"
+  repo-action-links-edit: "Bewerk deze pagina"
+  title-block-author-plural: "auteurs"
+  title-block-published: "laatste update"
+
+format:
+  html:
+    theme:
+      light:
+        - cosmo
+        - mycss.css
+      dark:
+        - slate
+        - mycss.css
+    linkcolor: "#3E7049"
+    toc-depth: 4
+    link-external-newwindow: true

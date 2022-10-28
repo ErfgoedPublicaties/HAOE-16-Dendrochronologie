@@ -2,3 +2,6 @@
 .Rhistory
 .RData
 .Ruserdata
+convert_rmd_to_qmd.qmd
+
+/.quarto/
