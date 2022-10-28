@@ -27,6 +27,6 @@ In het overzicht hier onder worden de belangrijkste wijzigingen ten opzichte van
 
 <br/>
 
-- `v 1.1.3` (27-10-2022):
+- `v 1.1.3` (28-10-2022):
     - Omschakelen van `bookdown` naar `quarto`.
     - Aangepaste layout website.

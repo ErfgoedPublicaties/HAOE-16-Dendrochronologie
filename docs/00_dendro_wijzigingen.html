@@ -80,7 +80,7 @@ gtag('config', 'G-WRYSRDGLWG', { 'anonymize_ip': true});
 
 <meta name="twitter:title" content="Dendrochronologie en erfgoedonderzoek - Updates">
 <meta name="twitter:description" content="In het overzicht hier onder worden de belangrijkste wijzigingen ten opzichte van de originele publicatie uit 2017 opgesomd in chronologische volgorde.">
-<meta name="twitter:image" content="figuren/cover_handleiding.jpg">
+<meta name="twitter:image" content="https://hanecakr.github.io/handleidingDendro/figuren\cover_handleiding.jpg">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
@@ -306,7 +306,7 @@ gtag('config', 'G-WRYSRDGLWG', { 'anonymize_ip': true});
 </ul>
 <p><br></p>
 <ul>
-<li><code>v 1.1.3</code> (27-10-2022):
+<li><code>v 1.1.3</code> (28-10-2022):
 <ul>
 <li>Omschakelen van <code>bookdown</code> naar <code>quarto</code>.</li>
 <li>Aangepaste layout website.</li>
@@ -563,7 +563,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
-      var filterRegex = new RegExp('/' + window.location.host + '/');
+      var filterRegex = new RegExp(/https:\/\/hanecakr\.github\.io\/handleidingDendro\//);
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href);
     }

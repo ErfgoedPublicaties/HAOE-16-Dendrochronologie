@@ -80,7 +80,7 @@ gtag('config', 'G-WRYSRDGLWG', { 'anonymize_ip': true});
 
 <meta name="twitter:title" content="Dendrochronologie en erfgoedonderzoek">
 <meta name="twitter:description" content="-- een handleiding">
-<meta name="twitter:image" content="figuren/cover_handleiding.jpg">
+<meta name="twitter:image" content="https://hanecakr.github.io/handleidingDendro/figuren\cover_handleiding.jpg">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
@@ -575,7 +575,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
-      var filterRegex = new RegExp('/' + window.location.host + '/');
+      var filterRegex = new RegExp(/https:\/\/hanecakr\.github\.io\/handleidingDendro\//);
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href);
     }
