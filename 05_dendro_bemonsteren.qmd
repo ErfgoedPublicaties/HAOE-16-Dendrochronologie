@@ -10,7 +10,7 @@ div.blue { background-color:#e6f0ff; border-radius: 5px; padding: 20px;}
 </style>
 <div class = "blue">
   - zaag een dwarse doorsnede van maximaal 2 à 3 vingers dik (**ca. 3-5 cm**). Dat bespaart extra werk bij transport en analyse;
-  - besteed aandacht aan de aanwezigheid van **spinthout en wankant**, en zorg ervoor dat dit aan het stuk hout blijft vasthangen, eventueel door vóór het verzagen een tape aan te brengen (zie figuur \@fig-staalArcheo);
+  - besteed aandacht aan de aanwezigheid van **spinthout en wankant**, en zorg ervoor dat dit aan het stuk hout blijft vasthangen, eventueel door vóór het verzagen een tape aan te brengen (zie @fig-staalArcheo);
   - indien er **barsten** in het hout aanwezig zijn, wikkel dan tape of folie om het stuk hout vóór het zagen. Zo valt het staal niet uit elkaar in meerdere delen;
   - vermijd het nemen van een staal ter hoogte van een takaanzet, kwast, wondweefsel of een rot stuk.
 </div>

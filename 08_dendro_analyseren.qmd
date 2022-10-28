@@ -9,7 +9,7 @@ Het eigenlijke opmeten van de groeiringpatronen op de aangeleverde stukken hout 
 Opstelling met stereomicroscoop en meettafel voor het opmeten van jaarringpatronen.
 :::
 
-Het opmeten resulteert in een bestand waarin de meting van elke groeiringbreedte staat geregistreerd (@fig-output). Dergelijke bestanden worden in gespecialiseerde software eenvoudig omgezet naar een grafiek (figuur \@ref(fig:output)) of staafdiagram. Deze bestanden vormen de basis van verdere analyses.
+Het opmeten resulteert in een bestand waarin de meting van elke groeiringbreedte staat geregistreerd (@fig-output). Dergelijke bestanden worden in gespecialiseerde software eenvoudig omgezet naar een grafiek (@fig-output) of staafdiagram. Deze bestanden vormen de basis van verdere analyses.
 
 ::: {#fig-output}
 

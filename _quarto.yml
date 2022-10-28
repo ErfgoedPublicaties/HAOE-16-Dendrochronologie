@@ -20,7 +20,7 @@ book:
   sharing: [twitter, facebook, linkedin]
   twitter-card:
     image: figuren/cover_handleiding.jpg
-  repo-url: https://hanecakr.github.io/handleidingDendro/
+  repo-url: https://github.com/hanecakr/handleidingDendro/
   repo-actions: [edit]
   sidebar:
     logo: QR_githubDendro.png 
