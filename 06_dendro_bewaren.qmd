@@ -14,13 +14,13 @@ div.blue { background-color:#e6f0ff; border-radius: 5px; padding: 20px;}
 <div class = "blue">
 
 
-  - verpak het staal, samen met een vondsten- of staalkaartje, in een propere plastic zak of omwikkel het met een aansluitende folie;
-  - besteed aandacht aan het voorkomen van spint en schors: verzeker de blijvende aanhechting van het spinthout (met tape). Hou er wel rekening mee dat het spinthout meestal het sterkst is gedegradeerd. Omwikkel het staal op die plaats niet te strak met folie of tape aangezien dit makkelijk tot een vervorming van het spinthout kan leiden (en het dan niet of moeilijk op te meten is);
+  - verpak het staal, samen met een **vondsten- of staalkaartje**, in een propere plastic zak of omwikkel het met een aansluitende folie;
+  - besteed aandacht aan het voorkomen van spint en schors: verzeker de blijvende **aanhechting van het spinthout** (met tape). Hou er wel rekening mee dat het spinthout meestal het sterkst is gedegradeerd. Omwikkel het staal op die plaats **niet te strak** met folie of tape aangezien dit makkelijk tot een **vervorming van het spinthout** kan leiden (en het dan niet of moeilijk op te meten is);
   - druk zoveel mogelijk lucht uit de verpakking;
-maak de zak zorgvuldig dicht met tape. Dit zorgt ervoor dat het hout niet kan uitdrogen. Extra water toevoegen is niet nodig;
+maak de zak zorgvuldig dicht met tape. Dit zorgt ervoor dat het hout **niet kan uitdrogen**. Extra water toevoegen is niet nodig;
   - breng aan de buitenkant van de verpakking een tweede vondsten- of staalkaartje aan dat duidelijk leesbaar, met vermelding van het staalnummer en de overige vereiste gegevens (spoor/vlak/vak/projectcode/…);
   - duid de locatie van het staal aan op een detailplan van de bemonsterde structuur;
-  - stapel de genomen stalen niet hoog op. Door de gewicht kunnen de onderste stalen breken of vervormen. 
+  - **stapel** de genomen stalen **niet hoog op**. Door de gewicht kunnen de onderste stalen breken of vervormen. 
 
 </div>
 
@@ -35,6 +35,14 @@ Stalen van archeologisch hout, verpakt en voorzien van een ingevuld vondstkaartj
 :::
 
 Bewaar natte houtstalen bij voorkeur op een **koele (bij voorkeur onder de 6°C), donkere plek**. Zo beperkt je de kans dat er zich schimmels ontwikkelen. Pas bij temperaturen van 0° en lager valt schimmelontwikkeling en -groei volledig stil. Breng de stalen daarom zo snel mogelijk naar het labo waar het verdere onderzoek zal plaatsvinden.
+
+::: {#fig-compressed_sapwood}
+
+![](./figuren/compressed_sapwood.png)
+
+Voorbeeld van een dendro-staal van archeologisch hout waarbij het spinthout te strak werd omwikkeld met folie. De buitenste zone met spint is daardoor samengedrukt en vervormd (witte pijlen). Daardoor is het niet langer mogelijk de buitenste jaarringen op dit stuk hout op te meten (foto: &copy; Van Daalen Dendrochronologie).
+:::
+
 
 Stalen van historisch bouwhout die reeds droog zijn, kunnen meestal zonder problemen voor langere periode bewaard worden. Hout dat droog is, met een houtvochtgehalte onder de 20%, wordt niet aangetast door schimmels en is daardoor stabiel. Enkel houtaantastende insecten kunnen voor problemen zorgen.
 
