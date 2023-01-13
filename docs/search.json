@@ -11,7 +11,7 @@
     "href": "index.html#citeren",
     "title": "Dendrochronologie en erfgoedonderzoek",
     "section": "Citeren",
-    "text": "Citeren\nGelieve te citeren als: \nHaneca K. (2022-10-28). Dendrochronologie en erfgoedonderzoek. Handleiding agentschap Onroerend Erfgoed (v 1.1.3), Brussel. https://hanecakr.github.io/handleidingDendro/\nOorspronkelijke gepubliceerd als: \nHaneca K. (2017). Dendrochronologie en erfgoedonderzoek, Handleiding agentschap Onroerend Erfgoed 16, Brussel. doi: https://doi.org/10.55465/WRTE1679."
+    "text": "Citeren\nGelieve te citeren als: \nHaneca K. (2023-01-13). Dendrochronologie en erfgoedonderzoek. Handleiding agentschap Onroerend Erfgoed (v 1.1.4), Brussel. https://hanecakr.github.io/handleidingDendro/\nOorspronkelijke gepubliceerd als: \nHaneca K. (2017). Dendrochronologie en erfgoedonderzoek, Handleiding agentschap Onroerend Erfgoed 16, Brussel. doi: https://doi.org/10.55465/WRTE1679."
   },
   {
     "objectID": "index.html#de-auteur",
@@ -25,7 +25,7 @@
     "href": "00_dendro_wijzigingen.html",
     "title": "Updates",
     "section": "",
-    "text": "In het overzicht hier onder worden de belangrijkste wijzigingen ten opzichte van de originele publicatie uit 2017 opgesomd in chronologische volgorde.  \n\nv 1.0.0 (15-09-2020): handleiding Dendrochronologie en erfgoedonderzoek online te raadplegen [https://hanecakr.github.io/handleidingDendrochronologie/], zoals gepubliceerd door K. Haneca in 2017.\n\n\n\nv 1.1.0 (25-09-2020):\n\nNummering en volgorde hoofdstukken aangepast.\nHoofdstuk Onderzoeksvragen opgedeeld in meerdere sub-secties.\nNieuwe figuur in de Inleiding (doorsnede stam).\nNieuwe figuren in het hoofdstuk Interpretatie.\nExtra foto’s toegevoegd aan hoofdstukken Bemonsteren en Bewaren.\n\n\n\n\nv 1.1.1 (28-09-2020):\n\nHoofdstuk Interpretatie verder uitgebreid.\n\n\n\n\nv 1.1.2 (23-12-2021):\n\nNieuw bootstrap4 theme.\n\n\n\n\nv 1.1.3 (28-10-2022):\n\nOmschakelen van bookdown naar quarto.\nAangepaste layout website."
+    "text": "In het overzicht hier onder worden de belangrijkste wijzigingen ten opzichte van de originele publicatie uit 2017 opgesomd in chronologische volgorde.  \n\nv 1.0.0 (15-09-2020): handleiding Dendrochronologie en erfgoedonderzoek online te raadplegen [https://hanecakr.github.io/handleidingDendrochronologie/], zoals gepubliceerd door K. Haneca in 2017.\n\n\n\nv 1.1.0 (25-09-2020):\n\nNummering en volgorde hoofdstukken aangepast.\nHoofdstuk Onderzoeksvragen opgedeeld in meerdere sub-secties.\nNieuwe figuur in de Inleiding (doorsnede stam).\nNieuwe figuren in het hoofdstuk Interpretatie.\nExtra foto’s toegevoegd aan hoofdstukken Bemonsteren en Bewaren.\n\n\n\n\nv 1.1.1 (28-09-2020):\n\nHoofdstuk Interpretatie verder uitgebreid.\n\n\n\n\nv 1.1.2 (23-12-2021):\n\nNieuw bootstrap4 theme.\n\n\n\n\nv 1.1.3 (28-10-2022):\n\nOmschakelen van bookdown naar quarto.\nAangepaste layout website.\n\n\n\n\nv 1.1.4 (13-01-2023):\n\nFiguur toegevoegd met foto van samengedrukt spinthout in hoofdstuk Bewaren. ."
   },
   {
     "objectID": "01_dendro_intro.html#dendrochronologie-in-het-erfgoedonderzoek",

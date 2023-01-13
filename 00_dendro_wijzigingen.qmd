@@ -30,3 +30,9 @@ In het overzicht hier onder worden de belangrijkste wijzigingen ten opzichte van
 - `v 1.1.3` (28-10-2022):
     - Omschakelen van `bookdown` naar `quarto`.
     - Aangepaste layout website.
+    
+<br/>
+
+- `v 1.1.4` (13-01-2023):
+    - Figuur toegevoegd met foto van samengedrukt spinthout in hoofdstuk [Bewaren](#bewaren).
+.

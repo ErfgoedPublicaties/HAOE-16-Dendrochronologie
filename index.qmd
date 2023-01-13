@@ -11,7 +11,7 @@ Met deze online versie willen we kleine aanpassingen aan de originele uitgave, v
 
 Gelieve te citeren als: <br/> 
 
-Haneca K. (`r Sys.Date()`). Dendrochronologie en erfgoedonderzoek. Handleiding agentschap Onroerend Erfgoed (v 1.1.3), Brussel. <https://hanecakr.github.io/handleidingDendro/>
+Haneca K. (`r Sys.Date()`). Dendrochronologie en erfgoedonderzoek. Handleiding agentschap Onroerend Erfgoed (v 1.1.4), Brussel. <https://hanecakr.github.io/handleidingDendro/>
 
 Oorspronkelijke gepubliceerd als: <br/>
 
