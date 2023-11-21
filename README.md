@@ -11,7 +11,7 @@ uitgave, veranderende inzichten en nieuwe toepassingen van
 dendrochronologie binnen het erfgoedonderzoek - op basis van recente,
 wetenschappelijke ontwikkelingen - sneller ontsluiten. De basis van deze
 handleiding blijft de originele uitgave, maar :point\_right:
-[**hier**](https://hanecakr.github.io/handleidingDendro/) :point\_left:
+[**hier**](https://publicaties.onroerenderfgoed.be/HAOE-16-Dendrochronologie/) :point\_left:
 kan je steeds de meest actuele versie raadplegen.
 
 
