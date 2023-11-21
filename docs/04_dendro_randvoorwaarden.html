@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="nl" xml:lang="nl"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.2.215">
+<meta name="generator" content="quarto-1.3.450">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -17,7 +17,7 @@ div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
   width: 0.8em;
-  margin: 0 0.8em 0.2em -1.6em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
 </style>
@@ -59,7 +59,8 @@ ul.task-list li input[type="checkbox"] {
     "search-more-matches-text": "meer overeenkomsten in dit document",
     "search-clear-button-title": "Wissen",
     "search-detached-cancel-button-title": "Annuleren",
-    "search-submit-button-title": "Verzenden"
+    "search-submit-button-title": "Verzenden",
+    "search-label": "Zoeken"
   }
 }</script>
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-WRYSRDGLWG"></script>
@@ -72,15 +73,27 @@ gtag('js', new Date());
 gtag('config', 'G-WRYSRDGLWG', { 'anonymize_ip': true});
 </script>
 <style>
-    .quarto-title-block .quarto-title-banner {
-      background: #0e4d1c;
-    }
-    </style>
+
+      .quarto-title-block .quarto-title-banner h1,
+      .quarto-title-block .quarto-title-banner h2,
+      .quarto-title-block .quarto-title-banner h3,
+      .quarto-title-block .quarto-title-banner h4,
+      .quarto-title-block .quarto-title-banner h5,
+      .quarto-title-block .quarto-title-banner h6
+      {
+        color: white;
+      }
+
+      .quarto-title-block .quarto-title-banner {
+        color: white;
+background: #0e4d1c;
+      }
+</style>
 
 
 <meta name="twitter:title" content="Dendrochronologie en erfgoedonderzoek - 4&nbsp; Randvoorwaarden en basisbegrippen">
-<meta name="twitter:description" content="Niet alle houtsoorten komen in aanmerking voor een daterend dendrochronologisch onderzoek.">
-<meta name="twitter:image" content="figuren/cover_handleiding.jpg">
+<meta name="twitter:description" content="">
+<meta name="twitter:image" content="https://publicaties.onroerenderfgoed.be/HAOE-16-Dendrochronologie/figuren/cover_handleiding.jpg">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
@@ -88,11 +101,16 @@ gtag('config', 'G-WRYSRDGLWG', { 'anonymize_ip': true});
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-  <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
-    <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Randvoorwaarden en basisbegrippen</span></h1>
-      <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
-        <i class="bi bi-chevron-right"></i>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Schakel zijbalk in" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./01_dendro_intro.html">Handleiding</a></li><li class="breadcrumb-item"><a href="./04_dendro_randvoorwaarden.html"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Randvoorwaarden en basisbegrippen</span></a></li></ol></nav>
+      <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Schakel zijbalk in" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+      </a>
+      <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
       </button>
     </div>
   </nav>
@@ -101,7 +119,7 @@ gtag('config', 'G-WRYSRDGLWG', { 'anonymize_ip': true});
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title"><span id="randvoorwaarden" class="quarto-section-identifier d-none d-lg-block"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Randvoorwaarden en basisbegrippen</span></span></h1>
+      <h1 class="title"><span id="randvoorwaarden" class="quarto-section-identifier"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Randvoorwaarden en basisbegrippen</span></span></h1>
                       </div>
   </div>
     
@@ -116,148 +134,165 @@ gtag('config', 'G-WRYSRDGLWG', { 'anonymize_ip': true});
   
   </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation floating overflow-auto">
-    <div class="pt-lg-2 mt-2 text-left sidebar-header sidebar-header-stacked">
-      <a href="./index.html" class="sidebar-logo-link">
-      <img src="./QR_githubDendro.png" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
-      </a>
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
       <a href="./">Dendrochronologie en erfgoedonderzoek</a> 
         <div class="sidebar-tools-main tools-wide">
-    <a href="https://github.com/hanecakr/handleidingDendro/" title="Source Code" class="sidebar-tool px-1"><i class="bi bi-github"></i></a>
-    <a href="" title="Share" id="sidebar-tool-dropdown-0" class="sidebar-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false"><i class="bi bi-share"></i></a>
-    <ul class="dropdown-menu" aria-labelledby="sidebar-tool-dropdown-0">
-        <li>
-          <a class="dropdown-item sidebar-tools-main-item" href="https://twitter.com/intent/tweet?url=|url|">
-            <i class="bi bi-bi-twitter pe-1"></i>
-          Twitter
-          </a>
-        </li>
-        <li>
-          <a class="dropdown-item sidebar-tools-main-item" href="https://www.facebook.com/sharer/sharer.php?u=|url|">
-            <i class="bi bi-bi-facebook pe-1"></i>
-          Facebook
-          </a>
-        </li>
-        <li>
-          <a class="dropdown-item sidebar-tools-main-item" href="https://www.linkedin.com/sharing/share-offsite/?url=|url|">
-            <i class="bi bi-bi-linkedin pe-1"></i>
-          LinkedIn
-          </a>
-        </li>
-    </ul>
-  <a href="" class="quarto-color-scheme-toggle sidebar-tool" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+    <a href="https://github.com/ErfgoedPublicaties/HAOE-16-Dendrochronologie/" rel="" title="Source Code" class="quarto-navigation-tool px-1" aria-label="Source Code"><i class="bi bi-github"></i></a>
+    <div class="dropdown">
+      <a href="" title="Share" id="quarto-navigation-tool-dropdown-0" class="quarto-navigation-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Share"><i class="bi bi-share"></i></a>
+      <ul class="dropdown-menu" aria-labelledby="quarto-navigation-tool-dropdown-0">
+          <li>
+            <a class="dropdown-item sidebar-tools-main-item" href="https://twitter.com/intent/tweet?url=|url|">
+              <i class="bi bi-bi-twitter pe-1"></i>
+            Twitter
+            </a>
+          </li>
+          <li>
+            <a class="dropdown-item sidebar-tools-main-item" href="https://www.facebook.com/sharer/sharer.php?u=|url|">
+              <i class="bi bi-bi-facebook pe-1"></i>
+            Facebook
+            </a>
+          </li>
+          <li>
+            <a class="dropdown-item sidebar-tools-main-item" href="https://www.linkedin.com/sharing/share-offsite/?url=|url|">
+              <i class="bi bi-bi-linkedin pe-1"></i>
+            LinkedIn
+            </a>
+          </li>
+      </ul>
+    </div>
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Schakel donkere modus in"><i class="bi"></i></a>
 </div>
     </div>
       </div>
-      <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="mt-2 flex-shrink-0 align-items-center">
         <div class="sidebar-search">
-        <div id="quarto-search" class="" title="Search"></div>
+        <div id="quarto-search" class="" title="Zoeken"></div>
         </div>
-      </div>
+        </div>
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link">Welkom</a>
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Woord vooraf</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./00_dendro_wijzigingen.html" class="sidebar-item-text sidebar-link">Updates</a>
+  <a href="./00_dendro_wijzigingen.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Updates</span></a>
   </div>
 </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">Handleiding</a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
+ <span class="menu-text">Handleiding</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true" aria-label="Schakel sectie">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./01_dendro_intro.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Inleiding</span></a>
+  <a href="./01_dendro_intro.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Inleiding</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./02_dendro_principes.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Basisbegrippen</span></a>
+  <a href="./02_dendro_principes.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Basisbegrippen</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./03_dendro_onderzoeksvragen.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Onderzoeksvragen</span></a>
+  <a href="./03_dendro_onderzoeksvragen.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Onderzoeksvragen</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./04_dendro_randvoorwaarden.html" class="sidebar-item-text sidebar-link active"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Randvoorwaarden en basisbegrippen</span></a>
+  <a href="./04_dendro_randvoorwaarden.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Randvoorwaarden en basisbegrippen</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./05_dendro_bemonsteren.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Bemonsteren</span></a>
+  <a href="./05_dendro_bemonsteren.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Bemonsteren</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./06_dendro_bewaren.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Verpakken en bewaren</span></a>
+  <a href="./06_dendro_bewaren.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Verpakken en bewaren</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./07_dendro_overdracht.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Overdracht naar specialist</span></a>
+  <a href="./07_dendro_overdracht.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Overdracht naar specialist</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./08_dendro_analyseren.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Meten en analyseren</span></a>
+  <a href="./08_dendro_analyseren.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Meten en analyseren</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./09_dendro_rapporteren.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Rapporteren</span></a>
+  <a href="./09_dendro_rapporteren.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Rapporteren</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./10_dendro_interpretatie.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Interpretatie</span></a>
+  <a href="./10_dendro_interpretatie.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Interpretatie</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./11_dendro_radiokoolstof.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Kruisbestuiving met radiokoolstof</span></a>
+  <a href="./11_dendro_radiokoolstof.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Kruisbestuiving met radiokoolstof</span></span></a>
   </div>
 </li>
       </ul>
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">Begrippen</a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">
+ <span class="menu-text">Begrippen</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true" aria-label="Schakel sectie">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./999_dendro_begrippen.html" class="sidebar-item-text sidebar-link">Begrippenlijst</a>
+  <a href="./999_dendro_begrippen.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Begrippenlijst</span></a>
   </div>
 </li>
       </ul>
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true">Bronnen</a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true">
+ <span class="menu-text">Bronnen</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true" aria-label="Schakel sectie">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
       <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./999_dendro_bibliografie.html" class="sidebar-item-text sidebar-link">Bibliografie</a>
+  <a href="./999_dendro_bibliografie.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Bibliografie</span></a>
   </div>
 </li>
       </ul>
@@ -265,18 +300,19 @@ gtag('config', 'G-WRYSRDGLWG', { 'anonymize_ip': true});
     </ul>
     </div>
 </nav>
+<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">Op deze pagina</h2>
    
   <ul>
-  <li><a href="#houtsoort" id="toc-houtsoort" class="nav-link active" data-scroll-target="#houtsoort"><span class="toc-section-number">4.1</span>  Houtsoort</a></li>
-  <li><a href="#aantal-ringen" id="toc-aantal-ringen" class="nav-link" data-scroll-target="#aantal-ringen"><span class="toc-section-number">4.2</span>  Aantal ringen</a></li>
-  <li><a href="#regelmatige-groei" id="toc-regelmatige-groei" class="nav-link" data-scroll-target="#regelmatige-groei"><span class="toc-section-number">4.3</span>  Regelmatige groei</a></li>
-  <li><a href="#spinthout-en-wankant" id="toc-spinthout-en-wankant" class="nav-link" data-scroll-target="#spinthout-en-wankant"><span class="toc-section-number">4.4</span>  Spinthout en wankant</a></li>
+  <li><a href="#houtsoort" id="toc-houtsoort" class="nav-link active" data-scroll-target="#houtsoort"><span class="header-section-number">4.1</span> Houtsoort</a></li>
+  <li><a href="#aantal-ringen" id="toc-aantal-ringen" class="nav-link" data-scroll-target="#aantal-ringen"><span class="header-section-number">4.2</span> Aantal ringen</a></li>
+  <li><a href="#regelmatige-groei" id="toc-regelmatige-groei" class="nav-link" data-scroll-target="#regelmatige-groei"><span class="header-section-number">4.3</span> Regelmatige groei</a></li>
+  <li><a href="#spinthout-en-wankant" id="toc-spinthout-en-wankant" class="nav-link" data-scroll-target="#spinthout-en-wankant"><span class="header-section-number">4.4</span> Spinthout en wankant</a></li>
   </ul>
-<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/hanecakr/handleidingDendro/edit/main/04_dendro_randvoorwaarden.qmd" class="toc-action">Bewerk deze pagina</a></p><p><a href="https://github.com/hanecakr/handleidingDendro/issues/new" class="toc-action">Een probleem melden</a></p></div></div></nav>
+<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/ErfgoedPublicaties/HAOE-16-Dendrochronologie/edit/main/04_dendro_randvoorwaarden.qmd" class="toc-action">Bewerk deze pagina</a></p><p><a href="https://github.com/ErfgoedPublicaties/HAOE-16-Dendrochronologie/issues/new" class="toc-action">Een probleem melden</a></p></div></div></nav>
     </div>
 <!-- main -->
 <main class="content quarto-banner-title-block" id="quarto-document-content">
@@ -303,7 +339,7 @@ div.blue { background-color:#e6f0ff; border-radius: 5px; padding: 20px;}
 <div id="fig-jaarringEik" class="quarto-figure quarto-figure-center anchored">
 <figure class="figure">
 <p><img src="./figuren/dendro_figuur04.png" class="img-fluid figure-img"></p>
-<p></p><figcaption class="figure-caption">Figuur&nbsp;4.1: Detailopname van het transversaal (= kopse) vlak van een eiken stam.</figcaption><p></p>
+<figcaption class="figure-caption">Figuur&nbsp;4.1: Detailopname van het transversaal (= kopse) vlak van een eiken stam.</figcaption>
 </figure>
 </div>
 <p>Op het radiaal vlak zijn dikwijls ‘spiegels’ te zien op het eikenhout: dit zijn glanzende, brede lijnen met een soms grillig verloop. Het zijn de houtstralen die in de lengterichting worden aangesneden. Aan de buitenzijde van het stamhout is bij eik ook een blekere zone te zien. Dit is het spinthout (zie verder), wat bij eik typisch bleker gekleurd is dan het kernhout.</p>
@@ -313,7 +349,7 @@ div.blue { background-color:#e6f0ff; border-radius: 5px; padding: 20px;}
 <div id="fig-archeoEik" class="quarto-figure quarto-figure-center anchored">
 <figure class="figure">
 <p><img src="./figuren/dendro_figuur05.png" class="img-fluid figure-img"></p>
-<p></p><figcaption class="figure-caption">Figuur&nbsp;4.2: Detailopname van een stuk eikenhout gevonden bij archeologisch veldonderzoek. Op het kopse vlak zijn alle houtanatomische structuren die kenmerkend zijn voor eikenhout - zoals de grote vaten in het vroeghout en de brede houtstralen - duidelijk te observeren. De blekere zone aan de buitenzijde is het spinthout.</figcaption><p></p>
+<figcaption class="figure-caption">Figuur&nbsp;4.2: Detailopname van een stuk eikenhout gevonden bij archeologisch veldonderzoek. Op het kopse vlak zijn alle houtanatomische structuren die kenmerkend zijn voor eikenhout - zoals de grote vaten in het vroeghout en de brede houtstralen - duidelijk te observeren. De blekere zone aan de buitenzijde is het spinthout.</figcaption>
 </figure>
 </div>
 <p>Ook andere loofhoutsoorten, zoals <strong>beuk</strong> (<em>Fagus sylvatica</em>), <strong>es</strong> (<em>Fraxinus excelsior</em>) en <strong>olm</strong> (<em>Ulmus</em> spp.) hebben in onze streken een zeker potentieel voor daterend dendrochronologisch onderzoek, al zijn er beduidend minder referentiekalenders ter beschikking.</p>
@@ -321,7 +357,7 @@ div.blue { background-color:#e6f0ff; border-radius: 5px; padding: 20px;}
 <div id="fig-groveDen" class="quarto-figure quarto-figure-center anchored">
 <figure class="figure">
 <p><img src="./figuren/dendro_figuur06.png" class="img-fluid figure-img"></p>
-<p></p><figcaption class="figure-caption">Figuur&nbsp;4.3: Detailopname van een stuk grove den. De cirkelvormige structuren op het transversaal vlak zijn harskanalen.</figcaption><p></p>
+<figcaption class="figure-caption">Figuur&nbsp;4.3: Detailopname van een stuk grove den. De cirkelvormige structuren op het transversaal vlak zijn harskanalen.</figcaption>
 </figure>
 </div>
 </section>
@@ -331,28 +367,28 @@ div.blue { background-color:#e6f0ff; border-radius: 5px; padding: 20px;}
 <div id="fig-groeisnelheid" class="quarto-figure quarto-figure-center anchored">
 <figure class="figure">
 <p><img src="./figuren/dendro_figuur07.jpg" class="img-fluid figure-img"></p>
-<p></p><figcaption class="figure-caption">Figuur&nbsp;4.4: Drie stukken eikenhout. Het stuk bovenaan is snel gegroeid en heeft ca. 31 brede ringen, het stuk onderaan is traag gegroeid en telt ca. 92 smalle jaarringen. Bij het middelste stuk is het jaarringpatroon sterk verstoord. Bij de onderste twee stukken is het spinthout zwaar aangetast door insectenvraat.</figcaption><p></p>
+<figcaption class="figure-caption">Figuur&nbsp;4.4: Drie stukken eikenhout. Het stuk bovenaan is snel gegroeid en heeft ca. 31 brede ringen, het stuk onderaan is traag gegroeid en telt ca. 92 smalle jaarringen. Bij het middelste stuk is het jaarringpatroon sterk verstoord. Bij de onderste twee stukken is het spinthout zwaar aangetast door insectenvraat.</figcaption>
 </figure>
 </div>
 <p>Het aantal ringen dat te zien is op een stuk hout hangt in grote mate samen met de <strong>groeisnelheid van de boom</strong>. Indien een boom traag is gegroeid, zullen in het hout smalle groeiringen te zien zijn; een boom die snel is gegroeid zal in zijn stam brede groeiringen gevormd hebben (<a href="#fig-groeisnelheid">fig.&nbsp;<span>4.4</span></a> en <a href="#fig-orientatie">fig.&nbsp;<span>4.5</span></a>). Dit heeft tot gevolg dat zelfs grote stukken hout, als ze afkomstig zijn van een snel gegroeide boom, toch nog te weinig groeiringen kunnen hebben om tot een sluitende datering te komen. De diameter van een stuk hout is dus van minder belang dan de groeisnelheid van de boom.</p>
 <div id="fig-orientatie" class="quarto-figure quarto-figure-center anchored">
 <figure class="figure">
 <p><img src="./figuren/dendro_figuur08.png" class="img-fluid figure-img"></p>
-<p></p><figcaption class="figure-caption">Figuur&nbsp;4.5: Drie plankjes uit eikenhout. (a) Snel gegroeid eikenhout met brede jaarringen. Dit stuk is kwartiers gezaagd (= loodrecht op de jaarringen). Op het radiaal vlak zijn glanzende spiegels te zien. Dit zijn de houtstralen die overlangs worden aangesneden. (b) Traag gegroeid stuk eikenhout met heel smalle jaarringen. Deze plank is dosse gezaagd. (c) Een stuk subfossiel eikenhout met een gemiddelde en regelmatige groei. De pijlen wijzen in de richting van de bast.</figcaption><p></p>
+<figcaption class="figure-caption">Figuur&nbsp;4.5: Drie plankjes uit eikenhout. (a) Snel gegroeid eikenhout met brede jaarringen. Dit stuk is kwartiers gezaagd (= loodrecht op de jaarringen). Op het radiaal vlak zijn glanzende spiegels te zien. Dit zijn de houtstralen die overlangs worden aangesneden. (b) Traag gegroeid stuk eikenhout met heel smalle jaarringen. Deze plank is dosse gezaagd. (c) Een stuk subfossiel eikenhout met een gemiddelde en regelmatige groei. De pijlen wijzen in de richting van de bast.</figcaption>
 </figure>
 </div>
 <p>Daarnaast wordt het aantal voor een datering bruikbare jaarringen ook bepaald door de wijze waarop de stam is <strong>verzaagd of gekliefd</strong>. Het verspanen van een stam tot de gewenste palen, planken of panelen speelt dus een belangrijke rol. Op planken die ‘dosse’ gezaagd zijn - dit is de meest eenvoudige manier om een stam te verzagen, nl. in evenwijdige stroken - zijn doorgaans minder ringen af te lezen dan bij planken die kwartiers gezaagd of gekliefd zijn (<a href="#fig-zaagwijze">fig.&nbsp;<span>4.6</span></a>). Een stam kan gekantrecht worden tot een zware balk, of opgedeeld tot een aantal balken met kleinere afmetingen. Toch kan het aantal ringen dat valt af te lezen op het kopse vlak bij beide types balken ongeveer hetzelfde zijn (<a href="#fig-balk">fig.&nbsp;<span>4.7</span></a>).</p>
 <div id="fig-zaagwijze" class="quarto-figure quarto-figure-center anchored">
 <figure class="figure">
 <p><img src="./figuren/dendro_figuur09.png" class="img-fluid figure-img"></p>
-<p></p><figcaption class="figure-caption">Figuur&nbsp;4.6: Een stam die ‘dosse’ wordt verzaagd levert planken op met vergelijkbare afmetingen, maar het jaarringpatroon dat valt af te lezen, is afhankelijk van de positie binnen de stam. Op planken waar zowel het merg als de buitenzijde van de stam aanwezig zijn (plank A), kunnen veel meer ringen worden opgemeten dan bij planken met jaarringen die een sterke kromming vertonen (plank B). Het op te meten jaarringpatroon is aangeduid in geel; de ‘ontbrekende’ ringen bij een zuiver dosse plank zijn aangeduid met de rode pijl.</figcaption><p></p>
+<figcaption class="figure-caption">Figuur&nbsp;4.6: Een stam die ‘dosse’ wordt verzaagd levert planken op met vergelijkbare afmetingen, maar het jaarringpatroon dat valt af te lezen, is afhankelijk van de positie binnen de stam. Op planken waar zowel het merg als de buitenzijde van de stam aanwezig zijn (plank A), kunnen veel meer ringen worden opgemeten dan bij planken met jaarringen die een sterke kromming vertonen (plank B). Het op te meten jaarringpatroon is aangeduid in geel; de ‘ontbrekende’ ringen bij een zuiver dosse plank zijn aangeduid met de rode pijl.</figcaption>
 </figure>
 </div>
 <p>De <strong>afmetingen van een stuk hout</strong> zeggen dus weinig over het aantal jaarringen dat kan opgemeten worden. Het is beter om de selectie van te bemonsteren stukken hout niet al te veel te laten bepalen door hun afmetingen.</p>
 <div id="fig-balk" class="quarto-figure quarto-figure-center anchored">
 <figure class="figure">
 <p><img src="./figuren/dendro_figuur10.png" class="img-fluid figure-img"></p>
-<p></p><figcaption class="figure-caption">Figuur&nbsp;4.7: Twee balken afkomstig uit eenzelfde stam. De balk aan de linkerzijde is bekomen door de stam in 4 delen te klieven, de balk aan de rechterzijde is bekomen door de originele stam enkel te kantrechten. De oppervlakte van de dwarse doorsnede van de kleine balk bedraagt slechts een kwart van de grote balk, maar toch is het dat kan worden opgemeten even lang (aangeduid in geel).</figcaption><p></p>
+<figcaption class="figure-caption">Figuur&nbsp;4.7: Twee balken afkomstig uit eenzelfde stam. De balk aan de linkerzijde is bekomen door de stam in 4 delen te klieven, de balk aan de rechterzijde is bekomen door de originele stam enkel te kantrechten. De oppervlakte van de dwarse doorsnede van de kleine balk bedraagt slechts een kwart van de grote balk, maar toch is het dat kan worden opgemeten even lang (aangeduid in geel).</figcaption>
 </figure>
 </div>
 <blockquote class="blockquote">
@@ -371,7 +407,7 @@ div.blue { background-color:#e6f0ff; border-radius: 5px; padding: 20px;}
 <div id="fig-wankant" class="quarto-figure quarto-figure-center anchored">
 <figure class="figure">
 <p><img src="./figuren/dendro_figuur11.png" class="img-fluid figure-img"></p>
-<p></p><figcaption class="figure-caption">Figuur&nbsp;4.8: Stuk archeologisch eikenhout waarop de wankant zichtbaar is. De afgeronde vorm volgt de omtrek van de originele stam (foto: © Van Daalen Dendrochronologie).</figcaption><p></p>
+<figcaption class="figure-caption">Figuur&nbsp;4.8: Stuk archeologisch eikenhout waarop de wankant zichtbaar is. De afgeronde vorm volgt de omtrek van de originele stam (foto: © Van Daalen Dendrochronologie).</figcaption>
 </figure>
 </div>
 <p>Aangezien stukken hout met wankant of (een gedeelte van het) spint tot een heel precieze datering kunnen leiden (zie: <a href="10_dendro_interpretatie.html">Interpretatie</a>, moeten dergelijke stukken steeds voorrang krijgen bij een staalname. Het spinthout is ook het minst duurzame gedeelte van een stam. Daardoor is het dikwijls ook het meest gedegradeerd of werd het bij het bewerken van het hout reeds preventief verwijderd. Bij de staalname worden daarom best maatregelen genomen zodat, indien nog aanwezig, de schors en/of het spinthout aan het (kern-)hout vast blijft zitten. Archeologisch hout met spint mag daarom zeker niet uitdrogen. Dit gedeelte zal tijdens het drogen immers het sterkst vervormen (zie bijvoorbeeld <a href="#fig-archeoEik">fig.&nbsp;<span>4.2</span></a>) en aldus onbruikbaar worden voor jaarringanalyse. Bij droog hout is het spinthout vaak het zwaarst aangetast door insecten (zie bijvoorbeeld het spinthout van de houtstalen in <a href="#fig-groeisnelheid">fig.&nbsp;<span>4.4</span></a>), die volledig zijn aangetast door insectenvraat). Ook hier is het aangewezen om het uiteenvallen van het spinthout tegen te gaan door extra voorzichtig om te springen met de spinthoutzone.</p>
@@ -522,9 +558,23 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     icon: icon
   };
   anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
   const clipboard = new window.ClipboardJS('.code-copy-button', {
-    target: function(trigger) {
-      return trigger.previousElementSibling;
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
     }
   });
   clipboard.on('success', function(e) {
@@ -589,6 +639,92 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       return note.innerHTML;
     });
   }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
   const findCites = (el) => {
     const parentEl = el.parentElement;
     if (parentEl) {
@@ -627,12 +763,12 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
-      var filterRegex = new RegExp('/' + window.location.host + '/');
+      var filterRegex = new RegExp("https:\/\/publicaties\.onroerenderfgoed\.be\/HAOE-16-Dendrochronologie\/");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href);
     }
     // Inspect non-navigation links and adorn them if external
-    var links = window.document.querySelectorAll('a:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item)');
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item)');
     for (var i=0; i<links.length; i++) {
       const link = links[i];
       if (!isInternal(link.href)) {

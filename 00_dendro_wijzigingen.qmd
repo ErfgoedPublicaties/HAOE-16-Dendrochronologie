@@ -1,38 +1,47 @@
 # Updates {-}
 
-In het overzicht hier onder worden de belangrijkste wijzigingen ten opzichte van [de originele publicatie uit 2017](https://oar.onroerenderfgoed.be/item/437) opgesomd in chronologische volgorde.
+In het overzicht hier onder worden de belangrijkste wijzigingen ten opzichte van [de originele publicatie uit 2017](https://doi.org/10.55465/WRTE1679) opgesomd in chronologische volgorde.
 <br/>
 <br/>
 
-- `v 1.0.0` (15-09-2020): handleiding ***Dendrochronologie en  erfgoedonderzoek*** online te raadplegen [https://hanecakr.github.io/handleidingDendrochronologie/], zoals gepubliceerd door K. Haneca in 2017.
+#### 1.0.0 (15-09-2020)
 
-<br/>
+- Handleiding ***Dendrochronologie en erfgoedonderzoek*** online te raadplegen [https://hanecakr.github.io/handleidingDendrochronologie/], zoals gepubliceerd door K. Haneca in 2017.
 
-- `v 1.1.0` (25-09-2020): 
-    - Nummering en volgorde hoofdstukken aangepast.
-    - Hoofdstuk [Onderzoeksvragen](#onderzoeksvragen) opgedeeld in meerdere sub-secties.
-    - Nieuwe figuur in de [Inleiding](#intro) (doorsnede stam).
-    - Nieuwe figuren in het hoofdstuk [Interpretatie](#interpretatie).
-    - Extra foto's toegevoegd aan hoofdstukken [Bemonsteren](#bemonsteren) en [Bewaren](#bewaren).
+
+#### 1.1.0 (25-09-2020)
+
+- Nummering en volgorde hoofdstukken aangepast.
+- Hoofdstuk [Onderzoeksvragen](#onderzoeksvragen) opgedeeld in meerdere sub-secties.
+- Nieuwe figuur in de [Inleiding](#intro) (doorsnede stam).
+- Nieuwe figuren in het hoofdstuk [Interpretatie](#interpretatie).
+- Extra foto's toegevoegd aan hoofdstukken [Bemonsteren](#bemonsteren) en [Bewaren](#bewaren).
     
-<br/>
 
-- `v 1.1.1` (28-09-2020): 
-    - Hoofdstuk [Interpretatie](#interpretatie) verder uitgebreid.
+#### 1.1.1 (28-09-2020)
 
-<br/>
+- Hoofdstuk [Interpretatie](#interpretatie) verder uitgebreid.
 
-- `v 1.1.2` (23-12-2021):
-    - Nieuw *bootstrap4* theme.
 
-<br/>
+#### 1.1.2 (23-12-2021)
 
-- `v 1.1.3` (28-10-2022):
-    - Omschakelen van `bookdown` naar `quarto`.
-    - Aangepaste layout website.
+- Nieuw *bootstrap4* theme.
+
+
+#### 1.1.3 (28-10-2022)
+
+- Omschakelen van `bookdown` naar `quarto`.
+- Aangepaste layout website.
     
-<br/>
 
-- `v 1.1.4` (13-01-2023):
-    - Figuur toegevoegd met foto van samengedrukt spinthout in hoofdstuk [Bewaren](#bewaren).
-.
+#### 1.1.4 (13-01-2023)
+
+- Figuur toegevoegd met foto van samengedrukt spinthout in hoofdstuk [Bewaren](#bewaren).
+
+
+#### 1.2.0 (21-11-2023)
+
+- Online versie handleiding overgebracht naar <https://github.com/ErfgoedPublicaties>.
+- Nieuwe URL website: <https://publicaties.onroerenderfgoed.be/HAOE-16-Dendrochronologie/>.
+
+

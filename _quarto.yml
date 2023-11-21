@@ -20,11 +20,11 @@ book:
   sharing: [twitter, facebook, linkedin]
   twitter-card:
     image: figuren/cover_handleiding.jpg
-  repo-url: https://github.com/hanecakr/handleidingDendro/
+  repo-url: https://github.com/ErfgoedPublicaties/HAOE-16-Dendrochronologie/
   repo-actions: [edit, issue]
-  site-url: https://hanecakr.github.io/handleidingDendro/
-  sidebar:
-    logo: QR_githubDendro.png 
+  site-url: https://publicaties.onroerenderfgoed.be/HAOE-16-Dendrochronologie/
+  # sidebar:
+  #   logo: QR_githubDendro.png 
   google-analytics:
    tracking-id: "G-WRYSRDGLWG"
   chapters:
@@ -51,6 +51,7 @@ book:
       - 999_dendro_bibliografie.qmd
     
 title-block-banner: "#0e4d1c"
+title-block-banner-color: white
 
 bibliography: dendro_biblio.bib
 csl: elsevier-harvard_nl.csl
