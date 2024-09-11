@@ -2,7 +2,7 @@
 
 ## Dateren met koolstof
 
-Niet alle dendrochronologische analyses leveren een absolute datering op. In sommige gevallen laten de opgemeten groeiringpatronen zich niet inpassen in een referentiekalender of worden de stukken hout niet weerhouden omdat ze te weinig groeiringen hebben. Dan is een radiokoolstofdatering het beste alternatief. In de [handleiding dateren met radiokoolstof](https://hanecakr.github.io/handleidingRadiokoolstof/) lees je meer over de basisprincipes, randvoorwaarden en toepassing van $\mathrm{^{14}C}$-dateringen binnen het erfgoedonderzoek.
+Niet alle dendrochronologische analyses leveren een absolute datering op. In sommige gevallen laten de opgemeten groeiringpatronen zich niet inpassen in een referentiekalender of worden de stukken hout niet weerhouden omdat ze te weinig groeiringen hebben. Dan is een radiokoolstofdatering het beste alternatief. In de [handleiding ***'Dateren met radiokoolstof'***](https://publicaties.onroerenderfgoed.be/HAOE-21-Radiokoolstof/) lees je meer over de basisprincipes, randvoorwaarden en toepassing van $\mathrm{^{14}C}$-dateringen binnen het erfgoedonderzoek.
 
 Een $\mathrm{^{14}C}$-datering op archeologisch hout wordt in veel gevallen uitgevoerd op stukken jong hout. Dit is hout van jonge bomen, dunne takken of spinthout die door het beperkt aantal ringen op zich al niet geschikt zijn voor dendrochronologisch onderzoek. Aan de hand van het aantal groeiringen en/of hun oriëntatie kan worden nagegaan of het geselecteerde hout wel degelijk juveniel is.
 
@@ -33,3 +33,32 @@ _Wiggle matching_ biedt ook een uitkomst om houtsoorten te dateren waarvoor geen
 Wiggle-matching uitgevoerd op een plank van een waterputbekisting uit de late bronstijd (a). Vijf stalen waarop een radiokoolstofdatering werd uitgevoerd (b) worden in een wiskundig model aan elkaar verbonden door de tussenafstand, uitgedrukt in aantal jaarringen, in het model op te nemen (c). Het opgebouwde model laat toe om de veldatum van dit stuk hout (tussen 940 BC en 890 BC (95,4% betrouwbaarheidsinterval)) veel preciezer te bepalen dan op basis van een individuele radiokoolstofdatering mogelijk is.
 :::
 
+## *Miyake events*
+
+Recent werden 'pieken' ontdekt op heel specifieke jaren in de kalibratiecurve. Deze zogenaamde **Miyake-events** wijzen op een plotse, spectaculaire toename van de $\mathrm{^{14}C}$-concentratie in de atmosfeer [@miyake_another_2013; @miyake_signature_2012], en werden ontdekt door radiokoolstofanalyses op dendrochronologisch gedateerde, individuele jaarringen van bomen. De plotse sprongen in $\mathrm{^{14}C}$-concentratie zijn ondertussen al bevestigd op meerdere continenten, wat wijst op een globaal fenomeen. Ze zijn het gevolg van een protonenstorm veroorzaakt door een zonnevlam: een **solar energetic particle event (SEP)**.
+
+Niet alleen zorgen *Miyake-events* voor een duidelijk verschil met vorige kalibratiecurven, maar bieden ze ook nieuwe mogelijkheden om tot een heel precieze datering te komen met materiaal waarin deze sprongen in $\mathrm{^{14}C}$-concentratie vervat zijn. In de jaarlijks gelaagde groeiringen van bomen kunnen de radiokoolstofanalyses toelaten om stukken hout gedateerd te krijgen tot op het jaar nauwkeurig. Zo kon een stuk bewerkt hout van de eerste permanente Viking nederzetting in Newfoundland (L’Anse aux Meadows) exact gedateerd worden, met een veldatum in 1021 CE, door de identificatie van het *Miyake-event* in 993 CE in het groeiringpatroon [@kuitems2021] Ook voor een stuk bouwhout uit de Heilige Kruiskapel van de Sint-Jan de Doperkerk in Val Müstair (Zwitserland) kon op basis van een SEP event in 774-75 CE de veldatum exact vastgesteld worden in 785/786 CE. [@wacker2014] In het noorden van Griekenland (vindplaats Dispilio) kon een tot dan toe niet gedateerde jaarringchronologie, opgebouwd met archeologisch hout van een nederzetting van vroege landbouwers, exact gedateerd worden door het *Miyake-event* van 5259 BCE [@maczkowski2024]. Deze datering tot op het jaar markeert Dispilio nu als een uniek chronologisch ankerpunt voor neolitische vindplaatsen in Europa.
+
+Onderzoekscentra gespecialiseerd in radiokoolstofdateringen zoeken nog steeds naar nieuwe SEP events in (pre-)historisch hout. De tot nu toe gekende en bevestigde SEP events zijn opgelijst in onderstaande tabel. De meest recente *Miyake*-events situeren zich in de 13de eeuw en de vroege middeleeuwwen.
+
+```{r}
+#| message: FALSE
+#| echo: FALSE
+#| tbl-colwidths: [25, 75]
+tmp <- readxl::read_xlsx("./tabellen/miyake_events.xlsx") |> 
+     dplyr::select(-biblio)
+
+options(knitr.kable.NA = '')
+knitr::kable(tmp, kable_stylingposition = "left", ) 
+
+```
+
+Momenteel is deze techniek nog niet toegepast op archeologisch of bouwkundig erfgoed in Vlaanderen.
+
+::: {.callout-tip appearance="default"}
+
+## Leestip
+
+[![](./figuren/leestip_Miyake.jpg)](https://www.science.org/content/article/marking-time-cosmic-ray-storms-can-pin-precise-dates-history-ancient-egypt-vikings)
+
+:::

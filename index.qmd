@@ -1,19 +1,21 @@
 ## Woord vooraf {-}
 
-Welkom bij de online versie van de handleiding **Dendrochronologie en erfgoedonderzoek**. Deze handleiding werd in 2017 gepubliceerd door het **agentschap Onroerend Erfgoed** en is als pdf te downloaden op de [__Open Archives Repository (OAR)__](https://doi.org/10.55465/WRTE1679).
+Welkom bij de online versie van de handleiding **Dendrochronologie en erfgoedonderzoek**. Deze handleiding werd in 2017 gepubliceerd door het agentschap Onroerend Erfgoed en is als pdf te downloaden op de [_Open Archives Repository (OAR)_](https://doi.org/10.55465/WRTE1679).
 
 Met deze online versie willen we kleine aanpassingen aan de originele uitgave, veranderende inzichten en nieuwe toepassingen van dendrochronologie binnen het erfgoedonderzoek - op basis van recente wetenschappelijke ontwikkelingen - sneller ontsluiten. De basis van deze handleiding blijft de originele uitgave, maar hier kan je steeds de meest actuele versie raadplegen.
+
+Andere online handleidingen en afwegingskaders van het agentschap Onroerend Erfgoed vind je hier: <https://publicaties.onroerenderfgoed.be/>.
 
 
 ### Citeren {-}
 
 Gelieve te citeren als: <br/> 
 
-Haneca K. (`r Sys.Date() |> format("%Y")`). Dendrochronologie en erfgoedonderzoek. Handleiding agentschap Onroerend Erfgoed (v 1.2.0), Brussel. <https://publicaties.onroerenderfgoed.be/HAOE-16-Dendrochronologie/> (geraadpleegd op `r Sys.Date() |> format("%d-%m-%Y")`)
+Haneca K. (`r Sys.Date() |> format("%Y")`). Dendrochronologie en erfgoedonderzoek. Handleiding agentschap Onroerend Erfgoed (v 1.2.1), Brussel. <https://publicaties.onroerenderfgoed.be/HAOE-16-Dendrochronologie/> (geraadpleegd op ...)
 
 Oorspronkelijke gepubliceerd als: <br/>
 
-Haneca K. (2017). Dendrochronologie en erfgoedonderzoek, Handleiding agentschap Onroerend Erfgoed 16, Brussel. [doi: https://doi.org/10.55465/WRTE1679](https://doi.org/10.55465/WRTE1679).
+Haneca K. (2017). Dendrochronologie en erfgoedonderzoek, Handleiding agentschap Onroerend Erfgoed 16, Brussel. <https://doi.org/10.55465/WRTE1679>
 
 
 ![](./figuren/figuur_intro3.jpg){width=100%}
