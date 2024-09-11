@@ -45,3 +45,9 @@ In het overzicht hier onder worden de belangrijkste wijzigingen ten opzichte van
 - Nieuwe URL website: <https://publicaties.onroerenderfgoed.be/HAOE-16-Dendrochronologie/>.
 
 
+#### 1.2.1 (11-09-2024)
+
+- Integratie [`lightbox`](https://quarto.org/docs/output-formats/html-lightbox-figures.html) voor figuren.
+- Extra papragraaf: 11.3 Miyake events.
+
+

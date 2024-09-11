@@ -8,9 +8,11 @@ Het uiteindelijke doel van een dendrochronologische analyse is de **veldatum te 
   - tijdens het omvormen van een stam tot balk of plank, gaan dikwijls de schors en (een deel van) het spinthout verloren. Als echter nog een **deel van het spinthout bewaard** is gebleven, weten we dat er slechts een beperkt aantal ringen – en dus jaren – ontbreken tussen de laatste opgemeten ring en de wankant. Bij eik is de spreiding op het aantal spinthoutringen relatief constant, en kan er een onderbouwde schatting gemaakt worden van het aantal ontbrekende spinthoutringen. In dit geval is de **veldatum** te situeren **binnen een concreet tijdsinterval**. We kunnen dan zowel de vroegst mogelijke veldatum (*terminus post quem*) bepalen als de uiterste tijdsgrens voor het vellen van de boom (*terminus ante quem*);
   - als er alleen maar **kernhout** bewaard is, kan enkel de vroegst mogelijke veldatum bepaald worden (*terminus post quem*). De kapdatum ligt dan zeker ná de datering van de laatste kernhoutring, met daarbij opgeteld het minimale aantal te verwachten spinthoutringen.
 
->   
-> Het uiteindelijke doel van een dendrochronologische analyse is de veldatum te bepalen van de boom waaruit het geanalyseerde stuk hout afkomstig is.
->   
+::: {.callout-tip appearance="simple"}
+
+Het uiteindelijke doel van een dendrochronologische analyse is de veldatum te bepalen van de boom waaruit het geanalyseerde stuk hout afkomstig is.
+
+::: 
 
 ::: {#fig-spint}
 

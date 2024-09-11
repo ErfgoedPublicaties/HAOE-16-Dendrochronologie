@@ -1,7 +1,9 @@
 # Bibliografie {.unnumbered #bronnen}
 
 
+:::{#refs}
 ---
 nocite: |
   @*
 ---
+:::

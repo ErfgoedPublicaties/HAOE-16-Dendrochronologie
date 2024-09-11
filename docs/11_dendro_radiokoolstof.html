@@ -2,12 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="nl" xml:lang="nl"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.450">
+<meta name="generator" content="quarto-1.5.43">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Dendrochronologie en erfgoedonderzoek - 11&nbsp; Kruisbestuiving met radiokoolstof</title>
+<title>Dendrochronologie en erfgoedonderzoek – 11&nbsp; Kruisbestuiving met radiokoolstof</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,7 +20,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -43,13 +63,22 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
 <link href="site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<script src="site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
   "collapse-after": 3,
   "panel-placement": "start",
   "type": "textbox",
-  "limit": 20,
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
   "language": {
     "search-no-results-text": "Geen resultaat",
     "search-matching-documents-text": "Gevonden documenten",
@@ -58,20 +87,12 @@ ul.task-list li input[type="checkbox"] {
     "search-more-match-text": "meer overeenkomst in dit document",
     "search-more-matches-text": "meer overeenkomsten in dit document",
     "search-clear-button-title": "Wissen",
+    "search-text-placeholder": "",
     "search-detached-cancel-button-title": "Annuleren",
     "search-submit-button-title": "Verzenden",
     "search-label": "Zoeken"
   }
 }</script>
-<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-WRYSRDGLWG"></script>
-
-<script type="text/javascript">
-
-window.dataLayer = window.dataLayer || [];
-function gtag(){dataLayer.push(arguments);}
-gtag('js', new Date());
-gtag('config', 'G-WRYSRDGLWG', { 'anonymize_ip': true});
-</script>
 <style>
 
       .quarto-title-block .quarto-title-banner h1,
@@ -90,28 +111,51 @@ background: #0e4d1c;
       }
 </style>
 
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
-<meta name="twitter:title" content="Dendrochronologie en erfgoedonderzoek - 11&nbsp; Kruisbestuiving met radiokoolstof">
-<meta name="twitter:description" content="">
-<meta name="twitter:image" content="https://publicaties.onroerenderfgoed.be/HAOE-16-Dendrochronologie/figuren/cover_handleiding.jpg">
-<meta name="twitter:card" content="summary_large_image">
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
 </head>
 
 <body class="nav-sidebar floating">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
   <nav class="quarto-secondary-nav">
     <div class="container-fluid d-flex">
-      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Schakel zijbalk in" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Schakel zijbalknavigatie" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./01_dendro_intro.html">Handleiding</a></li><li class="breadcrumb-item"><a href="./11_dendro_radiokoolstof.html"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Kruisbestuiving met radiokoolstof</span></a></li></ol></nav>
-      <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Schakel zijbalk in" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
-      </a>
-      <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
+        <a class="flex-grow-1 no-decor" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Schakel zijbalknavigatie" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+          <h1 class="quarto-secondary-nav-title"><span id="C14" class="quarto-section-identifier"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Kruisbestuiving met radiokoolstof</span></span></h1>
+        </a>     
+      <button type="button" class="btn quarto-search-button" aria-label="Zoeken" onclick="window.quartoOpenSearch();">
         <i class="bi bi-search"></i>
       </button>
     </div>
@@ -121,7 +165,7 @@ background: #0e4d1c;
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title"><span id="C14" class="quarto-section-identifier"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Kruisbestuiving met radiokoolstof</span></span></h1>
+      <h1 class="title d-none d-lg-block"><span id="C14" class="quarto-section-identifier"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Kruisbestuiving met radiokoolstof</span></span></h1>
                       </div>
   </div>
     
@@ -136,36 +180,18 @@ background: #0e4d1c;
   
   </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation floating overflow-auto">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
       <a href="./">Dendrochronologie en erfgoedonderzoek</a> 
         <div class="sidebar-tools-main tools-wide">
-    <a href="https://github.com/ErfgoedPublicaties/HAOE-16-Dendrochronologie/" rel="" title="Source Code" class="quarto-navigation-tool px-1" aria-label="Source Code"><i class="bi bi-github"></i></a>
-    <div class="dropdown">
-      <a href="" title="Share" id="quarto-navigation-tool-dropdown-0" class="quarto-navigation-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Share"><i class="bi bi-share"></i></a>
-      <ul class="dropdown-menu" aria-labelledby="quarto-navigation-tool-dropdown-0">
-          <li>
-            <a class="dropdown-item sidebar-tools-main-item" href="https://twitter.com/intent/tweet?url=|url|">
-              <i class="bi bi-bi-twitter pe-1"></i>
-            Twitter
-            </a>
-          </li>
-          <li>
-            <a class="dropdown-item sidebar-tools-main-item" href="https://www.facebook.com/sharer/sharer.php?u=|url|">
-              <i class="bi bi-bi-facebook pe-1"></i>
-            Facebook
-            </a>
-          </li>
-          <li>
-            <a class="dropdown-item sidebar-tools-main-item" href="https://www.linkedin.com/sharing/share-offsite/?url=|url|">
-              <i class="bi bi-bi-linkedin pe-1"></i>
-            LinkedIn
-            </a>
-          </li>
-      </ul>
-    </div>
-  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Schakel donkere modus in"><i class="bi"></i></a>
+    <a href="https://github.com/ErfgoedPublicaties/HAOE-16-Dendrochronologie/" title="Broncode" class="quarto-navigation-tool px-1" aria-label="Broncode"><i class="bi bi-github"></i></a>
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Schakel donkere modus"><i class="bi"></i></a>
+  <a href="" class="quarto-reader-toggle quarto-navigation-tool px-1" onclick="window.quartoToggleReader(); return false;" title="Schakel leesmodus">
+  <div class="quarto-reader-toggle-btn">
+  <i class="bi"></i>
+  </div>
+</a>
 </div>
     </div>
       </div>
@@ -190,9 +216,9 @@ background: #0e4d1c;
 </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
  <span class="menu-text">Handleiding</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true" aria-label="Schakel sectie">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Schakel sectie">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
@@ -267,9 +293,9 @@ background: #0e4d1c;
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true">
  <span class="menu-text">Begrippen</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true" aria-label="Schakel sectie">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Schakel sectie">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
@@ -284,9 +310,9 @@ background: #0e4d1c;
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true">
  <span class="menu-text">Bronnen</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true" aria-label="Schakel sectie">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true" aria-label="Schakel sectie">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
@@ -302,7 +328,7 @@ background: #0e4d1c;
     </ul>
     </div>
 </nav>
-<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
@@ -311,8 +337,9 @@ background: #0e4d1c;
   <ul>
   <li><a href="#dateren-met-koolstof" id="toc-dateren-met-koolstof" class="nav-link active" data-scroll-target="#dateren-met-koolstof"><span class="header-section-number">11.1</span> Dateren met koolstof</a></li>
   <li><a href="#wiggle-matching" id="toc-wiggle-matching" class="nav-link" data-scroll-target="#wiggle-matching"><span class="header-section-number">11.2</span> <em>Wiggle matching</em></a></li>
+  <li><a href="#miyake-events" id="toc-miyake-events" class="nav-link" data-scroll-target="#miyake-events"><span class="header-section-number">11.3</span> <em>Miyake events</em></a></li>
   </ul>
-<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/ErfgoedPublicaties/HAOE-16-Dendrochronologie/edit/main/11_dendro_radiokoolstof.qmd" class="toc-action">Bewerk deze pagina</a></p><p><a href="https://github.com/ErfgoedPublicaties/HAOE-16-Dendrochronologie/issues/new" class="toc-action">Een probleem melden</a></p></div></div></nav>
+<div class="toc-actions"><ul><li><a href="https://github.com/ErfgoedPublicaties/HAOE-16-Dendrochronologie/edit/master/11_dendro_radiokoolstof.qmd" class="toc-action"><i class="bi bi-github"></i>Bewerk deze pagina</a></li><li><a href="https://github.com/ErfgoedPublicaties/HAOE-16-Dendrochronologie/issues/new" class="toc-action"><i class="bi empty"></i>Een probleem melden</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content quarto-banner-title-block" id="quarto-document-content">
@@ -320,31 +347,145 @@ background: #0e4d1c;
 
 
 
+
 <section id="dateren-met-koolstof" class="level2" data-number="11.1">
 <h2 data-number="11.1" class="anchored" data-anchor-id="dateren-met-koolstof"><span class="header-section-number">11.1</span> Dateren met koolstof</h2>
-<p>Niet alle dendrochronologische analyses leveren een absolute datering op. In sommige gevallen laten de opgemeten groeiringpatronen zich niet inpassen in een referentiekalender of worden de stukken hout niet weerhouden omdat ze te weinig groeiringen hebben. Dan is een radiokoolstofdatering het beste alternatief. In de <a href="https://hanecakr.github.io/handleidingRadiokoolstof/">handleiding dateren met radiokoolstof</a> lees je meer over de basisprincipes, randvoorwaarden en toepassing van <span class="math inline">\(\mathrm{^{14}C}\)</span>-dateringen binnen het erfgoedonderzoek.</p>
+<p>Niet alle dendrochronologische analyses leveren een absolute datering op. In sommige gevallen laten de opgemeten groeiringpatronen zich niet inpassen in een referentiekalender of worden de stukken hout niet weerhouden omdat ze te weinig groeiringen hebben. Dan is een radiokoolstofdatering het beste alternatief. In de <a href="https://publicaties.onroerenderfgoed.be/HAOE-21-Radiokoolstof/">handleiding <strong><em>‘Dateren met radiokoolstof’</em></strong></a> lees je meer over de basisprincipes, randvoorwaarden en toepassing van <span class="math inline">\(\mathrm{^{14}C}\)</span>-dateringen binnen het erfgoedonderzoek.</p>
 <p>Een <span class="math inline">\(\mathrm{^{14}C}\)</span>-datering op archeologisch hout wordt in veel gevallen uitgevoerd op stukken jong hout. Dit is hout van jonge bomen, dunne takken of spinthout die door het beperkt aantal ringen op zich al niet geschikt zijn voor dendrochronologisch onderzoek. Aan de hand van het aantal groeiringen en/of hun oriëntatie kan worden nagegaan of het geselecteerde hout wel degelijk juveniel is.</p>
-<p>Interactie tussen <span class="math inline">\(\mathrm{^{14}C}\)</span>-analyses en dendrochronologische dateringen kunnen de interpretatie van bepaalde structuren of gebruiksfasen scherper stellen en verfijnen. Op de archeologische site Kluizenmolen (Sint-Gillis-Waas) werd in 2010 een waterput dendrochronologisch gedateerd met een veldatum tussen 52 en 61 AD. Uit diezelfde waterput werd ook een takje uit de organische vulling gedateerd met de radiokoolstofmethode. Dit leverde een datering op van 2001 ± 31 BP (RICH-20248), wat gekalibreerd met 95,4% probabiliteit een datering tussen 51 BC en 84 BC (90,8%) of 95 en 116 AD (4,6%) oplevert. Koppelen we dit terug met de dendrochronologische datering, en nemen we aan dat de organische opvulling zich pas begon te vormen na de opgave van de waterput, dan is de kans groot dat deze maximaal 23 (= 84 - 61) tot 32 (= 84 - 52) jaar in gebruik is geweest (<a href="#fig-Oxcalplot">fig.&nbsp;<span>11.1</span></a>). De gekalibreerde radiokoolstofdatering wijst echter ook op de mogelijkheid dat het takje uit de opvulling een nog jongere datering heeft, nl. tussen 95 en 116 AD. Alhoewel dit minder waarschijnlijk is dan het grotere dateringsinterval (4,6% t.o.v. 90,8%), mag dit meest recente interval niet genegeerd worden. Duidelijk is wel dat de combinatie van beide dateringstechnieken toelaat om tot een meer diepgaande interpretatie te komen. Al gaan we er in dit geval wel vanuit dat het gedateerde takje niet residueel of intrusief is.</p>
-<div id="fig-Oxcalplot" class="quarto-figure quarto-figure-center anchored">
-<figure class="figure">
-<p><img src="./figuren/dendro_figuur25_update.png" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">Figuur&nbsp;11.1: De dendrochronologische datering van de Romeinse waterput WP2 van de site Kluizenmolen en de gekalibreerde radiokoolstofdatering van een takje uit de organische vulling van de waterput. Daaruit valt af te leiden dat deze waterput maximaal 23 tot 32 jaar in gebruik was, als we aannemen dat de organische opvulling pas startte na opgave van de waterput.</figcaption>
+<p>Interactie tussen <span class="math inline">\(\mathrm{^{14}C}\)</span>-analyses en dendrochronologische dateringen kunnen de interpretatie van bepaalde structuren of gebruiksfasen scherper stellen en verfijnen. Op de archeologische site Kluizenmolen (Sint-Gillis-Waas) werd in 2010 een waterput dendrochronologisch gedateerd met een veldatum tussen 52 en 61 AD. Uit diezelfde waterput werd ook een takje uit de organische vulling gedateerd met de radiokoolstofmethode. Dit leverde een datering op van 2001 ± 31 BP (RICH-20248), wat gekalibreerd met 95,4% probabiliteit een datering tussen 51 BC en 84 BC (90,8%) of 95 en 116 AD (4,6%) oplevert. Koppelen we dit terug met de dendrochronologische datering, en nemen we aan dat de organische opvulling zich pas begon te vormen na de opgave van de waterput, dan is de kans groot dat deze maximaal 23 (= 84 - 61) tot 32 (= 84 - 52) jaar in gebruik is geweest (<a href="#fig-Oxcalplot" class="quarto-xref">fig.&nbsp;<span>11.1</span></a>). De gekalibreerde radiokoolstofdatering wijst echter ook op de mogelijkheid dat het takje uit de opvulling een nog jongere datering heeft, nl. tussen 95 en 116 AD. Alhoewel dit minder waarschijnlijk is dan het grotere dateringsinterval (4,6% t.o.v. 90,8%), mag dit meest recente interval niet genegeerd worden. Duidelijk is wel dat de combinatie van beide dateringstechnieken toelaat om tot een meer diepgaande interpretatie te komen. Al gaan we er in dit geval wel vanuit dat het gedateerde takje niet residueel of intrusief is.</p>
+<div id="fig-Oxcalplot" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-Oxcalplot-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="./figuren/dendro_figuur25_update.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Figuur&nbsp;11.1: De dendrochronologische datering van de Romeinse waterput WP2 van de site Kluizenmolen en de gekalibreerde radiokoolstofdatering van een takje uit de organische vulling van de waterput. Daaruit valt af te leiden dat deze waterput maximaal 23 tot 32 jaar in gebruik was, als we aannemen dat de organische opvulling pas startte na opgave van de waterput."><img src="./figuren/dendro_figuur25_update.png" class="img-fluid figure-img"></a>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-Oxcalplot-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figuur&nbsp;11.1: De dendrochronologische datering van de Romeinse waterput WP2 van de site Kluizenmolen en de gekalibreerde radiokoolstofdatering van een takje uit de organische vulling van de waterput. Daaruit valt af te leiden dat deze waterput maximaal 23 tot 32 jaar in gebruik was, als we aannemen dat de organische opvulling pas startte na opgave van de waterput.
+</figcaption>
 </figure>
 </div>
 </section>
 <section id="wiggle-matching" class="level2" data-number="11.2">
 <h2 data-number="11.2" class="anchored" data-anchor-id="wiggle-matching"><span class="header-section-number">11.2</span> <em>Wiggle matching</em></h2>
 <p>Indien geen geschikte stukken hout beschikbaar zijn voor een dendrochronologisch onderzoek (verkeerde houtsoort, te weinig ringen, enkel takhout, …), maar er toch een precieze datering gewenst is, kan <strong><em>wiggle matching</em></strong> overwogen worden. Deze techniek levert een veel exactere uitkomst op dan een <span class="math inline">\(\mathrm{^{14}C}\)</span>-datering van één staal. Zeker voor het dateren van historische houtconstructies kan deze techniek dus van groot nut zijn.</p>
-<p>Op een stuk hout worden dan, aan de hand van het groeiringpatroon, verschillende bemonsteringspunten vastgelegd, met een gekend interval (= aantal jaarringen) tussen de verschillende punten (<a href="#fig-wiggleMatching">fig.&nbsp;<span>11.2</span></a>). Op elk van deze punten wordt een radiokoolstofanalyse uitgevoerd en de resultaten hiervan in een Bayesiaans model gebracht. De waarschijnlijkheidsdistributies van de individuele dateringen kunnen dan nauwer worden door de met absolute zekerheid gekende sequentie van oud naar jong en het exacte leeftijdsverschil tussen de dateringen in rekening te brengen.</p>
+<p>Op een stuk hout worden dan, aan de hand van het groeiringpatroon, verschillende bemonsteringspunten vastgelegd, met een gekend interval (= aantal jaarringen) tussen de verschillende punten (<a href="#fig-wiggleMatching" class="quarto-xref">fig.&nbsp;<span>11.2</span></a>). Op elk van deze punten wordt een radiokoolstofanalyse uitgevoerd en de resultaten hiervan in een Bayesiaans model gebracht. De waarschijnlijkheidsdistributies van de individuele dateringen kunnen dan nauwer worden door de met absolute zekerheid gekende sequentie van oud naar jong en het exacte leeftijdsverschil tussen de dateringen in rekening te brengen.</p>
 <p><em>Wiggle matching</em> biedt ook een uitkomst om houtsoorten te dateren waarvoor geen dendrochronologische kalenders beschikbaar zijn of waarbij de groei en de anatomie de toepassing van de techniek niet toelaten. In principe heeft de houtsoort geen belang zolang er maar jaarringen kunnen onderscheiden worden.</p>
-<div id="fig-wiggleMatching" class="quarto-figure quarto-figure-center anchored">
-<figure class="figure">
-<p><img src="./figuren/dendro_figuur24.png" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">Figuur&nbsp;11.2: Wiggle-matching uitgevoerd op een plank van een waterputbekisting uit de late bronstijd (a). Vijf stalen waarop een radiokoolstofdatering werd uitgevoerd (b) worden in een wiskundig model aan elkaar verbonden door de tussenafstand, uitgedrukt in aantal jaarringen, in het model op te nemen (c). Het opgebouwde model laat toe om de veldatum van dit stuk hout (tussen 940 BC en 890 BC (95,4% betrouwbaarheidsinterval)) veel preciezer te bepalen dan op basis van een individuele radiokoolstofdatering mogelijk is.</figcaption>
+<div id="fig-wiggleMatching" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-wiggleMatching-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="./figuren/dendro_figuur24.png" class="lightbox" data-gallery="quarto-lightbox-gallery-2" title="Figuur&nbsp;11.2: Wiggle-matching uitgevoerd op een plank van een waterputbekisting uit de late bronstijd (a). Vijf stalen waarop een radiokoolstofdatering werd uitgevoerd (b) worden in een wiskundig model aan elkaar verbonden door de tussenafstand, uitgedrukt in aantal jaarringen, in het model op te nemen (c). Het opgebouwde model laat toe om de veldatum van dit stuk hout (tussen 940 BC en 890 BC (95,4% betrouwbaarheidsinterval)) veel preciezer te bepalen dan op basis van een individuele radiokoolstofdatering mogelijk is."><img src="./figuren/dendro_figuur24.png" class="img-fluid figure-img"></a>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-wiggleMatching-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figuur&nbsp;11.2: Wiggle-matching uitgevoerd op een plank van een waterputbekisting uit de late bronstijd (a). Vijf stalen waarop een radiokoolstofdatering werd uitgevoerd (b) worden in een wiskundig model aan elkaar verbonden door de tussenafstand, uitgedrukt in aantal jaarringen, in het model op te nemen (c). Het opgebouwde model laat toe om de veldatum van dit stuk hout (tussen 940 BC en 890 BC (95,4% betrouwbaarheidsinterval)) veel preciezer te bepalen dan op basis van een individuele radiokoolstofdatering mogelijk is.
+</figcaption>
 </figure>
+</div>
+</section>
+<section id="miyake-events" class="level2" data-number="11.3">
+<h2 data-number="11.3" class="anchored" data-anchor-id="miyake-events"><span class="header-section-number">11.3</span> <em>Miyake events</em></h2>
+<p>Recent werden ‘pieken’ ontdekt op heel specifieke jaren in de kalibratiecurve. Deze zogenaamde <strong>Miyake-events</strong> wijzen op een plotse, spectaculaire toename van de <span class="math inline">\(\mathrm{^{14}C}\)</span>-concentratie in de atmosfeer <span class="citation" data-cites="miyake_another_2013 miyake_signature_2012">(<a href="999_dendro_bibliografie.html#ref-miyake_another_2013" role="doc-biblioref">Miyake <em>e.a.</em> 2013</a> en <a href="999_dendro_bibliografie.html#ref-miyake_signature_2012" role="doc-biblioref">2012</a>)</span>, en werden ontdekt door radiokoolstofanalyses op dendrochronologisch gedateerde, individuele jaarringen van bomen. De plotse sprongen in <span class="math inline">\(\mathrm{^{14}C}\)</span>-concentratie zijn ondertussen al bevestigd op meerdere continenten, wat wijst op een globaal fenomeen. Ze zijn het gevolg van een protonenstorm veroorzaakt door een zonnevlam: een <strong>solar energetic particle event (SEP)</strong>.</p>
+<p>Niet alleen zorgen <em>Miyake-events</em> voor een duidelijk verschil met vorige kalibratiecurven, maar bieden ze ook nieuwe mogelijkheden om tot een heel precieze datering te komen met materiaal waarin deze sprongen in <span class="math inline">\(\mathrm{^{14}C}\)</span>-concentratie vervat zijn. In de jaarlijks gelaagde groeiringen van bomen kunnen de radiokoolstofanalyses toelaten om stukken hout gedateerd te krijgen tot op het jaar nauwkeurig. Zo kon een stuk bewerkt hout van de eerste permanente Viking nederzetting in Newfoundland (L’Anse aux Meadows) exact gedateerd worden, met een veldatum in 1021 CE, door de identificatie van het <em>Miyake-event</em> in 993 CE in het groeiringpatroon <span class="citation" data-cites="kuitems2021">(<a href="999_dendro_bibliografie.html#ref-kuitems2021" role="doc-biblioref">Kuitems <em>e.a.</em> 2021</a>)</span> Ook voor een stuk bouwhout uit de Heilige Kruiskapel van de Sint-Jan de Doperkerk in Val Müstair (Zwitserland) kon op basis van een SEP event in 774-75 CE de veldatum exact vastgesteld worden in 785/786 CE. <span class="citation" data-cites="wacker2014">(<a href="999_dendro_bibliografie.html#ref-wacker2014" role="doc-biblioref">Wacker <em>e.a.</em> 2014</a>)</span> In het noorden van Griekenland (vindplaats Dispilio) kon een tot dan toe niet gedateerde jaarringchronologie, opgebouwd met archeologisch hout van een nederzetting van vroege landbouwers, exact gedateerd worden door het <em>Miyake-event</em> van 5259 BCE <span class="citation" data-cites="maczkowski2024">(<a href="999_dendro_bibliografie.html#ref-maczkowski2024" role="doc-biblioref">Maczkowski <em>e.a.</em> 2024</a>)</span>. Deze datering tot op het jaar markeert Dispilio nu als een uniek chronologisch ankerpunt voor neolitische vindplaatsen in Europa.</p>
+<p>Onderzoekscentra gespecialiseerd in radiokoolstofdateringen zoeken nog steeds naar nieuwe SEP events in (pre-)historisch hout. De tot nu toe gekende en bevestigde SEP events zijn opgelijst in onderstaande tabel. De meest recente <em>Miyake</em>-events situeren zich in de 13de eeuw en de vroege middeleeuwwen.</p>
+<div class="cell" data-tbl-colwidths="[25,75]">
+<div class="cell-output-display">
+<table class="caption-top table table-sm table-striped small">
+<colgroup>
+<col style="width: 25%">
+<col style="width: 75%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">SEP</th>
+<th style="text-align: left;">bron</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">1279 CE</td>
+<td style="text-align: left;"><span class="citation" data-cites="brehm2021">Brehm <em>e.a.</em> (<a href="999_dendro_bibliografie.html#ref-brehm2021" role="doc-biblioref">2021</a>)</span></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">1052 CE</td>
+<td style="text-align: left;"><span class="citation" data-cites="brehm2021">Brehm <em>e.a.</em> (<a href="999_dendro_bibliografie.html#ref-brehm2021" role="doc-biblioref">2021</a>)</span></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">993-994 CE</td>
+<td style="text-align: left;"><span class="citation" data-cites="miyake_another_2013">Miyake <em>e.a.</em> (<a href="999_dendro_bibliografie.html#ref-miyake_another_2013" role="doc-biblioref">2013</a>)</span>; <span class="citation" data-cites="büntgen2018">Büntgen <em>e.a.</em> (<a href="999_dendro_bibliografie.html#ref-büntgen2018" role="doc-biblioref">2018</a>)</span></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">773-774 CE</td>
+<td style="text-align: left;"><span class="citation" data-cites="miyake_signature_2012">Miyake <em>e.a.</em> (<a href="999_dendro_bibliografie.html#ref-miyake_signature_2012" role="doc-biblioref">2012</a>)</span>; <span class="citation" data-cites="büntgen2018">Büntgen <em>e.a.</em> (<a href="999_dendro_bibliografie.html#ref-büntgen2018" role="doc-biblioref">2018</a>)</span></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">660 BCE</td>
+<td style="text-align: left;"><span class="citation" data-cites="park2017">Park <em>e.a.</em> (<a href="999_dendro_bibliografie.html#ref-park2017" role="doc-biblioref">2017</a>)</span>; <span class="citation" data-cites="sakurai2020">Sakurai <em>e.a.</em> (<a href="999_dendro_bibliografie.html#ref-sakurai2020" role="doc-biblioref">2020</a>)</span></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">5259 BCE</td>
+<td style="text-align: left;"><span class="citation" data-cites="brehm2022">Brehm <em>e.a.</em> (<a href="999_dendro_bibliografie.html#ref-brehm2022" role="doc-biblioref">2022</a>)</span></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">5410 BCE</td>
+<td style="text-align: left;"><span class="citation" data-cites="miyake2021">Miyake <em>e.a.</em> (<a href="999_dendro_bibliografie.html#ref-miyake2021" role="doc-biblioref">2021</a>)</span></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">7176 BCE</td>
+<td style="text-align: left;"><span class="citation" data-cites="brehm2022">Brehm <em>e.a.</em> (<a href="999_dendro_bibliografie.html#ref-brehm2022" role="doc-biblioref">2022</a>)</span></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<p>Momenteel is deze techniek nog niet toegepast op archeologisch of bouwkundig erfgoed in Vlaanderen.</p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Leestip
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><a href="https://www.science.org/content/article/marking-time-cosmic-ray-storms-can-pin-precise-dates-history-ancient-egypt-vikings"><img src="./figuren/leestip_Miyake.jpg" class="img-fluid"></a></p>
+</div>
 </div>
 
 
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list" style="display: none">
+<div id="ref-brehm2021" class="csl-entry" role="listitem">
+Brehm N., Bayliss A., Christl M., Synal H.-A., Adolphi F., Beer J., Kromer B., Muscheler R., Solanki S.K., Usoskin I., Bleicher N., Bollhalder S., Tyers C., Wacker L., 2021. Eleven-year solar cycles over the last millennium revealed by radiocarbon in tree rings. Nature Geoscience 14, 10–15. <a href="https://doi.org/10.1038/s41561-020-00674-0">https://doi.org/10.1038/s41561-020-00674-0</a>
+</div>
+<div id="ref-brehm2022" class="csl-entry" role="listitem">
+Brehm N., Christl M., Knowles T.D.J., Casanova E., Evershed R.P., Adolphi F., Muscheler R., Synal H.-A., Mekhaldi F., Paleari C.I., Leuschner H.-H., Bayliss A., Nicolussi K., Pichler T., Schlüchter C., Pearson C.L., Salzer M.W., Fonti P., Nievergelt D., Hantemirov R., Brown D.M., Usoskin I., Wacker L., 2022. Tree-rings reveal two strong solar proton events in 7176 and 5259 BCE. Nature Communications 13, 1196. <a href="https://doi.org/10.1038/s41467-022-28804-9">https://doi.org/10.1038/s41467-022-28804-9</a>
+</div>
+<div id="ref-büntgen2018" class="csl-entry" role="listitem">
+Büntgen U., Wacker L., Galván J.D., Arnold S., Arseneault D., Baillie M., Beer J., Bernabei M., Bleicher N., Boswijk G., Bräuning A., Carrer M., Ljungqvist F.C., Cherubini P., Christl M., Christie D.A., Clark P.W., Cook E.R., D’Arrigo R., Davi N., Eggertsson Ó., Esper J., Fowler A.M., Gedalof Z., Gennaretti F., Grießinger J., Grissino-Mayer H., Grudd H., Gunnarson B.E., Hantemirov R., Herzig F., Hessl A., Heussner K.-U., Jull A.J.T., Kukarskih V., Kirdyanov A., Kolář T., Krusic P.J., Kyncl T., Lara A., LeQuesne C., Linderholm H.W., Loader N.J., Luckman B., Miyake F., Myglan V.S., Nicolussi K., Oppenheimer C., Palmer J., Panyushkina I., Pederson N., Rybníček M., Schweingruber F.H., Seim A., Sigl M., Churakova O., Speer J.H., Synal H.-A., Tegel W., Treydte K., Villalba R., Wiles G., Wilson R., Winship L.J., Wunder J., Yang B., Young G.H.F., 2018. Tree rings reveal globally coherent signature of cosmogenic radiocarbon events in 774 and 993 CE. Nature Communications 9. <a href="https://doi.org/10.1038/s41467-018-06036-0">https://doi.org/10.1038/s41467-018-06036-0</a>
+</div>
+<div id="ref-kuitems2021" class="csl-entry" role="listitem">
+Kuitems M., Wallace B.L., Lindsay C., Scifo A., Doeve P., Jenkins K., Lindauer S., Erdil P., Ledger P.M., Forbes V., Vermeeren C., Friedrich R., Dee M.W., 2021. Evidence for European presence in the Americas in AD 1021. Nature. <a href="https://doi.org/10.1038/s41586-021-03972-8">https://doi.org/10.1038/s41586-021-03972-8</a>
+</div>
+<div id="ref-maczkowski2024" class="csl-entry" role="listitem">
+Maczkowski A., Pearson C., Francuz J., Giagkoulis T., Szidat S., Wacker L., Bolliger M., Kotsakis K., Hafner A., 2024. Absolute dating of the European Neolithic using the 5259 BC rapid 14C excursion. Nature Communications 15, 4263. <a href="https://doi.org/10.1038/s41467-024-48402-1">https://doi.org/10.1038/s41467-024-48402-1</a>
+</div>
+<div id="ref-miyake_another_2013" class="csl-entry" role="listitem">
+Miyake F., Masuda K., Nakamura T., 2013. Another rapid event in the carbon-14 content of tree rings. Nature Communications 4, 1748. <a href="https://doi.org/10.1038/ncomms2783">https://doi.org/10.1038/ncomms2783</a>
+</div>
+<div id="ref-miyake_signature_2012" class="csl-entry" role="listitem">
+Miyake F., Nagaya K., Masuda K., Nakamura T., 2012. A signature of cosmic-ray increase in ad 774-775 from tree rings in <span>Japan</span>. Nature. <a href="https://doi.org/10.1038/nature11123">https://doi.org/10.1038/nature11123</a>
+</div>
+<div id="ref-miyake2021" class="csl-entry" role="listitem">
+Miyake F., Panyushkina I.P., Jull A.J.T., Adolphi F., Brehm N., Helama S., Kanzawa K., Moriya T., Muscheler R., Nicolussi K., Oinonen M., Salzer M., Takeyama M., Tokanai F., Wacker L., 2021. A single-year cosmic ray event at 5410 BCE registered in 14C of tree rings. Geophysical Research Letters 48, e2021GL093419. <a href="https://doi.org/10.1029/2021GL093419">https://doi.org/10.1029/2021GL093419</a>
+</div>
+<div id="ref-park2017" class="csl-entry" role="listitem">
+Park J., Southon J., Fahrni S., Creasman P.P., Mewaldt R., 2017. Relationship between solar activity and Δ14C peaks in AD 775, AD 994, and 660 BC. Radiocarbon 59, 1147–1156. <a href="https://doi.org/10.1017/RDC.2017.59">https://doi.org/10.1017/RDC.2017.59</a>
+</div>
+<div id="ref-sakurai2020" class="csl-entry" role="listitem">
+Sakurai H., Tokanai F., Miyake F., Horiuchi K., Masuda K., Miyahara H., Ohyama M., Sakamoto M., Mitsutani T., Moriya T., 2020. Prolonged production of 14C during the &nbsp;660 BCE solar proton event from Japanese tree rings. Scientific Reports 10, 660. <a href="https://doi.org/10.1038/s41598-019-57273-2">https://doi.org/10.1038/s41598-019-57273-2</a>
+</div>
+<div id="ref-wacker2014" class="csl-entry" role="listitem">
+Wacker L., Güttler D., Goll J., Hurni J.P., Synal H.-A., Walti N., 2014. Radiocarbon dating to a single year by means of rapid atmospheric 14C changes. Radiocarbon 56, 573–579. <a href="https://doi.org/10.2458/56.17634">https://doi.org/10.2458/56.17634</a>
+</div>
+</div>
 </section>
 
 </main> <!-- /main -->
@@ -389,6 +530,33 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       } else {
         el.classList.add('notransition');
       }
+    }
+  }
+  const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+    const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+    const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+    let newTheme = '';
+    if(darkModeDefault) {
+      newTheme = isAlternate ? baseTheme : alternateTheme;
+    } else {
+      newTheme = isAlternate ? alternateTheme : baseTheme;
+    }
+    const changeGiscusTheme = () => {
+      // From: https://github.com/giscus/giscus/issues/336
+      const sendMessage = (message) => {
+        const iframe = document.querySelector('iframe.giscus-frame');
+        if (!iframe) return;
+        iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+      }
+      sendMessage({
+        setConfig: {
+          theme: newTheme
+        }
+      });
+    }
+    const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+    if (isGiscussLoaded) {
+      changeGiscusTheme();
     }
   }
   const toggleColorMode = (alternate) => {
@@ -457,13 +625,15 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       return localAlternateSentinel;
     }
   }
-  let localAlternateSentinel = 'default';
+  const darkModeDefault = false;
+  let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
   // Dark / light mode switch
   window.quartoToggleColorScheme = () => {
     // Read the current dark / light value 
     let toAlternate = !hasAlternateSentinel();
     toggleColorMode(toAlternate);
     setStyleSentinel(toAlternate);
+    toggleGiscusIfUsed(toAlternate, darkModeDefault);
   };
   // Ensure there is a toggle, if there isn't float one in the top right
   if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
@@ -498,18 +668,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
     return false;
   }
-  const clipboard = new window.ClipboardJS('.code-copy-button', {
-    text: function(trigger) {
-      const codeEl = trigger.previousElementSibling.cloneNode(true);
-      for (const childEl of codeEl.children) {
-        if (isCodeAnnotation(childEl)) {
-          childEl.remove();
-        }
-      }
-      return codeEl.innerText;
-    }
-  });
-  clipboard.on('success', function(e) {
+  const onCopySuccess = function(e) {
     // button target
     const button = e.trigger;
     // don't keep focus
@@ -541,11 +700,55 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }, 1000);
     // clear code selection
     e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
   });
-  function tippyHover(el, contentFn) {
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp("https:\/\/publicaties\.onroerenderfgoed\.be\/HAOE-16-Dendrochronologie\/");
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+          // target, if specified
+          link.setAttribute("target", "_blank");
+          if (link.getAttribute("rel") === null) {
+            link.setAttribute("rel", "noopener");
+          }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
-      content: contentFn,
       maxWidth: 500,
       delay: 100,
       arrow: false,
@@ -555,8 +758,17 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       interactive: true,
       interactiveBorder: 10,
       theme: 'quarto',
-      placement: 'bottom-start'
+      placement: 'bottom-start',
     };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
     window.tippy(el, config); 
   }
   const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
@@ -568,7 +780,130 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
-      return note.innerHTML;
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
     });
   }
       let selectedAnnoteEl;
@@ -612,6 +947,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             }
             div.style.top = top - 2 + "px";
             div.style.height = height + 4 + "px";
+            div.style.left = 0;
             let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
             if (gutterDiv === null) {
               gutterDiv = window.document.createElement("div");
@@ -637,6 +973,32 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         });
         selectedAnnoteEl = undefined;
       };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
       // Attach click handler to the DT
       const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
       for (const annoteDlNode of annoteDls) {
@@ -694,35 +1056,54 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       });
     }
   }
-    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
-      var filterRegex = new RegExp("https:\/\/publicaties\.onroerenderfgoed\.be\/HAOE-16-Dendrochronologie\/");
-    var isInternal = (href) => {
-        return filterRegex.test(href) || localhostRegex.test(href);
-    }
-    // Inspect non-navigation links and adorn them if external
- 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item)');
-    for (var i=0; i<links.length; i++) {
-      const link = links[i];
-      if (!isInternal(link.href)) {
-          // target, if specified
-          link.setAttribute("target", "_blank");
-      }
-    }
 });
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./10_dendro_interpretatie.html" class="pagination-link">
+      <a href="./10_dendro_interpretatie.html" class="pagination-link" aria-label="Interpretatie">
         <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Interpretatie</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./999_dendro_begrippen.html" class="pagination-link">
+      <a href="./999_dendro_begrippen.html" class="pagination-link" aria-label="Begrippenlijst">
         <span class="nav-page-text">Begrippenlijst</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
 </div> <!-- /content -->
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/ErfgoedPublicaties/HAOE-16-Dendrochronologie/edit/master/11_dendro_radiokoolstof.qmd" class="toc-action"><i class="bi bi-github"></i>Bewerk deze pagina</a></li><li><a href="https://github.com/ErfgoedPublicaties/HAOE-16-Dendrochronologie/issues/new" class="toc-action"><i class="bi empty"></i>Een probleem melden</a></li></ul></div></div></div></footer><script>var lightboxQuarto = GLightbox({"openEffect":"zoom","closeEffect":"zoom","selector":".lightbox","loop":false,"descPosition":"bottom"});
+(function() {
+  let previousOnload = window.onload;
+  window.onload = () => {
+    if (previousOnload) {
+      previousOnload();
+    }
+    lightboxQuarto.on('slide_before_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      const href = trigger.getAttribute('href');
+      if (href !== null) {
+        const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+        if (imgEl !== null) {
+          const srcAttr = imgEl.getAttribute("src");
+          if (srcAttr && srcAttr.startsWith("data:")) {
+            slideConfig.href = srcAttr;
+          }
+        }
+      } 
+    });
+  
+    lightboxQuarto.on('slide_after_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(slideNode);
+      }
+    });
+  
+  };
+  
+})();
+          </script>
+
 
 
 

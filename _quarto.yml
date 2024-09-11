@@ -13,20 +13,20 @@ book:
   author: 
     - name: Kristof Haneca
       orcid: 0000-0002-7719-8305
+      affiliation: "agentschap Onroerend Erfgoed"
+  
   publisher: "agentschap Onroerend Erfgoed"
   date: today
   cover-image: figuren/cover_handleiding.jpg
-  # collapse-level: 3
-  sharing: [twitter, facebook, linkedin]
-  twitter-card:
-    image: figuren/cover_handleiding.jpg
+
+  bread-crumbs: false
+  reader-mode: true
+  
   repo-url: https://github.com/ErfgoedPublicaties/HAOE-16-Dendrochronologie/
+  repo-branch: master
   repo-actions: [edit, issue]
   site-url: https://publicaties.onroerenderfgoed.be/HAOE-16-Dendrochronologie/
-  # sidebar:
-  #   logo: QR_githubDendro.png 
-  google-analytics:
-   tracking-id: "G-WRYSRDGLWG"
+  
   chapters:
     - index.qmd
     - 00_dendro_wijzigingen.qmd
@@ -56,9 +56,13 @@ title-block-banner-color: white
 bibliography: dendro_biblio.bib
 csl: elsevier-harvard_nl.csl
 
+engine: knitr
+
 crossref:
   fig-title: Figuur
   fig-prefix: fig.
+  tbl-title: Tabel
+  tbl-prefix: tabel
   
 language:
   toc-title-document: "Op deze pagina"
@@ -66,6 +70,11 @@ language:
   repo-action-links-edit: "Bewerk deze pagina"
   title-block-author-plural: "auteurs"
   title-block-published: "laatste update"
+  title-block-affiliation-plural: "affiliatie"
+
+filters:
+   - lightbox
+lightbox: auto
 
 format:
   html:

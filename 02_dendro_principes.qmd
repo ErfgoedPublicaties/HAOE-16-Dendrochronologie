@@ -20,13 +20,12 @@ De groeiringen in een boom vormen zich niet gelijkmatig. Afhankelijk van de jaar
 
 Het registreren van de jaarringen op een stuk hout is het vertrekpunt van een dendrochronologisch onderzoek. Met 'registreren' wordt (meestal) het opmeten van de breedte van elke jaarring bedoeld. Het is daarbij niet enkel de breedte van elke individuele ring die van belang is, maar vooral het patroon gevormd door de opeenvolging van bredere en smallere ringen. Dit patroon weerspiegelt de opeenvolging van jaren met goede groeiomstandigheden (brede ringen) en minder gunstige groeiseizoenen (smalle ringen). Aangezien de groeiomstandigheden onvoorspelbaar en onregelmatig zijn en van jaar tot jaar verschillen, vormen de jaarringen op elk stuk hout een uniek patroon, vergelijkbaar met een streepjescode, karakteristiek voor een bepaalde tijdsperiode.
 
-<!-- :::{.callout-note appearance="simple" icon="false"} -->
-<!-- #  -->
->
->De jaarringen op een stuk hout vormen een uniek patroon, vergelijkbaar met een streepjescode, karakteristiek voor een bepaalde tijdsperiode.
->    
+::: {.callout-tip appearance="simple"}
 
-<!-- ::: -->
+De jaarringen op een stuk hout vormen een uniek patroon, vergelijkbaar met een streepjescode, karakteristiek voor een bepaalde tijdsperiode.
+    
+:::
+
 Aangezien de opbouw van het jaarringpatroon in een boom voor een deel gestuurd wordt door klimatologische omstandigheden, kan het jaarringpatroon van meerdere bomen uit een zelfde gebied en binnen eenzelfde tijdsperiode opvallende gelijkenissen vertonen. De individuele bomen reageren immers op dezelfde omgevingsprikkels, die van jaar tot jaar variëren. Daardoor kunnen de jaarringpatronen van bomen die binnen een zelfde regio of klimatologische zone groeien met elkaar gesynchroniseerd worden. Dat wil zeggen dat we die ene, onderlinge positie vinden waarbij alle jaarringpatronen synchroon lopen (@fig-boorkernen). 
 
 

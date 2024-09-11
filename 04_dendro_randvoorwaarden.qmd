@@ -8,17 +8,14 @@ Op het transversaal vlak - ook wel het 'kopse' vlak genoemd, wat overeen komt me
 
 In Vlaanderen is er binnen het erfgoedonderzoek op houten objecten en structuren een onbetwistbare hoofdrolspeler: de eik. Deze benaming omvat twee verschillende botanische soorten: nl. **zomer- en wintereik** (resp. *Quercus robur* en *Q. petraea*), die weliswaar een zeer vergelijkbare houtanatomie hebben. Bij een daterend dendrochronologisch onderzoek moet tussen beide soorten geen onderscheid gemaakt worden, aangezien ze onder vergelijkbare groeiomstandigheden een gelijkaardig jaarringpatroon ontwikkelen. Deze houtsoort laat zich bovendien vrij gemakkelijk herkennen, zowel in natte (bij archeologisch terreinonderzoek) als droge toestand (constructiehout in bouwkundig erfgoed of bij sculpturen en paneelschilderijen). Door de microscopische opbouw van het hout te bekijken, kan je op vrij eenvoudige wijze vaststellen of het eikenhout betreft. Maar een aantal kenmerken zijn ook met het blote oog, of met behulp van een loep (10x), gemakkelijk te observeren. Daarvoor snij je op het kopse vlak (= het transversaal vlak, @fig-jaarringEik) een kleine zone glad, met een scherp breekmes, scheermesje of scalpel (veiliger!). Je kan besluiten dat het om eikenhout gaat indien volgende kenmerken duidelijk waarneembaar zijn met het blote oog, of met behulp van een loep (10x) (@fig-jaarringEik): 
 
-<style>
-div.blue { background-color:#e6f0ff; border-radius: 5px; padding: 20px;}
-</style>
-<div class = "blue">
 
-  - duidelijk herkenbare groeiringen op het kopse vlak (transversaal),
-  - een poreuze zone (= lentehout of vroeghout) met grote vaten (te herkennen als gegroepeerde, ronde poriën) afgewisseld met een zone zonder duidelijk te observeren vaten (zomerhout of laathout),
-  - met het blote oog herkenbare, brede, licht glanzende houtstralen die vanuit de kern naar de schors toe lopen.
+>  - duidelijk herkenbare groeiringen op het kopse vlak (transversaal),
+>  - een poreuze zone (= lentehout of vroeghout) met grote vaten (te herkennen als gegroepeerde, ronde poriën) afgewisseld met een zone zonder duidelijk te observeren vaten (zomerhout of laathout),
+>  - met het blote oog herkenbare, brede, licht glanzende houtstralen die vanuit de kern naar de schors toe lopen.
+  
 
-</div>
 <br/>
+   
 
 ::: {#fig-jaarringEik}
 
@@ -30,11 +27,14 @@ Detailopname van het transversaal (= kopse) vlak van een eiken stam.
 
 Op het radiaal vlak zijn dikwijls 'spiegels' te zien op het eikenhout: dit zijn glanzende, brede lijnen met een soms grillig verloop. Het zijn de houtstralen die in de lengterichting worden aangesneden. Aan de buitenzijde van het stamhout is bij eik ook een blekere zone te zien. Dit is het spinthout (zie verder), wat bij eik typisch bleker gekleurd is dan het kernhout.
 
+::: {.callout-tip appearance="simple"}
+ 
+Eikenhout kan je met het blote oog (of met een handloep) vrij gemakkelijk herkennen aan de hand van enkele typische kenmerken.
+:::
 
-> 
-> Eikenhout kan je met het blote oog (of met een handloep) vrij gemakkelijk herkennen aan de hand van enkele typische kenmerken.
-> 
-
+<br>
+   
+   
 ::: {#fig-archeoEik}
 
 ![](./figuren/dendro_figuur05.png)
@@ -96,11 +96,13 @@ De **afmetingen van een stuk hout** zeggen dus weinig over het aantal jaarringen
 
 Twee balken afkomstig uit eenzelfde stam. De balk aan de linkerzijde is bekomen door de stam in 4 delen te klieven, de balk aan de rechterzijde is bekomen door de originele stam enkel te kantrechten. De oppervlakte van de dwarse doorsnede van de kleine balk bedraagt slechts een kwart van de grote balk, maar toch is het dat kan worden opgemeten even lang (aangeduid in geel).
 :::
-
    
->    
-> Het is best om de selectie van te bemonsteren stukken hout niet al te veel te laten bepalen door hun afmetingen.
->    
+   
+::: {.callout-tip appearance="simple"}
+
+Het is best om de selectie van te bemonsteren stukken hout niet al te veel te laten bepalen door hun afmetingen.
+:::
+
    
 
 ## Regelmatige groei

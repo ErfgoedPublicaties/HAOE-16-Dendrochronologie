@@ -5,21 +5,13 @@
 Voor het bemonsteren van archeologisch of subfossiel hout wordt gebruik gemaakt van een handzaag, een elektrisch aangedreven (cirkel-)zaag of een kettingzaag. Daarmee wordt een **dwarse doorsnede** gemaakt van de te onderzoeken stam, paal of plank. Hieronder volgen enkele vuistregels voor de selectie en bemonstering van archeologisch hout:
 
 
-<style>
-div.blue { background-color:#e6f0ff; border-radius: 5px; padding: 20px;}
-</style>
-<div class = "blue">
-  - zaag een dwarse doorsnede van maximaal 2 à 3 vingers dik (**ca. 3-5 cm**). Dat bespaart extra werk bij transport en analyse;
-  - besteed aandacht aan de aanwezigheid van **spinthout en wankant**, en zorg ervoor dat dit aan het stuk hout blijft vasthangen, eventueel door vóór het verzagen een tape aan te brengen (zie @fig-staalArcheo);
-  - indien er **barsten** in het hout aanwezig zijn, wikkel dan tape of folie om het stuk hout vóór het zagen. Zo valt het staal niet uit elkaar in meerdere delen;
-  - vermijd het nemen van een staal ter hoogte van een takaanzet, kwast, wondweefsel of een rot stuk.
-</div>
+>  - zaag een dwarse doorsnede van maximaal 2 à 3 vingers dik (**ca. 3-5 cm**). Dat bespaart extra werk bij transport en analyse;
+>  - besteed aandacht aan de aanwezigheid van **spinthout en wankant**, en zorg ervoor dat dit aan het stuk hout blijft vasthangen, eventueel door vóór het verzagen een tape aan te brengen (zie @fig-staalArcheo);
+>  - indien er **barsten** in het hout aanwezig zijn, wikkel dan tape of folie om het stuk hout vóór het zagen. Zo valt het staal niet uit elkaar in meerdere delen;
+>  - vermijd het nemen van een staal ter hoogte van een takaanzet, kwast, wondweefsel of een rot stuk.
+  
+
 <br/>
-
-
->    
-> Neem een dwarse doorsnede van maximaal 3-5 cm dik. Dat bespaart extra werk bij transport en analyse.
->    
 
 
 ::: {#fig-staalArcheo}
@@ -32,9 +24,12 @@ Een staal voor dendrochronologisch onderzoek wordt genomen van een archeologisch
 
 Neem een staal van **zoveel mogelijk verschillende elementen per structuur, context of bouwfase**. De kans op een succesvolle datering stijgt aanzienlijk indien er meer stukken kunnen onderzocht worden. De dendrochronologische datering van een individueel stuk hout (sculptuur, boomstamgrafkist, …) is doorgaans veel problematischer dan het hout van bijvoorbeeld een waterput die is opgebouwd uit tientallen planken en palen. Zeker als het te onderzoeken hout relatief weinig groeiringen heeft per houten element, is het essentieel om zoveel mogelijk stalen te nemen.
 
->
-> De kans op een succesvolle datering stijgt aanzienlijk indien er meer stukken uit een zelfde structuur kunnen onderzocht worden.
->    
+
+::: {.callout-tip appearance="simple"}
+
+De kans op een succesvolle datering stijgt aanzienlijk indien er meer stukken uit een zelfde structuur kunnen onderzocht worden.
+
+:::    
 
 Bezorg zo veel mogelijk stalen aan de expert. Die kan dan de meest geschikte stukken uitkiezen voor verdere analyse. Indien slechts een paar willekeurig gekozen stalen de expert bereiken, bestaat de kans dat een beduidend aantal stukken minder of niet geschikt wordt bevonden.
 
@@ -69,9 +64,11 @@ De meest geschikte stalen van balken of planken uit historische gebouwen zijn dw
 
 Deze wijze van bemonsteren is echter niet altijd mogelijk of te verantwoorden omwille van de onomkeerbare destructieve impact op het gebouw. Als alternatief wordt meestal gebruik gemaakt van **holle boren** waarmee een cilinder van hout uit een balk kan gehaald worden (@fig-staalBouw). Uiteraard geldt hier eveneens de regel dat er voldoende stalen moeten genomen worden per bouwfase. Indien slechts één balk wordt bemonsterd per bouwfase, is de kans bijzonder klein dat dit tot een datering zal leiden. Zelfs indien dit lukt, zal de interpretatie van één staal dikwijls problematisch zijn. Het is daarom aan te bevelen om **per** geïdentificeerde **bouwfase** telkens **minimum 5 stalen** te nemen.
 
->
-> Indien slechts één balk wordt bemonsterd per bouwfase, is de kans bijzonder klein dat dit tot een datering zal leiden.
->
+::: {.callout-tip appearance="simple"}
+
+Indien slechts één balk wordt bemonsterd per bouwfase, is de kans bijzonder klein dat dit tot een datering zal leiden.
+
+:::
 
 Essentieel is wel dat de plaats van staalname en het bemonsterde onderdeel worden geregistreerd en dat die in relatie kunnen gebracht worden met het opgemeten groeiringpatroon. Bij staalname in een historische dakkap, worden alle genomen boorkernen best aangeduid op een zogenaamd **dakenplan**. Dit is een schematische weergave van de dakstructuur, waarop de oriëntatie van de dakkap wordt weergegeven (noordpijl, situering binnen gebouw of t.o.v. aanpalende weg), en waarop de plaats van staalname (nummering per sporenpaar, trekbalk, …), het bemonsterde onderdeel (korbeel, stijl, dekbalk, …), eventuele telmerken (nummering op sporen, kepers of dekbalken) en handelsmerken worden aangeduid (@fig-staalBouw i). Dit geldt uiteraard ook indien geen boorkernen maar dwarse doorsnedes worden ingezameld van elementen die vervangen worden tijdens een restauratiecampagne.
 

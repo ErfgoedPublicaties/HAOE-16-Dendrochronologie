@@ -10,13 +10,39 @@
 
 .blockquote {
   width: 80%;
-  font-size: 20px;
+  font-size: 1rem;
   padding: 25px;
   margin: 25px;
   border-left: 6px solid #3E7049
 }
 
 .blockquote p {
-  font-weight: bold;
-  font-style: italic
+  font-style: normal
 }
+
+div.callout-note.callout {
+    border-color: #3E7049;
+}
+
+div.callout-tip.callout {
+    border-color: #3E7049;
+}
+
+
+.callout.callout-style-minimal .callout-body {
+    font-size: 1rem;
+    color:  #3E7049;
+    font-style: normal;
+} 
+
+.callout.callout-style-simple .callout-body {
+    font-size: 1rem;
+    color:  #3E7049;
+    font-style: italic;
+} 
+
+.callout.callout-style-default .callout-body {
+    font-size: 1.1rem;
+    color:  #3E7049;
+    font-style: italic;
+} 
